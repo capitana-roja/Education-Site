@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="migrating_projects.pdf" class="pdf_location"></iframe></div>
+				<iframe class="pdf_location" src="migrating_projects.pdf"</iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
@@ -39,8 +39,7 @@
 					<li>
 				</ol>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
+		<script src="../script.js"></script>
 		</div>
 	</body>
 	<footer></footer>
