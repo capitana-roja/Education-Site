@@ -17,13 +17,13 @@
 					<p class="toc_title">Content</p>
 					<ul class="toc_list">
 						<li>
-							<a href="#purpose">I. Purpose</a>
+							<a href="#purpose">Purpose</a>
 						<li>
-							<a href="#procedure">II. Procedure</a>
+							<a href="#procedure">Calc 1: Day of the Week</a>
 						<li>
-							<a href="#examples">III. Examples</a>
+							<a href="#examples">Calc 2: </a>
 						<li>
-							<a href="#thingstoremember">IV. Things to Remember</a>
+							<a href="#thingstoremember">Calc 3: </a>
 						<li>
 							<a href="../Alice_in_Wonderland.pdf" target="_blank">
 								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAAAXNSR0IArs4c6QAAAu1JREFUeF7tmk1y2kAQhV+PqEp28Q0icBWw5AaJ1yk7cAI7N8AnMDlBuEHICRzgAOAThCX5IREnCN7ZVWg6NWApCgEGWyAJqrUU04P0zXs9P2qCXCEBEhZ/CQiMiBo2hnHtll0HePlUJfnAuOYNvafGJxFnhdE9LlaZ6QMAN+YDTRytT9543wcx+9lZ+FoYMzUo/gLgaEtPkGkga2F0jssXYP64JRBBN5kFshZGu1BuEPgqJoxbAC8W+sgkkJ3DYNB7xdplovOsA0kExtufw0Y3X2xlHUhiMIwqsg4kURhZB5I4jCwDSQVGVoGkBiOLQFKFsQqImY7NDBRzffPo8NRhLANysDAePTwABEaEmsAQGMtNJMoQZYgyrBOM2ERschg2uSRFs1NuZnNqzhdgvAKjTQ41g1dkzRUQqrPf5lcYF2nTW0SyVzYhRSfTKbyc0udTrT6Z7yGdQsljUMvsKcxBMgOs/bt2zfMmwaGOiTv9Mex33HIAB1Dc33sYM1Vo7oFwczb6+tocHpt7cxil/oMaJr6+z5v7jnr2O4RRKPG6LLp3ylBTf+I7qglQ62w0bHXypR4T3SzAABHXTkffPncKpQEpqhtlBOBWHBTv194kGOFgdLuF4hWDGsGIRpSBiBp+kaJ3UZuw4goBYY4J88g+beHNCz7YxHxgCj87LoEx9vV9BXh+5Cg2MOY549BsEuaMJeuDWQJluFrfNU0C7RRK1wCqBwmDgbph8L/EuQWtWqHcHbhgrhNQmcED6qRpsGwGiSbUvUqg1vV0zAYCQ5bjh7Ecj2mE9eGZtMmO6jOsIIOFmrXhlhtsUrljNmSL9RVbfox/urv1NVXSqP/atKbLTJdJABkTcd0s33dJe1XfVhhBoKnvyuViF7mtfEez10m7+G1jGGmMVNL/KTAixAWGwFhuQFGGKEOUYZ2cxCZiE7GJ2MRKQGwiNrGKRGYTsYnYRGxiJSA2EZtYRSKzidhEbCI2sRIQm4hNrCL5A542LWJpkMAhAAAAAElFTkSuQmCC" style="float:left;" />
@@ -48,35 +48,40 @@
 		<div class="body_text">
 			<a id="purpose">
 				<div class="purpose">
-					<p> are used in REDCap to</p>
+					<p>Below you will find a series of interesting and unique calculations that can be used in various areas of your REDCap projects. Alongside of the calculation itself will be a brief explanation of its use and purpose. As these are exmaples, the variable names used in the calculations will be placeholders with simple names like [field1] or [date2]. You will need to replace those placeholder variables with fields/variables from your actual project. All calculations will have been tested on a previous version of REDCap (12.0.19+) but may not have been tested on our current REDCap version. Always test before implementation!</p>
 				</div>
 			</a>
 			<div style="color:black;">
 				<br>
-				<a id="procedure">
-					<h2 style="color:#b22227;font-weight:normal;">Procedure</h2>
+				<a id="calc1">
+					<h2 style="color:#b22227;font-weight:normal;">Calc 1: Day of the Week</h2>
 				</a>
 				<hr>
-				<p></p>
+				<p>Allows the day of the week to be displayed after reading a single [date] field. Note: this is a CALCTEXT calculation so it must be added as an Action Tag to a Text Box field type. As well, be sure your [date] field is validated in the YMD format.
+				
+				@CALCTEXT(
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=0,"Sunday",
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=1,"Monday",
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=2,"Tuesday",
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=3,"Wednesday",
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=4,"Thursday",
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=5,"Friday",
+if(round(7*((datediff("1899-12-31", [date], 'd')/7)-rounddown((datediff("1899-12-31", [date], 'd')/7))))=6,"Saturday",
+"Unknown"))))))))</p>
 			</div>
 			<br>
 			<div style="color:black;">
-				<a id="examples">
-					<h2 style="color:#b22227;font-weight:normal;">Examples</h2>
+				<a id="calc2">
+					<h2 style="color:#b22227;font-weight:normal;">Calc 2: </h2>
 				</a>
 				<hr>
-				<p></p>
-				<ul style="list-style-type: upper-roman; padding-left: 25px;">
-					<li>
-					<li>
-					<li>
-					<li>
-				</ul>
+				<p>Calculate the difference in time in the output format of HH:MM between two Time or Date/Time fields. Note: the second field must have a value after the first.
+				@CALCTEXT(concat(round(datediff([dtime1],[dtime2],"h","mdy",true),0),":",round(((round(datediff([dtime1],[dtime2],"h","mdy",true),2)-rounddown(datediff([dtime],[dtime2],"h",true),0))*60),0)))</p>
 			</div>
 			<br>
 			<div style="color:black;">
-				<a id="thingstoremember">
-					<h2 style="color:#b22227;font-weight:normal;">Things to Remember</h2>
+				<a id="calc3">
+					<h2 style="color:#b22227;font-weight:normal;">Cacl 3: </h2>
 				</a>
 				<hr>
 				<ol style="padding-left: 20px;">
