@@ -101,7 +101,7 @@
 			<br>
 			<div style="color:black;">
 				<a id="thingstoremember">
-					<h2  style="color:#b22227;font-weight:normal;">Things to Remember</h2>
+					<h2 style="color:#b22227;font-weight:normal;">Things to Remember</h2>
 				</a>
 				<hr>
 				<ol style="padding-left: 20px;">
