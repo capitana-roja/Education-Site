@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php echo file_get_contents("../head_links_sub.html"); ?>
+		<?php echo file_get_contents("../head_links_sub.html"); ?>		
 		<meta name="keywords" content="REDCap, training, education">
-		<meta name=”description” content=”This page educates REDCap users on using the Codebook”>
-		<title>Codebook</title>
+		<meta name=”description” content=”This page educates REDCap users on adding and editing records”>
+		<title>Add/Edit Records</title>
 	</head>
 	<body>
 		<!--Navigation bars-->
 		<div>
 			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
+			
+			
 			<!--Right sidebar-->
-			<div class="topic_page_sidebar">
+			<!--<div class="topic_page_sidebar">
 				<div id="toc_container">
 					<p class="toc_title">Content</p>
 					<ul class="toc_list">
@@ -34,7 +36,7 @@
 							</a>
 					</ul>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		<!--Button back to top-->
 		<?php echo file_get_contents("../top_button.html"); ?>
@@ -43,9 +45,32 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_no_pdf">Codebook</h1>
+		<h1 class="title_pdf">Codebook</h1>
 		<!--Content-->
-		<div class="body_text">
+		<div class="topic_pdf">
+			<div class="embedded_pdf">
+				<!--PDF content-->
+				<iframe class="pdf_location" src="beginner_resources/Codebook_Guide_REDCap.pdf"></iframe>
+			</div>
+			<!--Last section of content-->
+			<div class="remember">
+				<a id="thingstoremember">
+					<h2>Things to Remember</h2>
+				</a>
+				<hr>
+				<ol>
+					<li>
+					<li>
+					<li>
+					<li>
+				</ol>
+			</div>
+		<script src="../script.js"></script>
+	</body>
+	<footer></footer>
+</html>
+
+		<!--<div class="body_text">
 			<a id="purpose">
 				<div class="purpose">
 					<p> are used in REDCap to</p>
@@ -90,4 +115,4 @@
 		<script src="../script.js"></script>
 	</body>
 	<footer></footer>
-</html>
+</html>-->
