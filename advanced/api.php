@@ -46,7 +46,6 @@
 					<li>Key Items</li>
 					<p>You can always find a complete list of all current API Methods here: https://rces.atriumhealth.org/redcap/api/help/ or https://redcap.wakehealth.edu/redcap/api/help/ (You will need to be logged into the respective instance of REDCap to view these pages)</p>
 					<p>Postman (https://www.postman.com/) - an application to help you trial and test API calls (download and install on your machine).</p>
-					<li></li>
 				</ol>
 			</div>
 			<!--Javascript-->
