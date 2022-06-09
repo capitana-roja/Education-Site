@@ -4,7 +4,7 @@
 		<?php echo file_get_contents("../head_links_sub.html"); ?> 
 		<meta name="keywords" content="REDCap, training, education">
 		<meta name="description" content="This page educates REDCap users on approriate use of the application!">
-		<title>Appropriate Use</title>
+		<title>REDCap Standard Operating Procedure, Compliance, and Policy</title>
 	</head>
 	<body>
 		<!--Navigation bars-->
@@ -19,7 +19,7 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_pdf">Appropriate Use</h1>
+		<h1 class="title_pdf">Standard Operating Procedure (SOP)</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
