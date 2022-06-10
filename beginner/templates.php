@@ -24,8 +24,8 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="beginner_resources/templates.pdf></iframe>
-				<iframe class="pdf_location" src="https://cri.uchicago.edu/wp-content/uploads/2015/12/REDCap-Project-Templates.pdf></iframe>
+				<iframe class="pdf_location" src="beginner_resources/templates.pdf"></iframe>
+				<iframe class="pdf_location" src="https://cri.uchicago.edu/wp-content/uploads/2015/12/REDCap-Project-Templates.pdf"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
