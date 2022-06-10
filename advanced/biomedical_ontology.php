@@ -4,7 +4,7 @@
 		<?php echo file_get_contents("../head_links_sub.html"); ?>		
 		<meta name="keywords" content="REDCap, training, education">
 		<meta name=”description” content=”This page educates REDCap users on using the API”>
-		<title>API</title>
+		<title>Biomedical Ontology</title>
 	</head>
 	<body>
 		<!--Navigation bars-->
