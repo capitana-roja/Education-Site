@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<img src="data_comparison_tool.png" width="auto" height="auto"/>
+				<iframe class="pdf_location" src="beginner_resources/data_comparison_tool.pdf"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
