@@ -24,6 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
+				<iframe class="pdf_location" src="beginner_resources/data_management.pdf"></iframe>
 				<iframe class="pdf_location" src="data_management.pdf"></iframe>
 			</div>
 			<!--Last section of content-->
