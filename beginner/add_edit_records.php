@@ -50,7 +50,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="beginner_resources/Add_Edit_Records_Guide_REDCap.pdf"></iframe>
+				<iframe class="pdf_location" src="beginner_resources\Add_Edit_Records_Guide_REDCap.pdf"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
