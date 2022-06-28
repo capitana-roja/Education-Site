@@ -3,8 +3,8 @@
 	<head>
 		<?php echo file_get_contents("../head_links_sub.html"); ?> 
 		<meta name="keywords" content="REDCap, training, education">
-		<meta name=”description” content=”This page is for REDCap users to review Known Problems & Solutions”>
-		<title>Known Problems & Solutions</title>
+		<meta name=”description” content=”This page is for REDCap users to review Known Issues & Solutions”>
+		<title>Known Issues & Solutions</title>
 	</head>
 	<body>
 		<!--Navigation bars-->
@@ -19,26 +19,13 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_no_pdf">Known Problems & Solutions</h1>
+		<h1 class="title_no_pdf">Known Issues & Solutions</h1>
 		<!--Content-->
-		<div class="body_text">
-				<div>
-					<br>
-					<button class="accordion">Section 1</button>
-					<div class="panel">
-						<p>example</p>
-					</div>
-					<button class="accordion">Section 2</button>
-					<div class="panel">
-						<p></p>
-					</div>
-					<button class="accordion">Section 3</button>
-					<div class="panel">
-						<p></p>					
-					</div>
-				</div>
-				<br>
-				<p><a href="https://rces.atriumhealth.org/redcap/surveys/?s=NTLPE3AN9EMDHEW4" target="_blank">Submit your known problems (and solutions)!</a></p>
+		<div class="topic_pdf">
+			<div class="embedded_pdf">
+				<!--PDF content-->
+				<iframe class="pdf_location" src="REDCap_issuessolutions.pdf" width="1000px" height="1200px"></iframe>
+			</div>
 		</div>
 		<script src="../script.js"></script>
 	</body>
