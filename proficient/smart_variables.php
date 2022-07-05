@@ -26,19 +26,6 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="smart_variables.pdf" width="1000px" height="1200px"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
 		</div>
