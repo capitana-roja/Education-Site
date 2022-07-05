@@ -21,7 +21,6 @@
 		<!--Title-->
 		<h1 class="title_no_pdf">Project Examples</h1>
 		<!--Content-->
-		
 		<script src="../script.js"></script>
 	</body>
 	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
