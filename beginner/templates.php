@@ -27,19 +27,7 @@
 				<iframe class="pdf_location" src="beginner_resources/templates.pdf"></iframe>
 				<iframe class="pdf_location" src="https://cri.uchicago.edu/wp-content/uploads/2015/12/REDCap-Project-Templates.pdf"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
+		</div>
 		<script src="../script.js"></script>
 	</body>
 	<footer></footer>
