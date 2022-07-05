@@ -48,5 +48,5 @@
 		
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
