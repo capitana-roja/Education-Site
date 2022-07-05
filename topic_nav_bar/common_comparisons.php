@@ -29,6 +29,5 @@
 		<!--Javascript-->
 		<script src="../script.js"></script>
 	</body>
-	<footer><center>Site supported by REDCap Administration of Atrium Health Wakeforest Baptist | View our Privacy Policy
-<br>REDCap is developed by Vanderbilt University and is hosted, supported, and managed by Atrium Health Wake Forest.</center></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
