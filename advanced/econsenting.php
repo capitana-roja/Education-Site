@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="econsent.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="../resources/advanced/econsent.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--video content-->
 			<div class="remember">
