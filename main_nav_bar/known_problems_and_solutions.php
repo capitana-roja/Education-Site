@@ -19,7 +19,7 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_no_pdf">Known Issues & Solutions</h1>
+		<h1 class="title_pdf">Known Issues & Solutions</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
