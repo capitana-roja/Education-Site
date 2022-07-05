@@ -11,19 +11,13 @@
 		<div>
 			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?> 
-			<!--Right sidebar-->
-			<div class="topic_page_sidebar">
-				<div id="toc_container">
-					<p class="toc_title">Content</p>
-				</div>
-			</div>
 		</div>
 		<!--Button back to top-->
 		<?php echo file_get_contents("../top_button.html"); ?> 
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_no_pdf">Common Comparisons</h1>
+		<h1 class="title_pdf">Common Comparisons</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
