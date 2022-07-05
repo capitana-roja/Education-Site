@@ -17,11 +17,11 @@
 					<p class="toc_title">Content</p>
 					<ul class="toc_list">
 						<li>
-							<a href="#project_demos">I. Project Demos</a>
+							<a href="#api_scripts">I. API Scripts</a>
 						<li>
-							<a href="#training_courses">II. Training Courses</a>
+							<a href="#shared_library">II. Shared Library</a>
 						<li>
-							<a href="#training_wizards">III. Training Wizards</a>
+							<a href="#templates">III. Templates</a>
 					</ul>
 				</div>
 			</div>
@@ -37,16 +37,16 @@
 		<!--Content-->
 		<div class="body_text">
 			<div style="color:black;">
-				<a id="#">
+				<a id="#api_scripts">
 					<h2 style="color:#b22227;font-weight:normal;">API Scripts</h2>
 				</a>
 				<hr>
-				<a id="#">
+				<a id="#shared_library">
 					<h2 style="color:#b22227;font-weight:normal;">Shared Library</h2>
 				</a>
 				<hr>
 				<a href="shared_library.csv"></a>
-				<a id="#">
+				<a id="#templates">
 					<h2 style="color:#b22227;font-weight:normal;">Templates</h2>
 				</a>
 				<hr>
