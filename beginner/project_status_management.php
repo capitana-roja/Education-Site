@@ -26,19 +26,7 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="beginner_resources/project_status_management.pdf"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
+		</div>
 		<!--JavaScript-->
 		<script src="../script.js"></script>
 	</body>
