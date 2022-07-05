@@ -30,7 +30,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="REDCap_CuriousCalcs.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="../resources/topic_nav_bar/REDCap_CuriousCalcs.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 		</div>
 		<script src="../script.js"></script>
