@@ -26,19 +26,6 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="https://www.ctsi.ufl.edu/wordpress/files/2017/06/Branching-Logic-in-REDCap-%E2%80%93-How.pdf"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 		<script src="../script.js"></script>
 	</body>
 	<footer></footer>
