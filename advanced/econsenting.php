@@ -28,7 +28,7 @@
 			</div>
 			<!--video content-->
 			<div class="remember">
-				<iframe src="ah_rc_econsent_demo.mp4" title="AH e-Consent" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="../resources/advanced/ah_rc_econsent_demo.mp4" title="AH e-Consent" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
