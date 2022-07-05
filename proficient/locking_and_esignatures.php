@@ -19,25 +19,12 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_pdf">locking_and_esignatures</h1>
+		<h1 class="title_pdf">Locking and E-signatures</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
 				<iframe class="pdf_location" src="proficient_resources/locking_and_esignatures.pdf"></iframe>				
-			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
 			</div>
 		<script src="../script.js"></script>
 	</body>
