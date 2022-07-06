@@ -26,21 +26,8 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="https://cdn.atriumhealth.org/-/media/wakeforest/ctsi/files/services/data/redcap/basic-project-actions/repeating-events.pdf?rev=e7dd6f05a29748aa8d66cc5701ef20e1&hash=171D26A87432E243DEF959A82450144B" width="1000px" height="1200px"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 		</div>
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

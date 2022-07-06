@@ -27,21 +27,8 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="https://cdn.atriumhealth.org/-/media/wakeforest/ctsi/files/services/data/redcap/survey-functionality/automated-survey-invitations.pdf?rev=08fc2403efd74fc59dce2c05defeaa58&hash=1CDA3A034AA05DF037D0CAD8EA033B08" width="1000px" height="1200px"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 		</div>
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

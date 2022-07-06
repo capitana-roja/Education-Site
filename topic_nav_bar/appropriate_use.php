@@ -26,21 +26,9 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="https://cdn.atriumhealth.org/-/media/wakeforest/ctsi/files/services/data/redcap/redcap-appropriate-use-guidelines.pdf?rev=667d39413cf24aef9f087f99a6ec6e51" width="1000px" height="1200px"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
 		</div>
 	</body>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

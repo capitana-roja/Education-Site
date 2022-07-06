@@ -26,20 +26,7 @@
 				<!--PDF content-->
 				<iframe src="https://cri.uchicago.edu/wp-content/uploads/2015/12/REDCap-Data-Resolution-Workflow.pdf" height="700" width="900"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

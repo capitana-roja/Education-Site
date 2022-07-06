@@ -26,22 +26,9 @@
 				<!--PDF content-->
 				<iframe src="https://cri.uchicago.edu/wp-content/uploads/2019/08/REDCap-Double-Data-Entry.pdf" width="1000px" height="800px"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
 		</div>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

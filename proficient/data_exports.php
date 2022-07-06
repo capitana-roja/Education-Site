@@ -26,22 +26,9 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="https://www.ctsi.ufl.edu/wordpress/files/2017/06/Exporting-Data-from-REDCap-%E2%80%93-How-1.pdf" width="1000px" height="1200px"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
 		</div>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

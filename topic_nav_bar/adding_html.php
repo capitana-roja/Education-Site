@@ -26,20 +26,8 @@
 				<!--PDF content-->
 				<iframe class="pdf_location" src="https://clinicalresearch.mdhs.unimelb.edu.au/__data/assets/pdf_file/0006/2890851/UserHowToGuide_HTMLTags_into_Instrument_Fields.pdf"></iframe>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
-				<hr>
-				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
-				</ol>
-			</div>
+		</div>
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

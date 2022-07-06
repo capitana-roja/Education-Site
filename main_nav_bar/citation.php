@@ -22,7 +22,8 @@
 		<div class="body_text" style="color:black;">
 					<p style="font-style: italic;">From Project REDCap:</p>
 		<br>
-		<p>Please cite the publications below in study manuscripts using REDCap for data collection and management. We recommend the following boilerplate language:</p>
+		<p><b>Please cite the publications below in study manuscripts using REDCap for data collection and management. We recommend the following boilerplate language:</b></p>
+		<br>
 		<p>Study data were collected and managed using REDCap electronic data capture tools hosted at [YOUR INSTITUTION].1,2 REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture; 2) audit trails for tracking data manipulation and export procedures; 3) automated export procedures for seamless data downloads to common statistical packages; and 4) procedures for data integration and interoperability with external sources.
 		<br>
 		<br>
@@ -36,5 +37,5 @@
 		</div>
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

@@ -24,10 +24,11 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="REDCap_BestPractices.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="../resources/topic_nav_bar/REDCap_BestPractices.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
 		</div>
 	</body>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
