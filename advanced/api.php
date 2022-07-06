@@ -19,7 +19,7 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_pdf">API</h1>
+		<h1 class="title_pdf">Using the API</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
@@ -53,5 +53,5 @@
 			<script src="../script.js"></script>
 		</div>
 	</body>
-	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
+	<footer></footer>
 </html>
