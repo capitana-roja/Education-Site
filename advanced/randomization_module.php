@@ -33,10 +33,9 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
+					<li>You should always have a statistically-valid allocation table created for your Production allocation table file which you upload to the randomization module. Ask your nearest institutional biostatistician for assistance!
+					<li>While many features in REDCap can be updated or edited after moving to Production, Randomization settings are not included in that group. Make sure you have thoroughly tested your project before going live in Production mode.
+					<li>You only have a finite amount of randomizations that can be made once you are live (however many are in your allocation table). Even if you randomize a record as a test and then delete it, you do not get that randomization allocation back. Keep this in mind when planning your project.
 				</ol>
 			</div>
 			<!--Javascript-->

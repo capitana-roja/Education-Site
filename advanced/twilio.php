@@ -19,12 +19,12 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_pdf">Twilio</h1>
+		<h1 class="title_pdf">Twilio Setup and Use</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="twilio_guide_for_vanderbilt.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="REDCap_Twilio.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
@@ -33,10 +33,9 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
+					<li>You will receive your Twilio account from DCOMM once your use-case is approved. You can begin your request in <a href="https://redcap.link/suppreq">LiftCap</a>.
+					<li>While support is always improving, Twilio SMS or IVR services will not always support all elements of your survey design. Always test before going into Production!
+					<li>You can only use a Twilio number in one REDCap project at a time. If you need to use Twilio in simultaneous projects you will need to secure multiple Twilio numbers from DCOMM.
 				</ol>
 			</div>
 		</div>

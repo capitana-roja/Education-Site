@@ -33,10 +33,9 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
+					<li>BioOntology fields will not work in: SMS or IVR scenarios, the Mobile App (offline), most Action Tag setups.
+					<li>The field setting connects you to a database managed by Standford University. If the field lookup functionality seems non-responsive or unavailable, the service may be temporarily down. Try again at a slightly later time and if still not responding, contact an Administrator.
+					<li>If your project uses a large amount of BioOntology fields (20+), you may experience slower responsiveness from REDCap.
 				</ol>
 			</div>
 		<script src="../script.js"></script>

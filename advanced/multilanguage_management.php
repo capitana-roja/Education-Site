@@ -33,10 +33,9 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
+					<li>If you are using MLM to add foreign language support to your project, you will need to add an English item to the MLM list and mark it as default if you wish to always have the default English presentation of your project. If you only add a single foreign langauge to the MLM, REDCap will use that as a default.
+					<li>You can customize REDCap's standard langauge in Enlgish as you see fit. If you want a page or button to present with a different word or message, create an English-Alt (en-alt) langauge option, set it as Default, and customize as much as you'd like.
+					<li>Not all elements of REDCap can be translated, but more are added with each upgrade so be sure to check upgrade notes for more details.
 				</ol>
 			</div>
 			<!--Javascript-->

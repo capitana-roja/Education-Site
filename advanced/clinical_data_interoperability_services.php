@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="https://redcap.smhs.gwu.edu/sites/g/files/zaskib651/files/2021-05/CDISOverviewA-reduced.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="REDCap_CDISUserGuide.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
@@ -33,10 +33,9 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
+					<li>You should ALWAYS ONLY pull data from the EMR that is required for your project/study/protocol. Institutional regulations apply to your use of Epic through REDCap just the same as if you were to access Epic directly.
+					<li>Currently, data can only move from Epic to REDCap and not the other direction.
+					<li>New fields and data sources are likely to be added to the CDIS set with every REDCap upgrade so be sure to check upgrade notes for CDIS, SMART on FHIR, CDP, CDM, nad LOINC information.
 				</ol>
 			</div>
 			<!--Javascript-->

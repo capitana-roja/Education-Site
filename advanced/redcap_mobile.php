@@ -19,12 +19,12 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_pdf">REDCap Mobile</h1>
+		<h1 class="title_pdf">REDCap Mobile App</h1>
 		<!--Content-->
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="https://projectredcap.org/wp-content/uploads/2017/01/BCCH-DM-REDCap-Mobile-App-Manual.docx.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="REDCap_MobileApp" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
@@ -33,10 +33,9 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
-					<li>
-					<li>
+					<li>You must use the REDCap Mobile App on IAS/ITS approved devices (phones, iPads, tablets, etc.) When you use the Mobile App, you are storing your collected data on that device itself to later upload to your REDCap project when you have an internet connection available.
+					<li>In most cases, you will not need the Mobile App, but instead can load REDCap in a web browser on the device you intend to use.
+					<li>Using the Mobile App requires API access in your project for any user that intends to use it. Be sure to check your User Rights page to make sure your team is setup with the rights they require.
 				</ol>
 			</div>
 			<!--Javascript-->
