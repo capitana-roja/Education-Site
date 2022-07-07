@@ -33,8 +33,8 @@
 				</a>
 				<hr>
 				<ol>
-					<li>
-					<li>
+					<li>External modules are third-party contributed add-ons so finding a solution to your design in standard REDCap is always recommended.
+					<li>Access to some modules may be handled in the User Rights section, so if you cannot use/see a module once enabled, check your User Rights and contact an administrator to help you enable access.
 					<li>Use <a href="https://redcap.link/suppreq">LiftCap</a> to request a new module be reviewed by REDCap Administrators.
 				</ol>
 			</div>
