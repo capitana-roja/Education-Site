@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="smart_variables.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="../resources/proficient/smart_variables.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Javascript-->
 			<script src="../script.js"></script>
