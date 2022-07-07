@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="resources/beginner/Overview_Guide_REDCap.pdf"></iframe>
+				<iframe class="pdf_location" src="../resources/beginner/Overview_Guide_REDCap.pdf"></iframe>
 			</div>
 		</div>
 		<script src="../script.js"></script>
