@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="proficient_resources/Sponsor_Dashboard_Guide_REDCap.pdf"></iframe>
+				<iframe class="pdf_location" src="../resources/proficient/Sponsor_Dashboard_Guide_REDCap.pdf"></iframe>
 			</div>
 		<script src="../script.js"></script>
 	</body>
