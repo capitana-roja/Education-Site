@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="proficient_resources/Survey Settings_Guide_REDCap.pdf"></iframe>
+				<iframe class="pdf_location" src="../resources/proficient/Survey Settings_Guide_REDCap.pdf"></iframe>
 			</div>
 		<script src="../script.js"></script>
 	</body>
