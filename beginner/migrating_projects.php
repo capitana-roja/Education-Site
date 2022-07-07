@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="migrating_projects.pdf"</iframe>
+				<iframe class="pdf_location" src="resources/beginner/migrating_projects.pdf"</iframe>
 			</div>
 		<script src="../script.js"></script>
 		</div>
