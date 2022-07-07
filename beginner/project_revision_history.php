@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="beginner_resources/project_revision_history.pdf"></iframe>
+				<iframe class="pdf_location" src="resources/beginner/project_revision_history.pdf"></iframe>
 			</div>
 		</div>
 		<script src="../script.js"></script>
