@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=1360" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="REDCap_MLM.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">

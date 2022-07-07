@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="https://cri.uchicago.edu/wp-content/uploads/2020/02/REDCap-Randomization-Module.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="REDCap_Randomization.pdf" width="1000px" height="1200px"></iframe>
 			</div>
 			<!--Last section of content-->
 			<div class="remember">
