@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="resources/beginner/project_status_management.pdf"></iframe>
+				<iframe class="pdf_location" src="../resources/beginner/project_status_management.pdf"></iframe>
 			</div>
 		</div>
 		<!--JavaScript-->
