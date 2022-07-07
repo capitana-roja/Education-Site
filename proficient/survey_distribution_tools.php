@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="participant_list.pdf" width="1000px" height="1200px"></iframe>
+				<iframe class="pdf_location" src="../resources/proficient/participant_list.pdf" width="1000px" height="1200px"></iframe>
 				<iframe class="pdf_location" src="https://ctsi.wakehealth.edu/-/media/WakeForest/CTSI/Files/Services/Data/REDCap/Survey-Functionality/Obtain-the-general-link-to-a-survey.pdf?la=en" width="1000px" height="1200px"></iframe>				
 			</div>
 			<!--Javascript-->
