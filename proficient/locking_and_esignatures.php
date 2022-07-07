@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="proficient_resources/locking_and_esignatures.pdf"></iframe>				
+				<iframe class="pdf_location" src="../resources/proficient/locking_and_esignatures.pdf"></iframe>				
 			</div>
 		<script src="../script.js"></script>
 	</body>
