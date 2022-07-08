@@ -30,9 +30,9 @@
 				<h2 style="color:#b22227;font-weight:normal;">Project Templates</h2>
 				<hr>
 			</div>
-			<!--Javascript-->
+			<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 		</div>
+		<!--Javascript-->
 		<script src="../script.js"></script>
 	</body>
-	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
