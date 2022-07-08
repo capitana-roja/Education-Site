@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="RPE - Surgery - Research Protocol Evaluation Tool" AsOfDateTime="2022-07-08T13:37:31" CreationDateTime="2022-07-08T13:37:31" SourceSystem="REDCap" SourceSystemVersion="12.0.19">
+<Study OID="Project.RPESurgeryResearchProtocolEval">
+<GlobalVariables>
+	<StudyName>RPE - Surgery - Research Protocol Evaluation Tool</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "RPE - Surgery - Research Protocol Evaluation Tool".</StudyDescription>
+	<ProtocolName>RPE - Surgery - Research Protocol Evaluation Tool</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel>[title]</redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField>email</redcap:SurveyInvitationEmailField>
+	<redcap:Purpose>4</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes>Used for the Department of Surgery Vice Chair of Research Dr. Susan Evans to evaluate the merit of research proposals submitted for funding</redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:OdmAttachmentGroup>
+		<redcap:OdmAttachment MimeType="image/png" DocName="AtriumLogo.png" ID="44ee934e28d5379684419f986ad53f2433fd3c17"><![CDATA[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]]></redcap:OdmAttachment>
+	</redcap:OdmAttachmentGroup>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="department_of_surgery_research_protocol_evaluation" title="Department of Surgery Research Protocol Evaluation Submission" instructions="&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;span style=&quot;color: #e03e2d; text-decoration: underline;&quot;&gt;&lt;strong&gt;The RPE is on hold during the Atrium Health and Wake Forest research integration. &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;color: #e03e2d; text-decoration: underline;&quot;&gt;&lt;strong&gt;You will not need to submit new studies or continuing reviews through the RPE to obtain a department signature prior to IRB or IACUC submission.&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;strong&gt;However, there will be a department review process prior to submission of 1) research studies conducted by research residents and 2) studies funded by the Department of Surgery through the internal grants process. &lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;color: #e03e2d;&quot;&gt;&lt;strong&gt;We will keep you updated as we develop this process. Please email &lt;a style=&quot;color: #e03e2d;&quot; href=&quot;mailto:Nicole.Kaiser@atriumhealth.org&quot;&gt;Nicole.Kaiser@atriumhealth.org&lt;/a&gt; if this applies to one of your upcoming studies.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This form is provided by the Department of Surgery for research coordinators to submit initial protocol submissions and Continuing Reviews for departmental review of scientific merit. This applies to IRB, IACUC, and IBC studies. If left incomplete, your submission will not be reviewed.&lt;/p&gt;
+&lt;p&gt;You will receive an email notification once departmental review is complete. If approved by the department, you will be required to forward the notification email and all normally required documents to the Atrium Health IRB, IACUC, or IBC for review.&lt;/p&gt;
+&lt;p&gt;For studies that require a Business Unit and Department number for review fees, ensure this information is included in the Application.&lt;/p&gt;
+&lt;p&gt;Please allow 2-4 weeks for evaluation by the Department of Surgery.&lt;/p&gt;
+&lt;p dir=&quot;LTR&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;COVID-19 Update: The Atrium Health IRB issued a temporary SOP regarding the suspension of written signature for IRB forms due to the coronavirus pandemic. Since the Department of Surgery already obtains electronic department approval of new studies and renewals, continue to submit through this form. However, to accommodate research teams who are unable to obtain the Investigator’s signature or scan files, teams can upload unsigned Word files of the protocol and application. It is expected that the Investigator has already approved the submission through the team’s internal communications before it is submitted to the RPE. Once you receive department approval, follow the IRB procedures in the temporary SOP when submitting to the IRB. The SOP, Temporary Suspension of Written Signatures, can be located on PeopleConnect’s Research site.&lt;/span&gt;&lt;/p&gt;" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for submitting your protocol. It will now undergo committee review in the order in which it was received. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you have any questions, please contact: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nicole Kaiser, Nicole.Kaiser@atriumhealth.org&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;or &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dr. Susan Evans, Susan.Evans@atriumhealth.org&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank you!&lt;/strong&gt;&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="44ee934e28d5379684419f986ad53f2433fd3c17" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="0" confirmation_email_subject="Your research protocol was successfully submitted to the Department of Surgery" confirmation_email_content="&lt;p&gt;Thank you for submitting your proposed research protocol: [title]&lt;br /&gt;You will be notified by email once the proposal is reviewed and a decision has been made by the Department of Surgery. Please expect 2-4 weeks for this to occur.&lt;br /&gt;&lt;br /&gt;If you have any questions, please contact:&lt;br /&gt;&lt;br /&gt;Nicole Kaiser, &lt;a href=&quot;mailto:Nicole.Kaiser@atriumhealth.org&quot;&gt;Nicole.Kaiser@atriumhealth.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;Dr. Susan Evans, &lt;a href=&quot;mailto:Susan.Evans@atriumhealth.org&quot;&gt;Susan.Evans@atriumhealth.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;" confirmation_email_from="nicole.kaiser@carolinashealthcare.org" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="1" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="AFTER_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the form is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5=""/>
+		<redcap:Surveys form_name="notification_message" title="RPE Document Reminder" instructions="" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you!&lt;/strong&gt;&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" theme="" text_size="1" font_family="16" theme_text_buttons="0c343d" theme_bg_page="134f5c" theme_text_title="ffffff" theme_bg_title="45818e" theme_text_sectionheader="444444" theme_bg_sectionheader="eeeeee" theme_text_question="141414" theme_bg_question="d0e0e3" enhanced_choices="1" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="AFTER_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5=""/>
+		<redcap:Surveys form_name="notification_message_2" title="RPE Process Complete" instructions="" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you!&lt;/strong&gt;&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="1" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" theme="" text_size="1" font_family="16" theme_text_buttons="0c343d" theme_bg_page="134f5c" theme_text_title="ffffff" theme_bg_title="45818e" theme_text_sectionheader="444444" theme_bg_sectionheader="eeeeee" theme_text_question="141414" theme_bg_question="d0e0e3" enhanced_choices="1" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="AFTER_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached." survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5=""/>
+	</redcap:SurveysGroup>
+	<redcap:SurveysSchedulerGroup>
+		<redcap:SurveysScheduler instance="FIRST" active="0" email_subject="Research Proposal Evaluation Message" email_content="&lt;p&gt;Please open the link to view and acknowledge your message regarding your recently submitted research proposal [title].&lt;br /&gt;&lt;br /&gt;Your proposal has the following status:&lt;br /&gt;[status]&lt;br /&gt;&lt;br /&gt;Acknowledge your receipt of this email via time stamp in the pop-up message. If the status is &quot;Approved for submission: CHS Research to provide IRB funding&quot;, follow the pop-up message instructions to pay the IRB fees.&lt;br /&gt;&lt;br /&gt;You may open the survey in your web browser by clicking the link below:&lt;br /&gt;[survey-link]&lt;br /&gt;&lt;br /&gt;If the link above does not work, try copying the link below into your web browser:&lt;br /&gt;[survey-url]&lt;br /&gt;&lt;br /&gt;This link is unique to you and should not be forwarded to others.&lt;/p&gt;" email_sender="nicole.kaiser@carolinashealthcare.org" email_sender_display="" condition_surveycomplete_survey_id="department_of_surgery_research_protocol_evaluation" condition_surveycomplete_event_id="event_1_arm_1" condition_surveycomplete_instance="FIRST" condition_andor="AND" condition_logic="[department_review_and_evaluation_complete] = &quot;2&quot; AND [status]&lt;&gt;&quot;&quot; AND [sig]&lt;&gt;&quot;&quot;" condition_send_time_option="IMMEDIATELY" condition_send_time_lag_days="" condition_send_time_lag_hours="" condition_send_time_lag_minutes="" condition_send_time_lag_field="" condition_send_time_lag_field_after="after" condition_send_next_day_type="" condition_send_next_time="" condition_send_time_exact="" delivery_type="EMAIL" reminder_type="TIME_LAG" reminder_timelag_days="2" reminder_timelag_hours="0" reminder_timelag_minutes="0" reminder_nextday_type="" reminder_nexttime="" reminder_exact_time="" reminder_num="2" reeval_before_send="1" event_id="event_1_arm_1" survey_id="notification_message"/>
+		<redcap:SurveysScheduler instance="FIRST" active="0" email_subject="Research Proposal Evaluation Message" email_content="Please open the link to see your message regarding your recently submitted research proposal [title]
+
+You may open the survey in your web browser by clicking the link below:
+[survey-link]
+
+If the link above does not work, try copying the link below into your web browser:
+[survey-url]
+
+This link is unique to you and should not be forwarded to others." email_sender="nicole.kaiser@carolinashealthcare.org" email_sender_display="" condition_surveycomplete_survey_id="notification_message" condition_surveycomplete_event_id="event_1_arm_1" condition_surveycomplete_instance="FIRST" condition_andor="AND" condition_logic="[irb_rev] = &quot;1&quot;" condition_send_time_option="IMMEDIATELY" condition_send_time_lag_days="" condition_send_time_lag_hours="" condition_send_time_lag_minutes="" condition_send_time_lag_field="" condition_send_time_lag_field_after="after" condition_send_next_day_type="" condition_send_next_time="" condition_send_time_exact="" delivery_type="EMAIL" reminder_type="" reminder_timelag_days="" reminder_timelag_hours="" reminder_timelag_minutes="" reminder_nextday_type="" reminder_nexttime="" reminder_exact_time="" reminder_num="0" reeval_before_send="0" event_id="event_1_arm_1" survey_id="notification_message_2"/>
+	</redcap:SurveysSchedulerGroup>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Data Entry Specialist" unique_role_name="U-392LRTNLXF" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="1" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="1" calendar="0" data_entry="[department_of_surgery_research_protocol_evaluation,3][department_review_and_evaluation,1][notification_message,1][notification_message_2,1]" api_export="0" api_import="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="0"/>
+		<redcap:UserRoles role_name="Evaluator" unique_role_name="U-191N8E9DYL" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="1" data_import_tool="0" data_comparison_tool="0" data_logging="1" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" calendar="1" data_entry="[department_of_surgery_research_protocol_evaluation,1][department_review_and_evaluation,1][notification_message,1][notification_message_2,1]" api_export="0" api_import="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="0"/>
+		<redcap:UserRoles role_name="Overlord" unique_role_name="U-634H4NKDMT" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="1" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" calendar="1" data_entry="[department_of_surgery_research_protocol_evaluation,3][department_review_and_evaluation,1][notification_message,1][notification_message_2,1]" api_export="1" api_import="1" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="0"/>
+		<redcap:UserRoles role_name="Viewer" unique_role_name="U-861REAMWHJ" lock_record="2" lock_record_multiform="1" lock_record_customize="1" data_export_tool="1" data_import_tool="0" data_comparison_tool="0" data_logging="1" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" calendar="1" data_entry="[proposal_intake,3][evaluation,2][department_of_surgery_research_protocol_evaluation,1][department_review_and_evaluation,1][notification_message,1][notification_message_2,1]" api_export="0" api_import="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="0"/>
+	</redcap:UserRolesGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="Step 1: Submitted by RC" unique_report_name="R-959XEJPLFJ" report_order="1" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="rc_timestamp" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="[rc_timestamp] &lt;&gt; &#039;&#039;" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="PC9LYW33X4A9MD47" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="[rc_timestamp] &lt;&gt; &#039;&#039;" redcap_reports_fields="record_id,title,pi,divsion,division_oth,prop_upload,rc_timestamp,type,irb_fno" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="4aa80d7f5db8cfbbfa490f3791870533904d9cf1"/>
+		<redcap:Reports title="Step 2: Evaluated by Department" unique_report_name="R-934D4PT87F" report_order="2" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="dept_timestamp" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([department_review_and_evaluation_complete] = &quot;2&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([department_review_and_evaluation_complete] = &quot;2&quot;)" redcap_reports_fields="record_id,title,pi,divsion,division_oth,prop_upload,rc_timestamp,status,amount,dept_timestamp,prop_total" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="d5a52f7444942265bbb2edc4a66e0696202bf086"/>
+		<redcap:Reports title="Step 3: Needs Sarah&#039;s Attention (Renewals - IRB)" unique_report_name="R-597PFFJJ87" report_order="3" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="dept_timestamp" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([status] = &quot;2&quot; OR [status] = &quot;3&quot; OR [status] = &quot;&quot;) AND ([rev_type] = &quot;1&quot;) AND ([irb_rev] = &quot;&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([status] = &quot;2&quot; OR [status] = &quot;3&quot; OR [status] = &quot;&quot;) AND ([rev_type] = &quot;1&quot;) AND ([irb_rev] = &quot;&quot;)" redcap_reports_fields="record_id,title,pi,divsion,division_oth,status,dept_timestamp,prop_upload,irb_fno" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="3883a11f41ade55b406f79619e4d1d6234d7c986"/>
+		<redcap:Reports title="Step 3: Needs Jeff&#039;s Attention (Full-Board - IRB)" unique_report_name="R-911RR8W9XR" report_order="4" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="dept_timestamp" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([status] = &quot;2&quot; OR [status] = &quot;3&quot; OR [status] = &quot;&quot;) AND ([rev_type] = &quot;2&quot;) AND ([irb_rev] = &quot;&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([status] = &quot;2&quot; OR [status] = &quot;3&quot; OR [status] = &quot;&quot;) AND ([rev_type] = &quot;2&quot;) AND ([irb_rev] = &quot;&quot;)" redcap_reports_fields="record_id,title,pi,divsion,division_oth,status,dept_timestamp,prop_upload,irb_fno" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="111c78a9861e51488b88b8014476fbb56f3c0566"/>
+		<redcap:Reports title="Step 3: Needs Jared&#039;s Attention (Expedited/Exempt - IRB)" unique_report_name="R-677WFXFK4C" report_order="5" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="dept_timestamp" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([status] = &quot;2&quot; OR [status] = &quot;3&quot; OR [status] = &quot;&quot;) AND ([rev_type] = &quot;3&quot;) AND ([irb_rev] = &quot;&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([status] = &quot;2&quot; OR [status] = &quot;3&quot; OR [status] = &quot;&quot;) AND ([rev_type] = &quot;3&quot;) AND ([irb_rev] = &quot;&quot;)" redcap_reports_fields="record_id,title,pi,divsion,division_oth,status,dept_timestamp,prop_upload,irb_fno" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="71b1631806f5f9667b47838fbaa77851173d4d86"/>
+		<redcap:Reports title="IRB File Number" unique_report_name="R-326XDNLAN7" report_order="6" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="irb_fno,title,pi" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="84bf08ddb9e45d3e777de3da09ea2572e0ed2310"/>
+		<redcap:Reports title="Attending Search" unique_report_name="R-386R4RF9CJ" report_order="7" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([pi] = &quot;evans&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([pi] = &quot;evans&quot;)" redcap_reports_fields="pi,title" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="4894f79969ea52726d0e4a38cf0c1114c60e8d2f"/>
+		<redcap:Reports title="Studies by Score" unique_report_name="R-9813AMNPRP" report_order="8" user_access="ALL" user_edit_access="ALL" description="Ranks studies from highest to lowest for studies that required the scoring process" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="prop_total" orderby_sort1="DESC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([score_req] != &quot;0&quot;) AND ([score_req] != &quot;2&quot;)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([score_req] != &quot;0&quot;) AND ([score_req] != &quot;2&quot;)" redcap_reports_fields="record_id,title,pi,divsion,division_oth,prop_total" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="c699948895ac07da98cdc4757ddf18b20435aba4"/>
+		<redcap:Reports title="CRC" unique_report_name="R-676W4KYM8T" report_order="9" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="record_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="record_id,pi,divsion,division_oth,email_ver,email" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="7b410b9d7cf02375f494710ff2ee1b03daa0ce90"/>
+	</redcap:ReportsGroup>
+	<redcap:RecordDashboardsGroup>
+		<redcap:RecordDashboards title="Deferral List" description="Studies in idle phase.  Review periodically during Steering Committee Meetings. " filter_logic="[defer]=&#039;1&#039;" orientation="H" group_by="event" selected_forms_events="event_1_arm_1:department_of_surgery_research_protocol_evaluation,event_1_arm_1:department_review_and_evaluation" arm="" sort_event_id="event_1_arm_1" sort_field_name="record_id" sort_order="ASC"/>
+		<redcap:RecordDashboards title="Needs Dr. Evans Review" description="Shows submissions that have not yet received department Chair/Chair designee review and evaluation. Does not include deferred studies." filter_logic="[department_review_and_evaluation_complete]&lt;&gt;&quot;2&quot; and [defer]&lt;&gt;&quot;1&quot;" orientation="H" group_by="event" selected_forms_events="event_1_arm_1:department_of_surgery_research_protocol_evaluation,event_1_arm_1:department_review_and_evaluation" arm="" sort_event_id="event_1_arm_1" sort_field_name="record_id" sort_order="ASC"/>
+		<redcap:RecordDashboards title="Needs Dr. McKillop&#039;s Review" description="Shows submissions that have not yet received department review and evaluation. Does not include deferred studies." filter_logic="[mck_det]&lt;&gt;&quot;1&quot; and [defer]&lt;&gt;&quot;1&quot; and [department_review_and_evaluation_complete]&lt;&gt;&quot;2&quot;" orientation="H" group_by="event" selected_forms_events="event_1_arm_1:department_of_surgery_research_protocol_evaluation,event_1_arm_1:department_review_and_evaluation" arm="" sort_event_id="event_1_arm_1" sort_field_name="record_id" sort_order="ASC"/>
+		<redcap:RecordDashboards title="Returned to PI" description="" filter_logic="[status]=1 AND (([record_id]=368 OR [record_id]=379))" orientation="H" group_by="event" selected_forms_events="event_1_arm_1:department_of_surgery_research_protocol_evaluation,event_1_arm_1:department_review_and_evaluation" arm="" sort_event_id="event_1_arm_1" sort_field_name="record_id" sort_order="ASC"/>
+	</redcap:RecordDashboardsGroup>
+	<redcap:AlertsGroup>
+		<redcap:Alerts alert_title="Alert to Dr. Evans after Dr. McKillop&#039;s Review" alert_type="EMAIL" alert_stop_type="RECORD" email_deleted="0" alert_expiration="" form_name="department_review_and_evaluation" form_name_event="event_1_arm_1" alert_condition="[mck_det]=1" ensure_logic_still_true="1" prevent_piping_identifiers="1" email_incomplete="1" email_from="nicole.kaiser@carolinashealthcare.org" email_from_display="Colie Kaiser" email_to="susan.evans@carolinashealthcare.org" phone_number_to="" email_cc="" email_bcc="" email_subject="RPE Record Ready for Review" alert_message="&lt;p&gt;Hi Dr. Evans,&lt;/p&gt;
+&lt;p&gt;Record [record_id] has been reviewed by Dr. McKillop and is ready for your review/approval.&lt;/p&gt;
+&lt;p&gt;PI: [pi]&lt;/p&gt;
+&lt;p&gt;Study Title: [title]&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;" email_failed="" email_attachment_variable="" email_attachment1="" email_attachment2="" email_attachment3="" email_attachment4="" email_attachment5="" email_repetitive="0" email_repetitive_change="0" email_repetitive_change_calcs="0" cron_send_email_on="now" cron_send_email_on_date="" cron_send_email_on_time_lag_days="" cron_send_email_on_time_lag_hours="" cron_send_email_on_time_lag_minutes="" cron_send_email_on_field="" cron_send_email_on_field_after="after" cron_send_email_on_next_day_type="DAY" cron_send_email_on_next_time="" cron_repeat_for="0" cron_repeat_for_units="DAYS" cron_repeat_for_max="" email_timestamp_sent="2020-05-29 14:19:03" email_sent="1" alert_order="1" alert_number="1"/>
+		<redcap:Alerts alert_title="Alert to Colie that Dept Chair Review Complete" alert_type="EMAIL" alert_stop_type="RECORD" email_deleted="0" alert_expiration="" form_name="department_review_and_evaluation" form_name_event="event_1_arm_1" alert_condition="[status]=2 OR [status]=3 OR [status]=4" ensure_logic_still_true="0" prevent_piping_identifiers="1" email_incomplete="0" email_from="nicole.kaiser@carolinashealthcare.org" email_from_display="RPE REDCap" email_to="nicole.kaiser@carolinashealthcare.org" phone_number_to="" email_cc="" email_bcc="" email_subject="RPE Record Approved by Dept of Surgery" alert_message="&lt;p&gt;Record [record_id] has been approved by the Department of Surgery. Documentation should be sent to the IRB.&lt;/p&gt;
+&lt;p&gt;PI: [pi]&lt;/p&gt;
+&lt;p&gt;Study: [title]&lt;/p&gt;" email_failed="" email_attachment_variable="" email_attachment1="" email_attachment2="" email_attachment3="" email_attachment4="" email_attachment5="" email_repetitive="0" email_repetitive_change="0" email_repetitive_change_calcs="0" cron_send_email_on="now" cron_send_email_on_date="" cron_send_email_on_time_lag_days="" cron_send_email_on_time_lag_hours="" cron_send_email_on_time_lag_minutes="" cron_send_email_on_field="" cron_send_email_on_field_after="after" cron_send_email_on_next_day_type="DAY" cron_send_email_on_next_time="" cron_repeat_for="0" cron_repeat_for_units="DAYS" cron_repeat_for_max="" email_timestamp_sent="2022-03-09 06:18:21" email_sent="1" alert_order="2" alert_number="2"/>
+	</redcap:AlertsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.RPESurgeryResearchProtocolEval_2022-07-08_1337" Name="RPE - Surgery - Research Protocol Evaluation Tool" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.department_of_surgery_research_protocol_evaluation" Name="Department of Surgery Research Protocol Evaluation Submission" Repeating="No" redcap:FormName="department_of_surgery_research_protocol_evaluation">
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.revboard" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.rev_type" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.conf" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.conf_name" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.upload_desc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.prop_upload" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.rc_timestamp" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.email" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_of_surgery_research_protocol_evaluation.department_of_surgery_research_protocol_evaluation_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.department_review_and_evaluation" Name="Department Review and Evaluation" Repeating="No" redcap:FormName="department_review_and_evaluation">
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.defer" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.clarity" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.defined" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.technical" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.dept_goals" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.title_piped" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.pi_piped" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.prop_raw" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.prop_total" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="department_review_and_evaluation.department_review_and_evaluation_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.notification_message" Name="IRB Document Reminder" Repeating="No" redcap:FormName="notification_message">
+		<ItemGroupRef ItemGroupOID="notification_message.message" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="notification_message.notification_message_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.notification_message_2" Name="Process Complete Notification" Repeating="No" redcap:FormName="notification_message_2">
+		<ItemGroupRef ItemGroupOID="notification_message_2.message_v2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="notification_message_2.notification_message_2_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.record_id" Name="Department of Surgery Research Protocol Evaluation Submission" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.revboard" Name="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Description&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="revboard" Mandatory="Yes" redcap:Variable="revboard"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.rev_type" Name="Department of Surgery Research Protocol Evaluation Submission" Repeating="No">
+		<ItemRef ItemOID="rev_type" Mandatory="Yes" redcap:Variable="rev_type"/>
+		<ItemRef ItemOID="irb_fno" Mandatory="Yes" redcap:Variable="irb_fno"/>
+		<ItemRef ItemOID="rev_type_dt" Mandatory="Yes" redcap:Variable="rev_type_dt"/>
+		<ItemRef ItemOID="rev_type_iacuc_ibc" Mandatory="Yes" redcap:Variable="rev_type_iacuc_ibc"/>
+		<ItemRef ItemOID="iacuc_irb_fno" Mandatory="Yes" redcap:Variable="iacuc_irb_fno"/>
+		<ItemRef ItemOID="iacuc_ibc_duedt" Mandatory="Yes" redcap:Variable="iacuc_ibc_duedt"/>
+		<ItemRef ItemOID="title" Mandatory="Yes" redcap:Variable="title"/>
+		<ItemRef ItemOID="pi" Mandatory="Yes" redcap:Variable="pi"/>
+		<ItemRef ItemOID="divsion" Mandatory="No" redcap:Variable="divsion"/>
+		<ItemRef ItemOID="division_oth" Mandatory="No" redcap:Variable="division_oth"/>
+		<ItemRef ItemOID="type" Mandatory="No" redcap:Variable="type"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.conf" Name="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Academics &amp; Funding&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="conf" Mandatory="No" redcap:Variable="conf"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.conf_name" Name="Department of Surgery Research Protocol Evaluation Submission" Repeating="No">
+		<ItemRef ItemOID="conf_name" Mandatory="No" redcap:Variable="conf_name"/>
+		<ItemRef ItemOID="conf_dat" Mandatory="No" redcap:Variable="conf_dat"/>
+		<ItemRef ItemOID="pi_res_or_fellow" Mandatory="Yes" redcap:Variable="pi_res_or_fellow"/>
+		<ItemRef ItemOID="pi_res_or_fellow_name" Mandatory="No" redcap:Variable="pi_res_or_fellow_name"/>
+		<ItemRef ItemOID="budget" Mandatory="No" redcap:Variable="budget"/>
+		<ItemRef ItemOID="responsible" Mandatory="No" redcap:Variable="responsible"/>
+		<ItemRef ItemOID="fund_source___1" Mandatory="No" redcap:Variable="fund_source"/>
+		<ItemRef ItemOID="fund_source___2" Mandatory="No" redcap:Variable="fund_source"/>
+		<ItemRef ItemOID="fund_source___3" Mandatory="No" redcap:Variable="fund_source"/>
+		<ItemRef ItemOID="fund_source___4" Mandatory="No" redcap:Variable="fund_source"/>
+		<ItemRef ItemOID="fund_source___5" Mandatory="No" redcap:Variable="fund_source"/>
+		<ItemRef ItemOID="fund_source___888" Mandatory="No" redcap:Variable="fund_source"/>
+		<ItemRef ItemOID="fs_industry" Mandatory="No" redcap:Variable="fs_industry"/>
+		<ItemRef ItemOID="fs_industryname" Mandatory="No" redcap:Variable="fs_industryname"/>
+		<ItemRef ItemOID="fs_soc" Mandatory="No" redcap:Variable="fs_soc"/>
+		<ItemRef ItemOID="fs_socname" Mandatory="No" redcap:Variable="fs_socname"/>
+		<ItemRef ItemOID="fs_grant" Mandatory="No" redcap:Variable="fs_grant"/>
+		<ItemRef ItemOID="fs_grantname" Mandatory="No" redcap:Variable="fs_grantname"/>
+		<ItemRef ItemOID="fs_foundation" Mandatory="No" redcap:Variable="fs_foundation"/>
+		<ItemRef ItemOID="fs_research" Mandatory="No" redcap:Variable="fs_research"/>
+		<ItemRef ItemOID="fs_oth" Mandatory="No" redcap:Variable="fs_oth"/>
+		<ItemRef ItemOID="fs_othname" Mandatory="No" redcap:Variable="fs_othname"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.upload_desc" Name="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Upload&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="upload_desc" Mandatory="No" redcap:Variable="upload_desc"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.prop_upload" Name="Department of Surgery Research Protocol Evaluation Submission" Repeating="No">
+		<ItemRef ItemOID="prop_upload" Mandatory="No" redcap:Variable="prop_upload"/>
+		<ItemRef ItemOID="app_upload" Mandatory="No" redcap:Variable="app_upload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.rc_timestamp" Name="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Time Stamp&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="rc_timestamp" Mandatory="Yes" redcap:Variable="rc_timestamp"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.email" Name="Department of Surgery Research Protocol Evaluation Submission" Repeating="No">
+		<ItemRef ItemOID="email" Mandatory="Yes" redcap:Variable="email"/>
+		<ItemRef ItemOID="email_ver" Mandatory="Yes" redcap:Variable="email_ver"/>
+		<ItemRef ItemOID="email_warn" Mandatory="No" redcap:Variable="email_warn"/>
+		<ItemRef ItemOID="email_warn_2" Mandatory="No" redcap:Variable="email_warn_2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_of_surgery_research_protocol_evaluation.department_of_surgery_research_protocol_evaluation_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="department_of_surgery_research_protocol_evaluation_complete" Mandatory="No" redcap:Variable="department_of_surgery_research_protocol_evaluation_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.defer" Name="Department Review and Evaluation" Repeating="No">
+		<ItemRef ItemOID="defer" Mandatory="No" redcap:Variable="defer"/>
+		<ItemRef ItemOID="score_req" Mandatory="No" redcap:Variable="score_req"/>
+		<ItemRef ItemOID="rev" Mandatory="No" redcap:Variable="rev"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.clarity" Name="&lt;font size=&quot;5&quot;&gt;&lt;font color=&quot;SlateGray&quot;&gt;&lt;center&gt;Scoring: Scientific Strength&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="clarity" Mandatory="No" redcap:Variable="clarity"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.defined" Name="Department Review and Evaluation" Repeating="No">
+		<ItemRef ItemOID="defined" Mandatory="No" redcap:Variable="defined"/>
+		<ItemRef ItemOID="methods" Mandatory="No" redcap:Variable="methods"/>
+		<ItemRef ItemOID="outcomes" Mandatory="No" redcap:Variable="outcomes"/>
+		<ItemRef ItemOID="stats" Mandatory="No" redcap:Variable="stats"/>
+		<ItemRef ItemOID="urgent" Mandatory="No" redcap:Variable="urgent"/>
+		<ItemRef ItemOID="impact" Mandatory="No" redcap:Variable="impact"/>
+		<ItemRef ItemOID="novel" Mandatory="No" redcap:Variable="novel"/>
+		<ItemRef ItemOID="innovation" Mandatory="No" redcap:Variable="innovation"/>
+		<ItemRef ItemOID="innov_calcd" Mandatory="No" redcap:Variable="innov_calcd"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.technical" Name="&lt;font size=&quot;5&quot;&gt;&lt;font color=&quot;SlateGray&quot;&gt;&lt;center&gt;Scoring: Logistics and Collaboration&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="technical" Mandatory="No" redcap:Variable="technical"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.dept_goals" Name="Department Review and Evaluation" Repeating="No">
+		<ItemRef ItemOID="dept_goals" Mandatory="No" redcap:Variable="dept_goals"/>
+		<ItemRef ItemOID="chs_goals" Mandatory="No" redcap:Variable="chs_goals"/>
+		<ItemRef ItemOID="future" Mandatory="No" redcap:Variable="future"/>
+		<ItemRef ItemOID="long_goals_def" Mandatory="No" redcap:Variable="long_goals_def"/>
+		<ItemRef ItemOID="mck_det" Mandatory="No" redcap:Variable="mck_det"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.title_piped" Name="&lt;font size=&quot;5&quot;&gt;&lt;font color=&quot;SlateGray&quot;&gt;&lt;center&gt;Decision and Certification&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="title_piped" Mandatory="No" redcap:Variable="title_piped"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.pi_piped" Name="Department Review and Evaluation" Repeating="No">
+		<ItemRef ItemOID="pi_piped" Mandatory="No" redcap:Variable="pi_piped"/>
+		<ItemRef ItemOID="status" Mandatory="No" redcap:Variable="status"/>
+		<ItemRef ItemOID="amount" Mandatory="No" redcap:Variable="amount"/>
+		<ItemRef ItemOID="amount_2" Mandatory="No" redcap:Variable="amount_2"/>
+		<ItemRef ItemOID="attestation" Mandatory="No" redcap:Variable="attestation"/>
+		<ItemRef ItemOID="attestation_newfullboardirb" Mandatory="No" redcap:Variable="attestation_newfullboardirb"/>
+		<ItemRef ItemOID="attestation_renewalirb" Mandatory="No" redcap:Variable="attestation_renewalirb"/>
+		<ItemRef ItemOID="attestation_iacuc_ibc" Mandatory="No" redcap:Variable="attestation_iacuc_ibc"/>
+		<ItemRef ItemOID="attestation_2" Mandatory="No" redcap:Variable="attestation_2"/>
+		<ItemRef ItemOID="thbu" Mandatory="No" redcap:Variable="thbu"/>
+		<ItemRef ItemOID="thbd" Mandatory="No" redcap:Variable="thbd"/>
+		<ItemRef ItemOID="irb_coord" Mandatory="No" redcap:Variable="irb_coord"/>
+		<ItemRef ItemOID="sig" Mandatory="No" redcap:Variable="sig"/>
+		<ItemRef ItemOID="dept_timestamp" Mandatory="No" redcap:Variable="dept_timestamp"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.prop_raw" Name="&lt;font size=&quot;6&quot;&gt;&lt;font color=&quot;Teal&quot;&gt;&lt;center&gt;Proposal Values&lt;/center&gt;&lt;/font&gt;" Repeating="No">
+		<ItemRef ItemOID="prop_raw" Mandatory="No" redcap:Variable="prop_raw"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.prop_total" Name="Department Review and Evaluation" Repeating="No">
+		<ItemRef ItemOID="prop_total" Mandatory="No" redcap:Variable="prop_total"/>
+		<ItemRef ItemOID="irb_note" Mandatory="No" redcap:Variable="irb_note"/>
+		<ItemRef ItemOID="irb_rev" Mandatory="No" redcap:Variable="irb_rev"/>
+		<ItemRef ItemOID="irb_decision" Mandatory="No" redcap:Variable="irb_decision"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="department_review_and_evaluation.department_review_and_evaluation_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="department_review_and_evaluation_complete" Mandatory="No" redcap:Variable="department_review_and_evaluation_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="notification_message.message" Name="IRB Document Reminder" Repeating="No">
+		<ItemRef ItemOID="message" Mandatory="No" redcap:Variable="message"/>
+		<ItemRef ItemOID="message_resfund" Mandatory="No" redcap:Variable="message_resfund"/>
+		<ItemRef ItemOID="rc_sig" Mandatory="No" redcap:Variable="rc_sig"/>
+		<ItemRef ItemOID="rc_sig_ts" Mandatory="No" redcap:Variable="rc_sig_ts"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="notification_message.notification_message_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="notification_message_complete" Mandatory="No" redcap:Variable="notification_message_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="notification_message_2.message_v2" Name="Process Complete Notification" Repeating="No">
+		<ItemRef ItemOID="message_v2" Mandatory="No" redcap:Variable="message_v2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="notification_message_2.notification_message_2_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="notification_message_2_complete" Mandatory="No" redcap:Variable="notification_message_2_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="revboard" Name="revboard" DataType="text" Length="1" redcap:Variable="revboard" redcap:FieldType="select" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Description&lt;/center&gt;&lt;/font&gt;" redcap:RequiredField="y">
+		<Question><TranslatedText>What is the Review Board/Committee?</TranslatedText></Question>
+		<CodeListRef CodeListOID="revboard.choices"/>
+	</ItemDef>
+	<ItemDef OID="rev_type" Name="rev_type" DataType="text" Length="1" redcap:Variable="rev_type" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[revboard]=1" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>What is the IRB review type?</TranslatedText></Question>
+		<CodeListRef CodeListOID="rev_type.choices"/>
+	</ItemDef>
+	<ItemDef OID="irb_fno" Name="irb_fno" DataType="text" Length="999" redcap:Variable="irb_fno" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[rev_type] = &#039;1&#039;">
+		<Question><TranslatedText>IRB File #:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rev_type_dt" Name="rev_type_dt" DataType="date" Length="999" redcap:Variable="rev_type_dt" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:RequiredField="y" redcap:BranchingLogic="[rev_type] = &quot;1&quot;" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>IRB due date:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rev_type_iacuc_ibc" Name="rev_type_iacuc_ibc" DataType="text" Length="1" redcap:Variable="rev_type_iacuc_ibc" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[revboard]=2 or [revboard]=3" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>What is the IACUC or IBC review type?</TranslatedText></Question>
+		<CodeListRef CodeListOID="rev_type_iacuc_ibc.choices"/>
+	</ItemDef>
+	<ItemDef OID="iacuc_irb_fno" Name="iacuc_irb_fno" DataType="text" Length="999" redcap:Variable="iacuc_irb_fno" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[rev_type_iacuc_ibc] = &#039;1&#039;">
+		<Question><TranslatedText>Protocol/File #:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="iacuc_ibc_duedt" Name="iacuc_ibc_duedt" DataType="date" Length="999" redcap:Variable="iacuc_ibc_duedt" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:RequiredField="y" redcap:BranchingLogic="[rev_type_iacuc_ibc] = &quot;1&quot;" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>IACUC or IBC due date:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="title" Name="title" DataType="text" Length="999" redcap:Variable="title" redcap:FieldType="text" redcap:FieldNote="(long/full proposal title please)" redcap:RequiredField="y" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Title of Proposal</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi" Name="pi" DataType="text" Length="999" redcap:Variable="pi" redcap:FieldType="text" redcap:FieldNote="Last Name, First Name" redcap:RequiredField="y" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Name of Attending Principal Investigator (PI)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="divsion" Name="divsion" DataType="text" Length="3" redcap:Variable="divsion" redcap:FieldType="radio" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Division within Department of Surgery</TranslatedText></Question>
+		<CodeListRef CodeListOID="divsion.choices"/>
+	</ItemDef>
+	<ItemDef OID="division_oth" Name="division_oth" DataType="text" Length="999" redcap:Variable="division_oth" redcap:FieldType="text" redcap:BranchingLogic="[divsion] = &#039;888&#039;">
+		<Question><TranslatedText>Other Division</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="type" Name="type" DataType="text" Length="1" redcap:Variable="type" redcap:FieldType="radio" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Please select the study type that best fits the proposal</TranslatedText></Question>
+		<CodeListRef CodeListOID="type.choices"/>
+	</ItemDef>
+	<ItemDef OID="conf" Name="conf" DataType="boolean" Length="1" redcap:Variable="conf" redcap:FieldType="yesno" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Academics &amp; Funding&lt;/center&gt;&lt;/font&gt;" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;">
+		<Question><TranslatedText>Are the results from this research proposal intended to be submitted to a conference?</TranslatedText></Question>
+		<CodeListRef CodeListOID="conf.choices"/>
+	</ItemDef>
+	<ItemDef OID="conf_name" Name="conf_name" DataType="text" Length="999" redcap:Variable="conf_name" redcap:FieldType="text" redcap:BranchingLogic="[conf] = &#039;1&#039;">
+		<Question><TranslatedText>Conference Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="conf_dat" Name="conf_dat" DataType="date" Length="999" redcap:Variable="conf_dat" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:BranchingLogic="[conf] = &#039;1&#039;" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi_res_or_fellow" Name="pi_res_or_fellow" DataType="boolean" Length="1" redcap:Variable="pi_res_or_fellow" redcap:FieldType="yesno" redcap:RequiredField="y" redcap:BranchingLogic="[rev_type] = &#039;2&#039;">
+		<Question><TranslatedText>Is a Surgical Resident or Fellow the Primary Author of this proposal?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pi_res_or_fellow.choices"/>
+	</ItemDef>
+	<ItemDef OID="pi_res_or_fellow_name" Name="pi_res_or_fellow_name" DataType="text" Length="999" redcap:Variable="pi_res_or_fellow_name" redcap:FieldType="text" redcap:FieldNote="Last Name, First Name" redcap:BranchingLogic="[pi_res_or_fellow] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Name of Resident or Fellow Primary Author:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="budget" Name="budget" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="budget" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="0.00 format" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>What is the total, realistic anticipated budget for the entire study?
+This includes initial IRB fees, IRB renewals and amendments, time and effort, participant stipends, equipment, etc. </TranslatedText><redcap:FormattedTranslatedText>What is the &lt;u&gt;total, realistic anticipated budget&lt;/u&gt; for the entire study?&lt;/br&gt;
+&lt;i&gt;This includes initial IRB fees, IRB renewals and amendments, time and effort, participant stipends, equipment, etc. &lt;/i&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="responsible" Name="responsible" DataType="text" Length="999" redcap:Variable="responsible" redcap:FieldType="descriptive" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;">
+		<Question><TranslatedText>By default, all Divisions are responsible for funding their research projects</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;4&quot;&gt;&lt;center&gt;&lt;i&gt;By default, all Divisions are responsible for funding their research projects&lt;/center&gt;&lt;/font&gt;&lt;/i&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fund_source___1" Name="fund_source___1" DataType="boolean" Length="1" redcap:Variable="fund_source" redcap:FieldType="checkbox" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other than Division funds, please detail any other sources of funding for this project / proposal:</TranslatedText></Question>
+		<CodeListRef CodeListOID="fund_source___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="fund_source___2" Name="fund_source___2" DataType="boolean" Length="1" redcap:Variable="fund_source" redcap:FieldType="checkbox" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other than Division funds, please detail any other sources of funding for this project / proposal:</TranslatedText></Question>
+		<CodeListRef CodeListOID="fund_source___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="fund_source___3" Name="fund_source___3" DataType="boolean" Length="1" redcap:Variable="fund_source" redcap:FieldType="checkbox" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other than Division funds, please detail any other sources of funding for this project / proposal:</TranslatedText></Question>
+		<CodeListRef CodeListOID="fund_source___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="fund_source___4" Name="fund_source___4" DataType="boolean" Length="1" redcap:Variable="fund_source" redcap:FieldType="checkbox" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other than Division funds, please detail any other sources of funding for this project / proposal:</TranslatedText></Question>
+		<CodeListRef CodeListOID="fund_source___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="fund_source___5" Name="fund_source___5" DataType="boolean" Length="1" redcap:Variable="fund_source" redcap:FieldType="checkbox" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other than Division funds, please detail any other sources of funding for this project / proposal:</TranslatedText></Question>
+		<CodeListRef CodeListOID="fund_source___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="fund_source___888" Name="fund_source___888" DataType="boolean" Length="1" redcap:Variable="fund_source" redcap:FieldType="checkbox" redcap:BranchingLogic="[rev_type] = &quot;2&quot; OR [rev_type] = &quot;3&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other than Division funds, please detail any other sources of funding for this project / proposal:</TranslatedText></Question>
+		<CodeListRef CodeListOID="fund_source___888.choices"/>
+	</ItemDef>
+	<ItemDef OID="fs_industry" Name="fs_industry" DataType="text" Length="999" redcap:Variable="fs_industry" redcap:FieldType="text" redcap:FieldNote="&lt;b&gt;&lt;font size=&quot;2&quot; color=&quot;teal&quot;&gt;$&lt;/font&gt;&lt;/b&gt;" redcap:BranchingLogic="[fund_source(1)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Industry-sponsored Contribution:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_industryname" Name="fs_industryname" DataType="text" Length="999" redcap:Variable="fs_industryname" redcap:FieldType="text" redcap:BranchingLogic="[fund_source(1)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Name of industry-sponsored organization</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_soc" Name="fs_soc" DataType="text" Length="999" redcap:Variable="fs_soc" redcap:FieldType="text" redcap:FieldNote="&lt;b&gt;&lt;font size=&quot;2&quot; color=&quot;teal&quot;&gt;$&lt;/font&gt;&lt;/b&gt;" redcap:BranchingLogic="[fund_source(2)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Surgical / Medical Society Contribution</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_socname" Name="fs_socname" DataType="text" Length="999" redcap:Variable="fs_socname" redcap:FieldType="text" redcap:BranchingLogic="[fund_source(2)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Name of surgical or medical society</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_grant" Name="fs_grant" DataType="text" Length="999" redcap:Variable="fs_grant" redcap:FieldType="text" redcap:FieldNote="&lt;b&gt;&lt;font size=&quot;2&quot; color=&quot;teal&quot;&gt;$&lt;/font&gt;&lt;/b&gt;" redcap:BranchingLogic="[fund_source(3)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Federal or Non-industry Grant Contribution:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_grantname" Name="fs_grantname" DataType="text" Length="999" redcap:Variable="fs_grantname" redcap:FieldType="text" redcap:BranchingLogic="[fund_source(3)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Name of federal or non-industry sponsored organization</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_foundation" Name="fs_foundation" DataType="text" Length="999" redcap:Variable="fs_foundation" redcap:FieldType="text" redcap:FieldNote="&lt;b&gt;&lt;font size=&quot;2&quot; color=&quot;teal&quot;&gt;$&lt;/font&gt;&lt;/b&gt;" redcap:BranchingLogic="[fund_source(4)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Carolinas Healthcare Grant Contribution:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_research" Name="fs_research" DataType="text" Length="999" redcap:Variable="fs_research" redcap:FieldType="text" redcap:FieldNote="&lt;b&gt;&lt;font size=&quot;2&quot; color=&quot;teal&quot;&gt;$&lt;/font&gt;&lt;/b&gt;" redcap:BranchingLogic="[fund_source(5)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Carolinas Healthcare Research Contribution:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_oth" Name="fs_oth" DataType="text" Length="999" redcap:Variable="fs_oth" redcap:FieldType="text" redcap:FieldNote="&lt;b&gt;&lt;font size=&quot;2&quot; color=&quot;teal&quot;&gt;$&lt;/font&gt;&lt;/b&gt;" redcap:BranchingLogic="[fund_source(888)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Other Contribution:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fs_othname" Name="fs_othname" DataType="text" Length="999" redcap:Variable="fs_othname" redcap:FieldType="text" redcap:BranchingLogic="[fund_source(888)] = &#039;1&#039;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Name of Other organization</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="upload_desc" Name="upload_desc" DataType="text" Length="999" redcap:Variable="upload_desc" redcap:FieldType="descriptive" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Upload&lt;/center&gt;&lt;/font&gt;">
+		<Question><TranslatedText>Please upload:
+
+1. Research Protocol
+2. Application</TranslatedText><redcap:FormattedTranslatedText>Please upload:
+
+&lt;b&gt;&lt;font size=&quot;3.5&quot; color=&quot;teal&quot;&gt;1. Research Protocol&lt;/font&gt;&lt;/b&gt;
+&lt;b&gt;&lt;font size=&quot;3.5&quot; color=&quot;teal&quot;&gt;2. Application&lt;/font&gt;&lt;/b&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prop_upload" Name="prop_upload" DataType="text" Length="999" redcap:Variable="prop_upload" redcap:FieldType="file" redcap:FieldNote="&lt;i&gt;&lt;b&gt;PDF Preferred.&lt;/b&gt; " redcap:CustomAlignment="LV">
+		<Question><TranslatedText>PROTOCOL:</TranslatedText><redcap:FormattedTranslatedText>&lt;b&gt;&lt;font size=&quot;3.5&quot;&gt;PROTOCOL:&lt;/font&gt;&lt;/b&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="app_upload" Name="app_upload" DataType="text" Length="999" redcap:Variable="app_upload" redcap:FieldType="file" redcap:FieldNote="&lt;i&gt;&lt;b&gt;PDF Preferred.&lt;/b&gt;&lt;/i&gt;" redcap:CustomAlignment="LV">
+		<Question><TranslatedText>APPLICATION:</TranslatedText><redcap:FormattedTranslatedText>&lt;b&gt;&lt;font size=&quot;3.5&quot;&gt;APPLICATION:&lt;/font&gt;&lt;/b&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rc_timestamp" Name="rc_timestamp" DataType="partialDatetime" Length="999" redcap:Variable="rc_timestamp" redcap:FieldType="text" redcap:TextValidationType="datetime_mdy" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;center&gt;Time Stamp&lt;/center&gt;&lt;/font&gt;" redcap:RequiredField="y">
+		<Question><TranslatedText>To time stamp proposal submission, press NOW  </TranslatedText><redcap:FormattedTranslatedText>To time stamp proposal submission, press &lt;font color=&quot;steelblue&quot;&gt;&lt;font size=&quot;3.5&quot;&gt;NOW  &lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="email" Name="email" DataType="text" Length="999" redcap:Variable="email" redcap:FieldType="text" redcap:TextValidationType="email" redcap:FieldNote="&lt;i&gt;You will not receive notification if email is mis-typed&lt;/i&gt;" redcap:RequiredField="y">
+		<Question><TranslatedText>Email of teammate to be notified of proposal&#039;s status
+(usually Research Coordinator)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="email_ver" Name="email_ver" DataType="text" Length="999" redcap:Variable="email_ver" redcap:FieldType="text" redcap:TextValidationType="email" redcap:FieldNote="&lt;i&gt;Re-enter the email address above&lt;/i&gt;" redcap:RequiredField="y">
+		<Question><TranslatedText>Verify email address:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="email_warn" Name="email_warn" DataType="text" Length="999" redcap:Variable="email_warn" redcap:FieldType="descriptive" redcap:BranchingLogic="[email] &lt;&gt; &quot;&quot; AND [email_ver] &lt;&gt; &quot;&quot; AND not_contain([email],[email_ver])">
+		<Question><TranslatedText>Email addresses do not match!</TranslatedText><redcap:FormattedTranslatedText>&lt;center&gt;&lt;h2&gt;&lt;div class=&quot;label label-danger&quot; role=&quot;alert&quot;&gt;&lt;font size=&quot;5&quot;&gt;Email addresses do not match!&lt;/font&gt;&lt;/div&gt;&lt;/h2&gt;&lt;/center&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="email_warn_2" Name="email_warn_2" DataType="text" Length="999" redcap:Variable="email_warn_2" redcap:FieldType="descriptive" redcap:BranchingLogic="[email] &lt;&gt; &quot;&quot; AND [email_ver] &lt;&gt; &quot;&quot; AND contains([email],[email_ver])">
+		<Question><TranslatedText>Email addresses match!</TranslatedText><redcap:FormattedTranslatedText>&lt;center&gt;&lt;h2&gt;&lt;div class=&quot;label label-success&quot; role=&quot;alert&quot;&gt;&lt;font size=&quot;5&quot;&gt;Email addresses match!&lt;/font&gt;&lt;/div&gt;&lt;/h2&gt;&lt;/center&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="department_of_surgery_research_protocol_evaluation_complete" Name="department_of_surgery_research_protocol_evaluation_complete" DataType="text" Length="1" redcap:Variable="department_of_surgery_research_protocol_evaluation_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="department_of_surgery_research_protocol_evaluation_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="defer" Name="defer" DataType="text" Length="1" redcap:Variable="defer" redcap:FieldType="radio">
+		<Question><TranslatedText>Deferred Studies Only:</TranslatedText></Question>
+		<CodeListRef CodeListOID="defer.choices"/>
+	</ItemDef>
+	<ItemDef OID="score_req" Name="score_req" DataType="text" Length="1" redcap:Variable="score_req" redcap:FieldType="radio">
+		<Question><TranslatedText>Does this study require the SCORING process? 
+Ex: if the study is purely industry funded and does not require vetting, please select &quot;No&quot; and skip to the Decision and Certification section below</TranslatedText></Question>
+		<CodeListRef CodeListOID="score_req.choices"/>
+	</ItemDef>
+	<ItemDef OID="rev" Name="rev" DataType="text" Length="1" redcap:Variable="rev" redcap:FieldType="radio">
+		<Question><TranslatedText>Reviewer conducting initial review or scoring:</TranslatedText></Question>
+		<CodeListRef CodeListOID="rev.choices"/>
+	</ItemDef>
+	<ItemDef OID="clarity" Name="clarity" DataType="text" Length="1" redcap:Variable="clarity" redcap:FieldType="radio" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;font color=&quot;SlateGray&quot;&gt;&lt;center&gt;Scoring: Scientific Strength&lt;/center&gt;&lt;/font&gt;" redcap:BranchingLogic="[score_req] = &quot;1&quot;" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Please rate the clarity of the research question</TranslatedText></Question>
+		<CodeListRef CodeListOID="clarity.choices"/>
+	</ItemDef>
+	<ItemDef OID="defined" Name="defined" DataType="text" Length="1" redcap:Variable="defined" redcap:FieldType="radio" redcap:BranchingLogic="[score_req] = &quot;1&quot;" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Please rate the extent to which the hypothesis is defined</TranslatedText></Question>
+		<CodeListRef CodeListOID="defined.choices"/>
+	</ItemDef>
+	<ItemDef OID="methods" Name="methods" DataType="text" Length="1" redcap:Variable="methods" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Are the methods appropriate to answer the research question</TranslatedText></Question>
+		<CodeListRef CodeListOID="methods.choices"/>
+	</ItemDef>
+	<ItemDef OID="outcomes" Name="outcomes" DataType="text" Length="1" redcap:Variable="outcomes" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Are the primary and secondary outcomes clearly stated?</TranslatedText></Question>
+		<CodeListRef CodeListOID="outcomes.choices"/>
+	</ItemDef>
+	<ItemDef OID="stats" Name="stats" DataType="text" Length="1" redcap:Variable="stats" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate the appropriateness of statistical analysis</TranslatedText></Question>
+		<CodeListRef CodeListOID="stats.choices"/>
+	</ItemDef>
+	<ItemDef OID="urgent" Name="urgent" DataType="text" Length="1" redcap:Variable="urgent" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate how well the proposal addresses an urgent or immediate need</TranslatedText></Question>
+		<CodeListRef CodeListOID="urgent.choices"/>
+	</ItemDef>
+	<ItemDef OID="impact" Name="impact" DataType="text" Length="1" redcap:Variable="impact" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate the potential impact on patient care</TranslatedText></Question>
+		<CodeListRef CodeListOID="impact.choices"/>
+	</ItemDef>
+	<ItemDef OID="novel" Name="novel" DataType="text" Length="1" redcap:Variable="novel" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate the novelty of the proposal</TranslatedText></Question>
+		<CodeListRef CodeListOID="novel.choices"/>
+	</ItemDef>
+	<ItemDef OID="innovation" Name="innovation" DataType="text" Length="1" redcap:Variable="innovation" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate the innovation of the proposal</TranslatedText></Question>
+		<CodeListRef CodeListOID="innovation.choices"/>
+	</ItemDef>
+	<ItemDef OID="innov_calcd" Name="innov_calcd" DataType="float" Length="999" redcap:Variable="innov_calcd" redcap:FieldType="calc" redcap:Calculation="if([innovation]=&quot;1&quot;,4,if([innovation]=&quot;2&quot;,4,if([innovation]=&quot;3&quot;,4,&quot;NaN&quot;)))" redcap:BranchingLogic="[score_req] = &quot;1&quot;" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Calculation to apply equal weights to innovation field</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="technical" Name="technical" DataType="text" Length="1" redcap:Variable="technical" redcap:FieldType="select" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;font color=&quot;SlateGray&quot;&gt;&lt;center&gt;Scoring: Logistics and Collaboration&lt;/center&gt;&lt;/font&gt;" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Is the proposal technically feasible?</TranslatedText></Question>
+		<CodeListRef CodeListOID="technical.choices"/>
+	</ItemDef>
+	<ItemDef OID="dept_goals" Name="dept_goals" DataType="text" Length="1" redcap:Variable="dept_goals" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate how well the proposal is aligned with Departmental goals</TranslatedText></Question>
+		<CodeListRef CodeListOID="dept_goals.choices"/>
+	</ItemDef>
+	<ItemDef OID="chs_goals" Name="chs_goals" DataType="text" Length="1" redcap:Variable="chs_goals" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Please rate how well the proposal is aligned with CHS goals</TranslatedText></Question>
+		<CodeListRef CodeListOID="chs_goals.choices"/>
+	</ItemDef>
+	<ItemDef OID="future" Name="future" DataType="text" Length="1" redcap:Variable="future" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Will this research proposal lead to further and/or on-going studies?</TranslatedText></Question>
+		<CodeListRef CodeListOID="future.choices"/>
+	</ItemDef>
+	<ItemDef OID="long_goals_def" Name="long_goals_def" DataType="text" Length="1" redcap:Variable="long_goals_def" redcap:FieldType="select" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>How clearly described is the long-term goal of this project?</TranslatedText></Question>
+		<CodeListRef CodeListOID="long_goals_def.choices"/>
+	</ItemDef>
+	<ItemDef OID="mck_det" Name="mck_det" DataType="text" Length="1" redcap:Variable="mck_det" redcap:FieldType="radio" redcap:BranchingLogic="[rev]=2">
+		<Question><TranslatedText>Dr. McKillop&#039;s Determination:</TranslatedText></Question>
+		<CodeListRef CodeListOID="mck_det.choices"/>
+	</ItemDef>
+	<ItemDef OID="title_piped" Name="title_piped" DataType="text" Length="999" redcap:Variable="title_piped" redcap:FieldType="descriptive" redcap:SectionHeader="&lt;font size=&quot;5&quot;&gt;&lt;font color=&quot;SlateGray&quot;&gt;&lt;center&gt;Decision and Certification&lt;/center&gt;&lt;/font&gt;">
+		<Question><TranslatedText>
+Study Title: [title]
+</TranslatedText><redcap:FormattedTranslatedText>&lt;br/&gt;&lt;center&gt;&lt;font size=&quot;3&quot;&gt;&lt;span class=&quot;label label-primary&quot;&gt;Study Title: [title]&lt;/span&gt;&lt;/font&gt;&lt;/center&gt;&lt;br/&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi_piped" Name="pi_piped" DataType="text" Length="999" redcap:Variable="pi_piped" redcap:FieldType="descriptive">
+		<Question><TranslatedText>
+PI: [pi]
+</TranslatedText><redcap:FormattedTranslatedText>&lt;br/&gt;&lt;center&gt;&lt;font size=&quot;3&quot;&gt;&lt;span class=&quot;label label-primary&quot;&gt;PI: [pi]&lt;/span&gt;&lt;/font&gt;&lt;/center&gt;&lt;br/&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="status" Name="status" DataType="text" Length="1" redcap:Variable="status" redcap:FieldType="select">
+		<Question><TranslatedText>Proposal Status</TranslatedText></Question>
+		<CodeListRef CodeListOID="status.choices"/>
+	</ItemDef>
+	<ItemDef OID="amount" Name="amount" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="amount" redcap:FieldType="text" redcap:TextValidationType="float" redcap:BranchingLogic="[status] = &#039;3&#039;">
+		<Question><TranslatedText>The Department of Surgery will provide the following amount for this study:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="amount_2" Name="amount_2" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="amount_2" redcap:FieldType="text" redcap:TextValidationType="float" redcap:BranchingLogic="[status] = &#039;4&#039;">
+		<Question><TranslatedText>CHS Research will provide the following amount for this study:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="attestation" Name="attestation" DataType="text" Length="999" redcap:Variable="attestation" redcap:FieldType="descriptive" redcap:BranchingLogic="([status] = &#039;2&#039; or [status] = &#039;3&#039; or [status] = &#039;4&#039;) AND ([rev_type]=&#039;3&#039;)">
+		<Question><TranslatedText>Attestation of Department Chair/Designee: By signing this form: I certify this study [title] went through a departmental scientific and quality review and is aligned with AH/Departmental priorities. I approve this study for submission to the AH IRB. I understand that the AH IRB manages Exempt determinations and Expedited reviews. Should this study require FULL BOARD review, it will be referred to an external IRB and will incur costs per the current negotiatied fee schedule.&amp;nbsp;
+
+Department of Surgery agrees to pay the required $100 AH IRB review fee for this study unless otherwise arranged by Sponsored Programs Administration (e.g. federal funding, sponsored studies, etc.)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Attestation of Department Chair/Designee:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;By signing this form:&lt;/p&gt; &lt;p&gt;I certify this study &lt;span style=&quot;color: teal;&quot;&gt;[title]&lt;/span&gt; went through a departmental scientific and quality review and is aligned with AH/Departmental priorities. I approve this study for submission to the AH IRB.&lt;/p&gt; &lt;p&gt;I understand that the AH IRB manages Exempt determinations and Expedited reviews. Should this study require FULL BOARD review, it will be referred to an external IRB and will incur costs per the current negotiatied fee schedule.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: teal;&quot;&gt;Department of Surgery&lt;/span&gt; agrees to pay the required $100 AH IRB review fee for this study unless otherwise arranged by Sponsored Programs Administration (e.g. federal funding, sponsored studies, etc.)&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="attestation_newfullboardirb" Name="attestation_newfullboardirb" DataType="text" Length="999" redcap:Variable="attestation_newfullboardirb" redcap:FieldType="descriptive" redcap:BranchingLogic="([status] = &#039;2&#039; or [status] = &#039;3&#039; or [status] = &#039;4&#039;) AND ([rev_type]=&#039;2&#039;)">
+		<Question><TranslatedText>Attestation of Department Chair/Designee: By signing this form: I certify this study [title] went through a departmental scientific and quality review and is aligned with AH/Departmental priorities. I approve this study for submission to the AH IRB. Department of Surgery agrees to pay the required $250 AH IRB review fee for this study unless otherwise arranged by Sponsored Programs Administration (e.g. federal funding, sponsored studies, etc.)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Attestation of Department Chair/Designee:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;By signing this form:&lt;/p&gt; &lt;p&gt;I certify this study &lt;span style=&quot;color: teal;&quot;&gt;[title]&lt;/span&gt; went through a departmental scientific and quality review and is aligned with AH/Departmental priorities. I approve this study for submission to the AH IRB.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color: teal;&quot;&gt;Department of Surgery&lt;/span&gt; agrees to pay the required $250 AH IRB review fee for this study unless otherwise arranged by Sponsored Programs Administration (e.g. federal funding, sponsored studies, etc.)&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="attestation_renewalirb" Name="attestation_renewalirb" DataType="text" Length="999" redcap:Variable="attestation_renewalirb" redcap:FieldType="descriptive" redcap:BranchingLogic="([status] = &#039;2&#039; or [status] = &#039;3&#039; or [status] = &#039;4&#039;) AND ([rev_type]=&#039;1&#039;)">
+		<Question><TranslatedText>Certification of Department Chair or Designee: I certify that I have reviewed this research project [title] and attached aplication for AH IRB Continuing Review. I agree that this study has been reviewed internally (meeting departmental scientific and quality standards and alignment with AH/departmental priorities) and approve this continuing review submission to the AH IRB. For Expedited studies: Department of Surgery agrees to pay the required $100 AH IRB review fee for this study unless otherwise arranged by Sponsored Programs Administration (e.g. federal funding, sponsored studies, etc.)</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Certification of Department Chair or Designee:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;I certify that I have reviewed this research project &lt;span style=&quot;color: teal;&quot;&gt;[title]&lt;/span&gt; and attached aplication for AH IRB Continuing Review. I agree that this study has been reviewed internally (meeting departmental scientific and quality standards and alignment with AH/departmental priorities) and approve this continuing review submission to the AH IRB.&lt;/p&gt; &lt;p&gt;For Expedited studies: &lt;span style=&quot;color: teal;&quot;&gt;Department of Surgery&lt;/span&gt; agrees to pay the required $100 AH IRB review fee for this study unless otherwise arranged by Sponsored Programs Administration (e.g. federal funding, sponsored studies, etc.)&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="attestation_iacuc_ibc" Name="attestation_iacuc_ibc" DataType="text" Length="999" redcap:Variable="attestation_iacuc_ibc" redcap:FieldType="descriptive" redcap:BranchingLogic="([status] = &#039;5&#039;) OR ([status]=&#039;6&#039;)">
+		<Question><TranslatedText>Certification of Department Chair or Designee: This project [title] has been reviewed for scientific/institutional merit, and has been found to add value to the Atrium Health System.</TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Certification of Department Chair or Designee:&lt;/span&gt;&lt;/p&gt; &lt;p&gt;This project &lt;span style=&quot;color: teal;&quot;&gt;[title]&lt;/span&gt; has been reviewed for scientific/institutional merit, and has been found to add value to the Atrium Health System.&lt;/p&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="attestation_2" Name="attestation_2" DataType="text" Length="999" redcap:Variable="attestation_2" redcap:FieldType="descriptive" redcap:BranchingLogic="[status] = &#039;1&#039;">
+		<Question><TranslatedText>By signing this form: 
+I certify that this study [title] went through an internal scientific review.
+
+[status]</TranslatedText><redcap:FormattedTranslatedText>By signing this form: 
+I certify that this study &lt;font color=&quot;teal&quot;&gt;[title]&lt;/font&gt; went through an internal scientific review.
+
+&lt;font color=&quot;teal&quot;&gt;[status]&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="thbu" Name="thbu" DataType="text" Length="999" redcap:Variable="thbu" redcap:FieldType="descriptive" redcap:BranchingLogic="[status] = &#039;2&#039; or [status] = &#039;3&#039; or [status] = &#039;4&#039;">
+		<Question><TranslatedText></TranslatedText><redcap:FormattedTranslatedText>&lt;center&gt;&lt;font size=&quot;8&quot; color=&quot;darkgreen&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-thumbs-up&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/center&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="thbd" Name="thbd" DataType="text" Length="999" redcap:Variable="thbd" redcap:FieldType="descriptive" redcap:BranchingLogic="[status] = &#039;1&#039;">
+		<Question><TranslatedText></TranslatedText><redcap:FormattedTranslatedText>&lt;center&gt;&lt;font size=&quot;8&quot; color=&quot;darkred&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-thumbs-down&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/center&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_coord" Name="irb_coord" DataType="text" Length="1" redcap:Variable="irb_coord" redcap:FieldType="select" redcap:FieldNote="Coordinator is based on the review type. Jomani- IRB Renewals; Jeff- IRB Full Board; Kendra- IRB Exempt/Expedited; Lisa- IACUC and IBC" redcap:BranchingLogic="[status] = &#039;2&#039; or [status] = &#039;3&#039; or [status] = &#039;4&#039; or [status] = &#039;5&#039; or [status] = &#039;6&#039;" redcap:FieldAnnotation="@HIDECHOICE=&quot;3&quot;">
+		<Question><TranslatedText>Appropriate IRB, IACUC, or IBC Coordinator </TranslatedText></Question>
+		<CodeListRef CodeListOID="irb_coord.choices"/>
+	</ItemDef>
+	<ItemDef OID="sig" Name="sig" DataType="text" Length="999" redcap:Variable="sig" redcap:FieldType="file" redcap:TextValidationType="signature" redcap:FieldNote="Dr. Susan Evans, Vice Chair- Research, Department of Surgery" redcap:BranchingLogic="[status] &lt;&gt;&quot;&quot;">
+		<Question><TranslatedText>Evaluation Signature</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dept_timestamp" Name="dept_timestamp" DataType="partialDatetime" Length="999" redcap:Variable="dept_timestamp" redcap:FieldType="text" redcap:TextValidationType="datetime_mdy" redcap:BranchingLogic="[status] &lt;&gt;&quot;&quot;">
+		<Question><TranslatedText>To time stamp your signature, press NOW    
+
+</TranslatedText><redcap:FormattedTranslatedText>To time stamp your signature, press &lt;font color=&quot;steelblue&quot;&gt;&lt;font size=&quot;3.5&quot;&gt;NOW&lt;/font&gt;    &lt;font size=45&gt;&lt;font color=&quot;darkred&quot;&gt;&lt;font size=&quot;4&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;
+
+</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prop_raw" Name="prop_raw" DataType="float" Length="999" redcap:Variable="prop_raw" redcap:FieldType="calc" redcap:SectionHeader="&lt;font size=&quot;6&quot;&gt;&lt;font color=&quot;Teal&quot;&gt;&lt;center&gt;Proposal Values&lt;/center&gt;&lt;/font&gt;" redcap:Calculation="sum([clarity], [defined], [methods], [outcomes], [stats], [urgent], [impact], [novel], [innov_calcd], [technical], [dept_goals], [chs_goals], [future],[long_goals_def], [conf])" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Raw Research Proposal Value Score:</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;2&quot;&gt;&lt;font color=&quot;teal&quot;&gt;Raw Research Proposal Value Score:&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prop_total" Name="prop_total" DataType="float" Length="999" redcap:Variable="prop_total" redcap:FieldType="calc" redcap:Calculation="round([prop_raw]/55*100, 1)" redcap:BranchingLogic="[score_req] = &quot;1&quot;">
+		<Question><TranslatedText>Calculated Research Proposal Value Score:</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;4&quot;&gt;&lt;font color=&quot;teal&quot;&gt;Calculated Research Proposal Value Score:&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_note" Name="irb_note" DataType="text" Length="999" redcap:Variable="irb_note" redcap:FieldType="descriptive" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>-FOR IRB USE ONLY-</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;6&quot;&gt;&lt;font color=&quot;darkred&quot;&gt;&lt;center&gt;-FOR IRB USE ONLY-&lt;/center&gt;&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_rev" Name="irb_rev" DataType="boolean" Length="1" redcap:Variable="irb_rev" redcap:FieldType="yesno" redcap:CustomAlignment="RH" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Approved by CHS IRB?</TranslatedText></Question>
+		<CodeListRef CodeListOID="irb_rev.choices"/>
+	</ItemDef>
+	<ItemDef OID="irb_decision" Name="irb_decision" DataType="text" Length="1" redcap:Variable="irb_decision" redcap:FieldType="select" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Decision</TranslatedText></Question>
+		<CodeListRef CodeListOID="irb_decision.choices"/>
+	</ItemDef>
+	<ItemDef OID="department_review_and_evaluation_complete" Name="department_review_and_evaluation_complete" DataType="text" Length="1" redcap:Variable="department_review_and_evaluation_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="department_review_and_evaluation_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="message" Name="message" DataType="text" Length="999" redcap:Variable="message" redcap:FieldType="descriptive" redcap:BranchingLogic="[status] = &#039;1&#039; or [status] = &#039;2&#039; or [status] = &#039;3&#039;">
+		<Question><TranslatedText>Your project:
+[title]
+
+This is a notification to inform you that your research project noted above has been evaluated by the Department of Surgery. 
+
+If the status of your proposal is approved for submission, you will need to forward this email along with all normally required IRB, IACUC, or IBC documents to [irb_coord] for review. Documentation of departmental review will be sent to the appropriate Review Board/Committee.
+
+Thank you!</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;5&quot;&gt;Your project:&lt;/font&gt;
+&lt;font size=&quot;5&quot; color=&quot;teal&quot;&gt;[title]&lt;/font&gt;
+
+&lt;font size=&quot;5&quot;&gt;This is a notification to inform you that your research project noted above has been evaluated by the Department of Surgery. 
+
+If the status of your proposal is approved for submission, you will need to forward this email along with all normally required IRB, IACUC, or IBC documents to &lt;font size=&quot;5&quot; color=&quot;teal&quot;&gt;[irb_coord]&lt;/font&gt; for review. Documentation of departmental review will be sent to the appropriate Review Board/Committee.
+
+Thank you!&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="message_resfund" Name="message_resfund" DataType="text" Length="999" redcap:Variable="message_resfund" redcap:FieldType="descriptive" redcap:BranchingLogic="[status] = &#039;4&#039;">
+		<Question><TranslatedText>Your project:
+[title]
+
+This is a notification to inform you that your research project noted above has been evaluated by the Department of Surgery and is ready for you to submit to the IRB.  You will need to forward this email along with all normally required IRB documents to [irb_coord] for IRB review. Documentation of departmental review will be sent to the IRB.
+
+Because the Primary Author of this protocol is a Resident or Fellow, the IRB expenses will be covered by CHS Research. To pay the invoice from Chesapeake, enter a disbursement request to expense the IRB Department Account (12-260008-620970) and route to Jon Schwaiger. Include a descriptive note about the role of the resident/fellow.
+
+Thank you!</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;5&quot;&gt;Your project:&lt;/font&gt;
+&lt;font size=&quot;5&quot; color=&quot;teal&quot;&gt;[title]&lt;/font&gt;
+
+&lt;font size=&quot;5&quot;&gt;This is a notification to inform you that your research project noted above has been evaluated by the Department of Surgery and is ready for you to submit to the IRB.  You will need to forward this email along with all normally required IRB documents to &lt;font size=&quot;5&quot; color=&quot;teal&quot;&gt;[irb_coord]&lt;/font&gt; for IRB review. Documentation of departmental review will be sent to the IRB.
+
+&lt;font size=&quot;5&quot;&gt;Because the Primary Author of this protocol is a Resident or Fellow, &lt;font size=&quot;5&quot; color=&quot;teal&quot;&gt;the IRB expenses will be covered by CHS Research. To pay the invoice from Chesapeake,&lt;/font&gt; enter a disbursement request to expense the IRB Department Account (12-260008-620970) and route to Jon Schwaiger. Include a descriptive note about the role of the resident/fellow.
+
+Thank you!&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rc_sig" Name="rc_sig" DataType="text" Length="999" redcap:Variable="rc_sig" redcap:FieldType="file" redcap:TextValidationType="signature" redcap:FieldNote="I have read this message. If the status is Approved for Submission, I agree to forward or have already forwarded this notification email along with all normally required documents to the appropriate IRB, IACUC, or IBC coordinator." redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Sign:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rc_sig_ts" Name="rc_sig_ts" DataType="datetime" Length="999" redcap:Variable="rc_sig_ts" redcap:FieldType="text" redcap:TextValidationType="datetime_seconds_mdy" redcap:FieldNote="(Press NOW)" redcap:FieldAnnotation="@HIDDEN">
+		<Question><TranslatedText>Signature Timestamp</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="notification_message_complete" Name="notification_message_complete" DataType="text" Length="1" redcap:Variable="notification_message_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="notification_message_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="message_v2" Name="message_v2" DataType="text" Length="999" redcap:Variable="message_v2" redcap:FieldType="descriptive">
+		<Question><TranslatedText>[title]
+
+This notification is to inform you that your research evaluation and IRB approval processes are complete for the project noted above. Please feel free to contact the IRB or Dr. Susan Evans if you have any further questions.
+Thank you!</TranslatedText><redcap:FormattedTranslatedText>&lt;font size=&quot;5&quot; color=&quot;teal&quot;&gt;[title]&lt;/font&gt;
+&lt;/br&gt;
+&lt;font size=&quot;5&quot;&gt;This notification is to inform you that your research evaluation and IRB approval processes are complete for the project noted above. Please feel free to contact the IRB or Dr. Susan Evans if you have any further questions.
+&lt;/br&gt;Thank you!&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="notification_message_2_complete" Name="notification_message_2_complete" DataType="text" Length="1" redcap:Variable="notification_message_2_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="notification_message_2_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="revboard.choices" Name="revboard" DataType="text" redcap:Variable="revboard">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Institutional Review Board (IRB)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Institutional Animal Care and Use Committee (IACUC)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Institutional Biosafety Committee (IBC)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="rev_type.choices" Name="rev_type" DataType="text" redcap:Variable="rev_type">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Renewal</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>New Full-Board</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>New Expedited or Exempt</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="rev_type_iacuc_ibc.choices" Name="rev_type_iacuc_ibc" DataType="text" redcap:Variable="rev_type_iacuc_ibc">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Renewal</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>New Protocol</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="divsion.choices" Name="divsion" DataType="text" redcap:Variable="divsion">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>ACS - Acute Care Surgery</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Bariatrics</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>GI/MIS</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>HPB</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Pediatric Surgery</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Plastics</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Surgical Oncology</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Transplant</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="888"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="type.choices" Name="type" DataType="text" redcap:Variable="type">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Basic / Bench / Translational Science</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Case report / Series</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Meta-analysis</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Prospective case/control</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Prospective cohort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Randomized control trial</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Retrospective case/control</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Retrospective cohort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Systematic literature review</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="conf.choices" Name="conf" DataType="boolean" redcap:Variable="conf">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pi_res_or_fellow.choices" Name="pi_res_or_fellow" DataType="boolean" redcap:Variable="pi_res_or_fellow">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fund_source___1.choices" Name="fund_source___1" DataType="boolean" redcap:Variable="fund_source" redcap:CheckboxChoices="1, Industry-sponsored | 2, Surgical / Medical Society | 3, Federal or other non-industry sponsored grant | 4, Carolinas Healthcare Foundation grant | 5, Carolinas Healthcare Research | 888, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fund_source___2.choices" Name="fund_source___2" DataType="boolean" redcap:Variable="fund_source" redcap:CheckboxChoices="1, Industry-sponsored | 2, Surgical / Medical Society | 3, Federal or other non-industry sponsored grant | 4, Carolinas Healthcare Foundation grant | 5, Carolinas Healthcare Research | 888, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fund_source___3.choices" Name="fund_source___3" DataType="boolean" redcap:Variable="fund_source" redcap:CheckboxChoices="1, Industry-sponsored | 2, Surgical / Medical Society | 3, Federal or other non-industry sponsored grant | 4, Carolinas Healthcare Foundation grant | 5, Carolinas Healthcare Research | 888, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fund_source___4.choices" Name="fund_source___4" DataType="boolean" redcap:Variable="fund_source" redcap:CheckboxChoices="1, Industry-sponsored | 2, Surgical / Medical Society | 3, Federal or other non-industry sponsored grant | 4, Carolinas Healthcare Foundation grant | 5, Carolinas Healthcare Research | 888, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fund_source___5.choices" Name="fund_source___5" DataType="boolean" redcap:Variable="fund_source" redcap:CheckboxChoices="1, Industry-sponsored | 2, Surgical / Medical Society | 3, Federal or other non-industry sponsored grant | 4, Carolinas Healthcare Foundation grant | 5, Carolinas Healthcare Research | 888, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fund_source___888.choices" Name="fund_source___888" DataType="boolean" redcap:Variable="fund_source" redcap:CheckboxChoices="1, Industry-sponsored | 2, Surgical / Medical Society | 3, Federal or other non-industry sponsored grant | 4, Carolinas Healthcare Foundation grant | 5, Carolinas Healthcare Research | 888, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="department_of_surgery_research_protocol_evaluation_complete.choices" Name="department_of_surgery_research_protocol_evaluation_complete" DataType="text" redcap:Variable="department_of_surgery_research_protocol_evaluation_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="defer.choices" Name="defer" DataType="text" redcap:Variable="defer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Move study to the Deferral List</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Remove study from the Deferral List</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="score_req.choices" Name="score_req" DataType="text" redcap:Variable="score_req">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Industry-Initiated Multicenter Trial</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="rev.choices" Name="rev" DataType="text" redcap:Variable="rev">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Dr. Evans</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Dr. McKillop</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="clarity.choices" Name="clarity" DataType="text" redcap:Variable="clarity">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not clear</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Implied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Clear</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="defined.choices" Name="defined" DataType="text" redcap:Variable="defined">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not defined</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Implied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Clearly stated</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="methods.choices" Name="methods" DataType="text" redcap:Variable="methods">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not appropriate</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Appropriate</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Optimal</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="outcomes.choices" Name="outcomes" DataType="text" redcap:Variable="outcomes">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not stated</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Stated</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="stats.choices" Name="stats" DataType="text" redcap:Variable="stats">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not appropriate</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Appropriate</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Optimal</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="urgent.choices" Name="urgent" DataType="text" redcap:Variable="urgent">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No change to patient care</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Anticipated practice change in &gt;1 year</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Need for practice change within the next &lt; 1 year</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="impact.choices" Name="impact" DataType="text" redcap:Variable="impact">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No change to patient care</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Informational to provider</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Change in patient perception and/or comfort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Potential for change in patient outcomes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="novel.choices" Name="novel" DataType="text" redcap:Variable="novel">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Has been previously studied</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Novel study with local or regional impact</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Novel study with national or international impact</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="innovation.choices" Name="innovation" DataType="text" redcap:Variable="innovation">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No new practice or product</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Potential for new product development</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Potential for change in practice</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Potential for change in cost</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="technical.choices" Name="technical" DataType="text" redcap:Variable="technical">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dept_goals.choices" Name="dept_goals" DataType="text" redcap:Variable="dept_goals">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all aligned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Vaguely or tangentially aligned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Clearly aligned</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="chs_goals.choices" Name="chs_goals" DataType="text" redcap:Variable="chs_goals">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all aligned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Vaguely or tangentially aligned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Clearly aligned</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="future.choices" Name="future" DataType="text" redcap:Variable="future">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="long_goals_def.choices" Name="long_goals_def" DataType="text" redcap:Variable="long_goals_def">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not clearly described or not evident</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Vaguely or tangentially described</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Clearly described</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mck_det.choices" Name="mck_det" DataType="text" redcap:Variable="mck_det">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Move study forward to Department Chair designee</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Do not move study forward</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="status.choices" Name="status" DataType="text" redcap:Variable="status">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Return to PI for revision</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Approved for IRB Submission: PI/Division responsible for IRB fee</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Approved for IRB Submission: Department of Surgery will contribute to study support (contribution letter to follow)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Approved for submission: CHS Research to provide IRB funding</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Approved for IACUC Submission</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Approved for IBC Submission</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="irb_coord.choices" Name="irb_coord" DataType="text" redcap:Variable="irb_coord">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Jomani Cheeseman - jomani.cheeseman@atriumhealth.org</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Jeff Parks - jeffrey.parks@atriumhealth.org</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Jared Taylor - jared.taylor@atriumhealth.org</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Kendra Drummond- kendra.drummond@atriumhealth.org</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Lisa Colvin- lisa.colvin@atriumhealth.org</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="irb_rev.choices" Name="irb_rev" DataType="boolean" redcap:Variable="irb_rev">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="irb_decision.choices" Name="irb_decision" DataType="text" redcap:Variable="irb_decision">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Received, Exempt</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Received, Expedited</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Received, Referred to Chesapeake IRB</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="department_review_and_evaluation_complete.choices" Name="department_review_and_evaluation_complete" DataType="text" redcap:Variable="department_review_and_evaluation_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="notification_message_complete.choices" Name="notification_message_complete" DataType="text" redcap:Variable="notification_message_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="notification_message_2_complete.choices" Name="notification_message_2_complete" DataType="text" redcap:Variable="notification_message_2_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
