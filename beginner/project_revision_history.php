@@ -9,8 +9,8 @@
 	<body>
 		<!--Navigation bars-->
 		<div>
-			<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
-			<?php echo file_get_contents("../topic_navigation_bar.html"); ?>
+			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
 		</div>
 		<!--Button back to top-->
 		<?php echo file_get_contents("../top_button.html"); ?>
