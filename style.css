@@ -613,7 +613,7 @@ body {
 
 /* Content title w/ embedded pdf */
 .title_pdf {
-  font-size:50px;
+  font-size:0px;
   text-align:center;
   padding-left:200px;
 }
