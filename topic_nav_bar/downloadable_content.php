@@ -27,8 +27,7 @@
 				<hr>
 				<h2 style="color:#b22227;font-weight:normal;">Instrument Library</h2>
 				<hr>
-				<a id="#templates">
-					<h2 style="color:#b22227;font-weight:normal;">Project Templates</h2>
+				<h2 style="color:#b22227;font-weight:normal;">Project Templates</h2>
 				<hr>
 			</div>
 			<!--Javascript-->
