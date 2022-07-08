@@ -24,7 +24,7 @@
 		<div class="topic_pdf">
 			<div class="embedded_pdf">
 				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/beginner/redcap_messenger.pdf"></iframe>
+				<iframe class="pdf_location" src="../resources/beginner/Messenger_Guide_REDCap.pdf.pdf"></iframe>
 			</div>
 		</div>
 		<!--JavaScript-->
