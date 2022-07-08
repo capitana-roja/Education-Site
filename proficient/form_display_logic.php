@@ -19,11 +19,13 @@
 		<br>
 		<br>
 		<!--Title-->
-		<h1 class="title_no_pdf">Form Display Logic</h1>
+		<h1 class="title_pdf">Alerts & Notifications</h1>
 		<!--Content-->
-		<div class="body_text">
-
-		</div>
+		<div class="topic_pdf">
+			<div class="embedded_pdf">
+				<!--PDF content-->
+				<iframe class="pdf_location" src="../resources/proficient/form_display_logic.pdf" width="1000px" height="1200px"></iframe>
+			</div>
 		<script src="../script.js"></script>
 	</body>
 	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
