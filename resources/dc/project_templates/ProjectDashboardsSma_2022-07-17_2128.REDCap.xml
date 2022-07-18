@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Project Dashboards, Smart Functions, Smart Tables, &amp; Smart Charts" AsOfDateTime="2022-07-17T21:28:28" CreationDateTime="2022-07-17T21:28:28" SourceSystem="REDCap" SourceSystemVersion="12.0.19">
+<Study OID="Project.ProjectDashboardsSmartFunction">
+<GlobalVariables>
+	<StudyName>Project Dashboards, Smart Functions, Smart Tables, &amp; Smart Charts</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Project Dashboards, Smart Functions, Smart Tables, &amp; Smart Charts".</StudyDescription>
+	<ProtocolName>Project Dashboards, Smart Functions, Smart Tables, &amp; Smart Charts</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:Purpose></redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:DataAccessGroupsGroup>
+		<redcap:DataAccessGroups group_name="Duke"/>
+		<redcap:DataAccessGroups group_name="Harvard"/>
+		<redcap:DataAccessGroups group_name="Vanderbilt"/>
+	</redcap:DataAccessGroupsGroup>
+	<redcap:ReportsGroup>
+		<redcap:Reports title="All Participants" unique_report_name="R-374KA7FTDR" report_order="1" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="study_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="" filter_type="RECORD" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="" redcap_reports_fields="" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="a70a8fb9c9355106212dd58478425e6112334592"/>
+		<redcap:Reports title="Participants (age &gt; 80)" unique_report_name="R-977283540D" report_order="2" user_access="ALL" user_edit_access="ALL" description="" combine_checkbox_values="0" output_dags="0" output_survey_fields="0" output_missing_data_codes="0" remove_line_breaks_in_values="1" orderby_field1="study_id" orderby_sort1="ASC" orderby_field2="" orderby_sort2="" orderby_field3="" orderby_sort3="" advanced_logic="([age] &gt; 80)" filter_type="EVENT" dynamic_filter1="" dynamic_filter2="" dynamic_filter3="" hash="" short_url="" is_public="0" report_display_include_repeating_fields="1" report_display_header="BOTH" report_display_data="BOTH" limiter_logic="([age] &gt; 80)" redcap_reports_fields="" redcap_reports_filter_dags="" redcap_reports_filter_events="" ID="8c891b6069a0593f671d9c779513ae995bb0a8b0"/>
+	</redcap:ReportsGroup>
+	<redcap:ProjectDashboardsGroup>
+		<redcap:ProjectDashboards title="Project Dashboard Example 1" body="&lt;p&gt;&lt;strong&gt;SMART FUNCTIONS&lt;/strong&gt; are aggregate mathematical functions that are applied across ALL records in a project.&lt;/p&gt;
+&lt;p&gt;Smart Functions include &lt;strong&gt;min&lt;/strong&gt;, &lt;strong&gt;max&lt;/strong&gt;, &lt;strong&gt;mean&lt;/strong&gt;, &lt;strong&gt;median&lt;/strong&gt;, &lt;strong&gt;sum&lt;/strong&gt;, &lt;strong&gt;stdev&lt;/strong&gt;, &lt;strong&gt;count&lt;/strong&gt;, and &lt;strong&gt;unique&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This project contains &lt;strong&gt;[aggregate-count:study_id] records&lt;/strong&gt;. The average age of all participants is &lt;strong&gt;[aggregate-mean:age]&lt;/strong&gt; (stdev=[aggregate-stdev:age]). The median weight is &lt;strong&gt;[aggregate-median:weight]&lt;/strong&gt; (min: [aggregate-min:weight], max: [aggregate-max:weight]).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;SMART TABLES&lt;/strong&gt; display descriptive statistics for fields with each field as a row in the table.&lt;/p&gt;
+&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 43.0038%; vertical-align: top;&quot;&gt;
+&lt;p&gt;Smart Tables can be displayed with ALL columns by default:&lt;/p&gt;
+&lt;p&gt;[stats-table:height,weight,race,gender]&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;width: 31.3222%; vertical-align: top;&quot;&gt;
+&lt;p&gt;Or with only specified columns:&lt;/p&gt;
+&lt;p&gt;[stats-table:age,weight,height:mean,stdev]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;SMART CHARTS&lt;/strong&gt; can be used to display many types of charts for one or more fields in the project.&lt;/p&gt;
+&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 68px;&quot; border=&quot;0&quot; cellspacing=&quot;10&quot; cellpadding=&quot;10&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 47.4989%; vertical-align: top;&quot;&gt;
+&lt;p&gt;Display a &lt;strong&gt;scatter plot&lt;/strong&gt; of two fields (x vs y):&lt;/p&gt;
+&lt;p&gt;[scatter-plot:height,weight]&lt;/p&gt;
+&lt;p&gt;Add a third field for grouping (by color):&lt;/p&gt;
+&lt;p&gt;[scatter-plot:height,weight,gender]&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;width: 47.4989%; height: 16px; vertical-align: top;&quot;&gt;
+&lt;p&gt;Use &lt;strong&gt;line charts&lt;/strong&gt; with two fields (x vs y):&lt;/p&gt;
+&lt;p&gt;[line-chart:height,weight]&lt;/p&gt;
+&lt;p&gt;Add a third field for grouping (by color):&lt;/p&gt;
+&lt;p&gt;[line-chart:height,weight,gender]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 52px;&quot;&gt;
+&lt;td style=&quot;width: 47.4989%; height: 52px; vertical-align: top;&quot;&gt;
+&lt;p&gt;Display a &lt;strong&gt;bar chart&lt;/strong&gt; with a single multiple choice field:&lt;/p&gt;
+&lt;p&gt;[bar-chart:race]&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;width: 47.4989%; height: 52px; vertical-align: top;&quot;&gt;
+&lt;p&gt;Display bar charts vertically, and add a second field for grouping:&lt;/p&gt;
+&lt;p&gt;[bar-chart:race,gender:bar-vertical]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 47.4989%; vertical-align: top;&quot;&gt;
+&lt;p&gt;Display a &lt;strong&gt;pie chart&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[pie-chart:race]&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;width: 47.4989%; vertical-align: top;&quot;&gt;
+&lt;p&gt;Or a &lt;strong&gt;donut chart&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[donut-chart:race]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;" dash_order="" user_access="ALL" is_public="0" ID="356a192b7913b04c54574d18c28d46e6395428ab"/>
+		<redcap:ProjectDashboards title="Project Dashboard Example 2" body="&lt;p&gt;&lt;strong&gt;Use data filtering via Reports or DAGs to limit the data used by Smart Functions, Smart Tables, or Smart Charts:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are [aggregate-count:study_id] records in the project.&lt;/p&gt;
+&lt;p&gt;There are [aggregate-count:age:vanderbilt] records assigned to the Vanderbilt data access group.&lt;/p&gt;
+&lt;p&gt;There are [aggregate-count:study_id:R-977283540D] records where age &gt; 80.&lt;/p&gt;" dash_order="" user_access="ALL" is_public="0" ID="da4b9237bacccdf19c0760cab7aec4a8359010b0"/>
+	</redcap:ProjectDashboardsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.ProjectDashboardsSmartFunction_2022-07-17_2128" Name="Project Dashboards, Smart Functions, Smart Tables, &amp; Smart Charts" redcap:RecordIdField="study_id">
+	<FormDef OID="Form.demographics" Name="Demographics" Repeating="No" redcap:FormName="demographics">
+		<ItemGroupRef ItemGroupOID="demographics.study_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="demographics.demographics_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="demographics.study_id" Name="Demographics" Repeating="No">
+		<ItemRef ItemOID="study_id" Mandatory="No" redcap:Variable="study_id"/>
+		<ItemRef ItemOID="age" Mandatory="No" redcap:Variable="age"/>
+		<ItemRef ItemOID="ethnicity" Mandatory="No" redcap:Variable="ethnicity"/>
+		<ItemRef ItemOID="race" Mandatory="No" redcap:Variable="race"/>
+		<ItemRef ItemOID="gender" Mandatory="No" redcap:Variable="gender"/>
+		<ItemRef ItemOID="height" Mandatory="No" redcap:Variable="height"/>
+		<ItemRef ItemOID="weight" Mandatory="No" redcap:Variable="weight"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="demographics.demographics_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="demographics_complete" Mandatory="No" redcap:Variable="demographics_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="study_id" Name="study_id" DataType="text" Length="999" redcap:Variable="study_id" redcap:FieldType="text">
+		<Question><TranslatedText>Study ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age" Name="age" DataType="integer" Length="999" redcap:Variable="age" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Age (years)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ethnicity" Name="ethnicity" DataType="text" Length="1" redcap:Variable="ethnicity" redcap:FieldType="radio" redcap:CustomAlignment="LH">
+		<Question><TranslatedText>Ethnicity</TranslatedText></Question>
+		<CodeListRef CodeListOID="ethnicity.choices"/>
+	</ItemDef>
+	<ItemDef OID="race" Name="race" DataType="text" Length="2" redcap:Variable="race" redcap:FieldType="select">
+		<Question><TranslatedText>Race</TranslatedText></Question>
+		<CodeListRef CodeListOID="race.choices"/>
+	</ItemDef>
+	<ItemDef OID="gender" Name="gender" DataType="text" Length="1" redcap:Variable="gender" redcap:FieldType="radio">
+		<Question><TranslatedText>Gender</TranslatedText></Question>
+		<CodeListRef CodeListOID="gender.choices"/>
+	</ItemDef>
+	<ItemDef OID="height" Name="height" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="height" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Height (cm)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>130</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range. (130 - 215). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>215</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range. (130 - 215). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="weight" Name="weight" DataType="integer" Length="999" redcap:Variable="weight" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Weight (kilograms)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>35</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range. (35 - 200). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>200</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range. (35 - 200). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="demographics_complete" Name="demographics_complete" DataType="text" Length="1" redcap:Variable="demographics_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="demographics_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="ethnicity.choices" Name="ethnicity" DataType="text" redcap:Variable="ethnicity">
+		<CodeListItem CodedValue="H"><Decode><TranslatedText>Hispanic or Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>NOT Hispanic or Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="U"><Decode><TranslatedText>Unknown / Not Reported</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="race.choices" Name="race" DataType="text" redcap:Variable="race">
+		<CodeListItem CodedValue="AI"><Decode><TranslatedText>American Indian/Alaska Native</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="A"><Decode><TranslatedText>Asian</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="P"><Decode><TranslatedText>Native Hawaiian or Other Pacific Islander</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="B"><Decode><TranslatedText>Black or African American</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="W"><Decode><TranslatedText>White</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="M"><Decode><TranslatedText>More Than One Race</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="U"><Decode><TranslatedText>Unknown / Not Reported</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="gender.choices" Name="gender" DataType="text" redcap:Variable="gender">
+		<CodeListItem CodedValue="F"><Decode><TranslatedText>Female</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="M"><Decode><TranslatedText>Male</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="O"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>Prefer not to say</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="demographics_complete.choices" Name="demographics_complete" DataType="text" redcap:Variable="demographics_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
