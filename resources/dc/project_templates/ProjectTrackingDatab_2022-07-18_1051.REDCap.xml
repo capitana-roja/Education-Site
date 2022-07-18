@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Project Tracking Database" AsOfDateTime="2022-07-18T10:51:57" CreationDateTime="2022-07-18T10:51:57" SourceSystem="REDCap" SourceSystemVersion="12.0.19">
+<Study OID="Project.ProjectTrackingDatabase">
+<GlobalVariables>
+	<StudyName>Project Tracking Database</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Project Tracking Database".</StudyDescription>
+	<ProtocolName>Project Tracking Database</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>0</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:Purpose></redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.ProjectTrackingDatabase_2022-07-18_1051" Name="Project Tracking Database" redcap:RecordIdField="proj_id">
+	<FormDef OID="Form.project" Name="Project" Repeating="No" redcap:FormName="project">
+		<ItemGroupRef ItemGroupOID="project.proj_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.title" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.pi_firstname" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.amendment_status" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.amendment_number" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.crc_type" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.crc_webcamp_import" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.file_proposal" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.file_budget" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="project.project_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.workflow" Name="Workflow" Repeating="No" redcap:FormName="workflow">
+		<ItemGroupRef ItemGroupOID="workflow.date_receipt" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.date_start_preprereview" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.date_start_prereview" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.date_stop_prereview" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.date_pi_notification" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.date_pi_response" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.date_agenda" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.rev1_name" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="workflow.workflow_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_administrative" Name="Pre-Review Administrative" Repeating="No" redcap:FormName="prereview_administrative">
+		<ItemGroupRef ItemGroupOID="prereview_administrative.needs_administrative" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_administrative.prereview_administrative" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_administrative.prereview_administrative_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_administrative.prereview_administrative_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_biostatistics" Name="Pre-Review Biostatistics" Repeating="No" redcap:FormName="prereview_biostatistics">
+		<ItemGroupRef ItemGroupOID="prereview_biostatistics.needs_biostatistics" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_biostatistics.prereview_biostatistics" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_biostatistics.prereview_biostatistics_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_biostatistics.prereview_biostatistics_hours_awarded" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_biostatistics.prereview_biostatistics_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_scientific" Name="Pre-Review Scientific" Repeating="No" redcap:FormName="prereview_scientific">
+		<ItemGroupRef ItemGroupOID="prereview_scientific.needs_scientific" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_scientific.prereview_scientific" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_scientific.prereview_scientific_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_scientific.prereview_scientific_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_participant" Name="Pre-Review Participant" Repeating="No" redcap:FormName="prereview_participant">
+		<ItemGroupRef ItemGroupOID="prereview_participant.needs_participant" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_participant.prereview_participant" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_participant.prereview_participant_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_participant.prereview_participant_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_budget" Name="Pre-Review Budget" Repeating="No" redcap:FormName="prereview_budget">
+		<ItemGroupRef ItemGroupOID="prereview_budget.needs_budget" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_budget.prereview_budget" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_budget.prereview_budget_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_budget.prereview_budget_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_nursing" Name="Pre-Review Nursing" Repeating="No" redcap:FormName="prereview_nursing">
+		<ItemGroupRef ItemGroupOID="prereview_nursing.needs_nursing" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_nursing.prereview_nursing" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_nursing.prereview_nursing_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_nursing.prereview_nursing_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_cores" Name="Pre-Review Cores" Repeating="No" redcap:FormName="prereview_cores">
+		<ItemGroupRef ItemGroupOID="prereview_cores.needs_cores" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_cores.prereview_cores" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_cores.prereview_cores_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_cores.prereview_cores_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_sleep" Name="Pre-Review Sleep" Repeating="No" redcap:FormName="prereview_sleep">
+		<ItemGroupRef ItemGroupOID="prereview_sleep.needs_sleep" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_sleep.prereview_sleep" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_sleep.prereview_sleep_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_sleep.prereview_sleep_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_nutrition" Name="Pre-Review Nutrition" Repeating="No" redcap:FormName="prereview_nutrition">
+		<ItemGroupRef ItemGroupOID="prereview_nutrition.needs_nutrition" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_nutrition.prereview_nutrition" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_nutrition.prereview_nutrition_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_nutrition.prereview_nutrition_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_community" Name="Pre-Review Community" Repeating="No" redcap:FormName="prereview_community">
+		<ItemGroupRef ItemGroupOID="prereview_community.needs_community" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_community.prereview_community" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_community.prereview_community_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_community.prereview_community_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_ctc" Name="Pre-Review CTC" Repeating="No" redcap:FormName="prereview_ctc">
+		<ItemGroupRef ItemGroupOID="prereview_ctc.needs_other" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_ctc.prereview_other" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_ctc.prereview_other_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_ctc.prereview_ctc_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.prereview_pi_response" Name="Pre-Review PI Response" Repeating="No" redcap:FormName="prereview_pi_response">
+		<ItemGroupRef ItemGroupOID="prereview_pi_response.needs_pi_response" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_pi_response.prereview_pi_response" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_pi_response.prereview_pi_response_doc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="prereview_pi_response.prereview_pi_response_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.post_award_administration" Name="Post-Award Administration" Repeating="No" redcap:FormName="post_award_administration">
+		<ItemGroupRef ItemGroupOID="post_award_administration.src_percent_funded" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="post_award_administration.src_total_award_amount" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="post_award_administration.post_award_administration_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="project.proj_id" Name="Project" Repeating="No">
+		<ItemRef ItemOID="proj_id" Mandatory="No" redcap:Variable="proj_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.title" Name="Demographic Characteristics" Repeating="No">
+		<ItemRef ItemOID="title" Mandatory="No" redcap:Variable="title"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.pi_firstname" Name="Project" Repeating="No">
+		<ItemRef ItemOID="pi_firstname" Mandatory="No" redcap:Variable="pi_firstname"/>
+		<ItemRef ItemOID="pi_lastname" Mandatory="No" redcap:Variable="pi_lastname"/>
+		<ItemRef ItemOID="pi_vunetid" Mandatory="No" redcap:Variable="pi_vunetid"/>
+		<ItemRef ItemOID="project_type" Mandatory="No" redcap:Variable="project_type"/>
+		<ItemRef ItemOID="irb_number" Mandatory="No" redcap:Variable="irb_number"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.amendment_status" Name="Amendment Information" Repeating="No">
+		<ItemRef ItemOID="amendment_status" Mandatory="No" redcap:Variable="amendment_status"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.amendment_number" Name="Project" Repeating="No">
+		<ItemRef ItemOID="amendment_number" Mandatory="No" redcap:Variable="amendment_number"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.crc_type" Name="CRC Legacy System Data" Repeating="No">
+		<ItemRef ItemOID="crc_type" Mandatory="No" redcap:Variable="crc_type"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.crc_webcamp_import" Name="Project" Repeating="No">
+		<ItemRef ItemOID="crc_webcamp_import" Mandatory="No" redcap:Variable="crc_webcamp_import"/>
+		<ItemRef ItemOID="crc_original_review" Mandatory="No" redcap:Variable="crc_original_review"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.file_proposal" Name="Project Files" Repeating="No">
+		<ItemRef ItemOID="file_proposal" Mandatory="No" redcap:Variable="file_proposal"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.file_budget" Name="Project" Repeating="No">
+		<ItemRef ItemOID="file_budget" Mandatory="No" redcap:Variable="file_budget"/>
+		<ItemRef ItemOID="file_biosketch1" Mandatory="No" redcap:Variable="file_biosketch1"/>
+		<ItemRef ItemOID="file_biosketch2" Mandatory="No" redcap:Variable="file_biosketch2"/>
+		<ItemRef ItemOID="file_biosketch3" Mandatory="No" redcap:Variable="file_biosketch3"/>
+		<ItemRef ItemOID="file_crc" Mandatory="No" redcap:Variable="file_crc"/>
+		<ItemRef ItemOID="file_other1" Mandatory="No" redcap:Variable="file_other1"/>
+		<ItemRef ItemOID="file_other2" Mandatory="No" redcap:Variable="file_other2"/>
+		<ItemRef ItemOID="file_other3" Mandatory="No" redcap:Variable="file_other3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="project.project_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="project_complete" Mandatory="No" redcap:Variable="project_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_receipt" Name="Pre-Pre-Review Information" Repeating="No">
+		<ItemRef ItemOID="date_receipt" Mandatory="No" redcap:Variable="date_receipt"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_start_preprereview" Name="Workflow" Repeating="No">
+		<ItemRef ItemOID="date_start_preprereview" Mandatory="No" redcap:Variable="date_start_preprereview"/>
+		<ItemRef ItemOID="date_stop_preprereview" Mandatory="No" redcap:Variable="date_stop_preprereview"/>
+		<ItemRef ItemOID="comments_preprereview" Mandatory="No" redcap:Variable="comments_preprereview"/>
+		<ItemRef ItemOID="owner_prepreview" Mandatory="No" redcap:Variable="owner_prepreview"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_start_prereview" Name="Pre-Review Information" Repeating="No">
+		<ItemRef ItemOID="date_start_prereview" Mandatory="No" redcap:Variable="date_start_prereview"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_stop_prereview" Name="Workflow" Repeating="No">
+		<ItemRef ItemOID="date_stop_prereview" Mandatory="No" redcap:Variable="date_stop_prereview"/>
+		<ItemRef ItemOID="comments_prereview" Mandatory="No" redcap:Variable="comments_prereview"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_pi_notification" Name="PI Notification Information" Repeating="No">
+		<ItemRef ItemOID="date_pi_notification" Mandatory="No" redcap:Variable="date_pi_notification"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_pi_response" Name="Workflow" Repeating="No">
+		<ItemRef ItemOID="date_pi_response" Mandatory="No" redcap:Variable="date_pi_response"/>
+		<ItemRef ItemOID="comments_pi_response" Mandatory="No" redcap:Variable="comments_pi_response"/>
+		<ItemRef ItemOID="file_pi_comments" Mandatory="No" redcap:Variable="file_pi_comments"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.date_agenda" Name="Agenda Information" Repeating="No">
+		<ItemRef ItemOID="date_agenda" Mandatory="No" redcap:Variable="date_agenda"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.rev1_name" Name="Workflow" Repeating="No">
+		<ItemRef ItemOID="rev1_name" Mandatory="No" redcap:Variable="rev1_name"/>
+		<ItemRef ItemOID="rev2_name" Mandatory="No" redcap:Variable="rev2_name"/>
+		<ItemRef ItemOID="rev_notification_date" Mandatory="No" redcap:Variable="rev_notification_date"/>
+		<ItemRef ItemOID="src_notification_date" Mandatory="No" redcap:Variable="src_notification_date"/>
+		<ItemRef ItemOID="status_src_award" Mandatory="No" redcap:Variable="status_src_award"/>
+		<ItemRef ItemOID="src_priority_score" Mandatory="No" redcap:Variable="src_priority_score"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="workflow.workflow_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="workflow_complete" Mandatory="No" redcap:Variable="workflow_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_administrative.needs_administrative" Name="Pre-Review Administrative" Repeating="No">
+		<ItemRef ItemOID="needs_administrative" Mandatory="No" redcap:Variable="needs_administrative"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_administrative.prereview_administrative" Name="Enter PI Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_administrative" Mandatory="No" redcap:Variable="prereview_administrative"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_administrative.prereview_administrative_doc" Name="Pre-Review Administrative" Repeating="No">
+		<ItemRef ItemOID="prereview_administrative_doc" Mandatory="No" redcap:Variable="prereview_administrative_doc"/>
+		<ItemRef ItemOID="prereview_administrative_date_sent" Mandatory="No" redcap:Variable="prereview_administrative_date_sent"/>
+		<ItemRef ItemOID="prereview_administrative_date_received" Mandatory="No" redcap:Variable="prereview_administrative_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_administrative.prereview_administrative_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_administrative_complete" Mandatory="No" redcap:Variable="prereview_administrative_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_biostatistics.needs_biostatistics" Name="Pre-Review Biostatistics" Repeating="No">
+		<ItemRef ItemOID="needs_biostatistics" Mandatory="No" redcap:Variable="needs_biostatistics"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_biostatistics.prereview_biostatistics" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_biostatistics" Mandatory="No" redcap:Variable="prereview_biostatistics"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_biostatistics.prereview_biostatistics_doc" Name="Pre-Review Biostatistics" Repeating="No">
+		<ItemRef ItemOID="prereview_biostatistics_doc" Mandatory="No" redcap:Variable="prereview_biostatistics_doc"/>
+		<ItemRef ItemOID="prereview_biostatistics_date_sent" Mandatory="No" redcap:Variable="prereview_biostatistics_date_sent"/>
+		<ItemRef ItemOID="prereview_biostatistics_date_received" Mandatory="No" redcap:Variable="prereview_biostatistics_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_biostatistics.prereview_biostatistics_hours_awarded" Name="Biostatistics Award" Repeating="No">
+		<ItemRef ItemOID="prereview_biostatistics_hours_awarded" Mandatory="No" redcap:Variable="prereview_biostatistics_hours_awarded"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_biostatistics.prereview_biostatistics_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_biostatistics_complete" Mandatory="No" redcap:Variable="prereview_biostatistics_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_scientific.needs_scientific" Name="Pre-Review Scientific" Repeating="No">
+		<ItemRef ItemOID="needs_scientific" Mandatory="No" redcap:Variable="needs_scientific"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_scientific.prereview_scientific" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_scientific" Mandatory="No" redcap:Variable="prereview_scientific"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_scientific.prereview_scientific_doc" Name="Pre-Review Scientific" Repeating="No">
+		<ItemRef ItemOID="prereview_scientific_doc" Mandatory="No" redcap:Variable="prereview_scientific_doc"/>
+		<ItemRef ItemOID="prereview_scientific_date_sent" Mandatory="No" redcap:Variable="prereview_scientific_date_sent"/>
+		<ItemRef ItemOID="prereview_scientific_date_received" Mandatory="No" redcap:Variable="prereview_scientific_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_scientific.prereview_scientific_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_scientific_complete" Mandatory="No" redcap:Variable="prereview_scientific_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_participant.needs_participant" Name="Pre-Review Participant" Repeating="No">
+		<ItemRef ItemOID="needs_participant" Mandatory="No" redcap:Variable="needs_participant"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_participant.prereview_participant" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_participant" Mandatory="No" redcap:Variable="prereview_participant"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_participant.prereview_participant_doc" Name="Pre-Review Participant" Repeating="No">
+		<ItemRef ItemOID="prereview_participant_doc" Mandatory="No" redcap:Variable="prereview_participant_doc"/>
+		<ItemRef ItemOID="prereview_participant_date_sent" Mandatory="No" redcap:Variable="prereview_participant_date_sent"/>
+		<ItemRef ItemOID="prereview_participant_date_received" Mandatory="No" redcap:Variable="prereview_participant_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_participant.prereview_participant_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_participant_complete" Mandatory="No" redcap:Variable="prereview_participant_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_budget.needs_budget" Name="Pre-Review Budget" Repeating="No">
+		<ItemRef ItemOID="needs_budget" Mandatory="No" redcap:Variable="needs_budget"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_budget.prereview_budget" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_budget" Mandatory="No" redcap:Variable="prereview_budget"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_budget.prereview_budget_doc" Name="Pre-Review Budget" Repeating="No">
+		<ItemRef ItemOID="prereview_budget_doc" Mandatory="No" redcap:Variable="prereview_budget_doc"/>
+		<ItemRef ItemOID="prereview_budget_date_sent" Mandatory="No" redcap:Variable="prereview_budget_date_sent"/>
+		<ItemRef ItemOID="prereview_budget_date_received" Mandatory="No" redcap:Variable="prereview_budget_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_budget.prereview_budget_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_budget_complete" Mandatory="No" redcap:Variable="prereview_budget_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nursing.needs_nursing" Name="Pre-Review Nursing" Repeating="No">
+		<ItemRef ItemOID="needs_nursing" Mandatory="No" redcap:Variable="needs_nursing"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nursing.prereview_nursing" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_nursing" Mandatory="No" redcap:Variable="prereview_nursing"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nursing.prereview_nursing_doc" Name="Pre-Review Nursing" Repeating="No">
+		<ItemRef ItemOID="prereview_nursing_doc" Mandatory="No" redcap:Variable="prereview_nursing_doc"/>
+		<ItemRef ItemOID="prereview_nursing_date_sent" Mandatory="No" redcap:Variable="prereview_nursing_date_sent"/>
+		<ItemRef ItemOID="prereview_nursing_date_received" Mandatory="No" redcap:Variable="prereview_nursing_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nursing.prereview_nursing_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_nursing_complete" Mandatory="No" redcap:Variable="prereview_nursing_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_cores.needs_cores" Name="Pre-Review Cores" Repeating="No">
+		<ItemRef ItemOID="needs_cores" Mandatory="No" redcap:Variable="needs_cores"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_cores.prereview_cores" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_cores" Mandatory="No" redcap:Variable="prereview_cores"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_cores.prereview_cores_doc" Name="Pre-Review Cores" Repeating="No">
+		<ItemRef ItemOID="prereview_cores_doc" Mandatory="No" redcap:Variable="prereview_cores_doc"/>
+		<ItemRef ItemOID="prereview_cores_date_sent" Mandatory="No" redcap:Variable="prereview_cores_date_sent"/>
+		<ItemRef ItemOID="prereview_cores_date_received" Mandatory="No" redcap:Variable="prereview_cores_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_cores.prereview_cores_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_cores_complete" Mandatory="No" redcap:Variable="prereview_cores_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_sleep.needs_sleep" Name="Pre-Review Sleep" Repeating="No">
+		<ItemRef ItemOID="needs_sleep" Mandatory="No" redcap:Variable="needs_sleep"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_sleep.prereview_sleep" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_sleep" Mandatory="No" redcap:Variable="prereview_sleep"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_sleep.prereview_sleep_doc" Name="Pre-Review Sleep" Repeating="No">
+		<ItemRef ItemOID="prereview_sleep_doc" Mandatory="No" redcap:Variable="prereview_sleep_doc"/>
+		<ItemRef ItemOID="prereview_sleep_date_sent" Mandatory="No" redcap:Variable="prereview_sleep_date_sent"/>
+		<ItemRef ItemOID="prereview_sleep_date_received" Mandatory="No" redcap:Variable="prereview_sleep_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_sleep.prereview_sleep_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_sleep_complete" Mandatory="No" redcap:Variable="prereview_sleep_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nutrition.needs_nutrition" Name="Pre-Review Nutrition" Repeating="No">
+		<ItemRef ItemOID="needs_nutrition" Mandatory="No" redcap:Variable="needs_nutrition"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nutrition.prereview_nutrition" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_nutrition" Mandatory="No" redcap:Variable="prereview_nutrition"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nutrition.prereview_nutrition_doc" Name="Pre-Review Nutrition" Repeating="No">
+		<ItemRef ItemOID="prereview_nutrition_doc" Mandatory="No" redcap:Variable="prereview_nutrition_doc"/>
+		<ItemRef ItemOID="prereview_nutrition_date_sent" Mandatory="No" redcap:Variable="prereview_nutrition_date_sent"/>
+		<ItemRef ItemOID="prereview_nutrition_date_received" Mandatory="No" redcap:Variable="prereview_nutrition_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_nutrition.prereview_nutrition_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_nutrition_complete" Mandatory="No" redcap:Variable="prereview_nutrition_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_community.needs_community" Name="Pre-Review Community" Repeating="No">
+		<ItemRef ItemOID="needs_community" Mandatory="No" redcap:Variable="needs_community"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_community.prereview_community" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_community" Mandatory="No" redcap:Variable="prereview_community"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_community.prereview_community_doc" Name="Pre-Review Community" Repeating="No">
+		<ItemRef ItemOID="prereview_community_doc" Mandatory="No" redcap:Variable="prereview_community_doc"/>
+		<ItemRef ItemOID="prereview_community_date_sent" Mandatory="No" redcap:Variable="prereview_community_date_sent"/>
+		<ItemRef ItemOID="prereview_community_date_received" Mandatory="No" redcap:Variable="prereview_community_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_community.prereview_community_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_community_complete" Mandatory="No" redcap:Variable="prereview_community_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_ctc.needs_other" Name="Pre-Review CTC" Repeating="No">
+		<ItemRef ItemOID="needs_other" Mandatory="No" redcap:Variable="needs_other"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_ctc.prereview_other" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_other" Mandatory="No" redcap:Variable="prereview_other"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_ctc.prereview_other_doc" Name="Pre-Review CTC" Repeating="No">
+		<ItemRef ItemOID="prereview_other_doc" Mandatory="No" redcap:Variable="prereview_other_doc"/>
+		<ItemRef ItemOID="prereview_other_date_sent" Mandatory="No" redcap:Variable="prereview_other_date_sent"/>
+		<ItemRef ItemOID="prereview_other_date_received" Mandatory="No" redcap:Variable="prereview_other_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_ctc.prereview_ctc_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_ctc_complete" Mandatory="No" redcap:Variable="prereview_ctc_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_pi_response.needs_pi_response" Name="Pre-Review PI Response" Repeating="No">
+		<ItemRef ItemOID="needs_pi_response" Mandatory="No" redcap:Variable="needs_pi_response"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_pi_response.prereview_pi_response" Name="Enter Pre-Review Notes Or Attach File" Repeating="No">
+		<ItemRef ItemOID="prereview_pi_response" Mandatory="No" redcap:Variable="prereview_pi_response"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_pi_response.prereview_pi_response_doc" Name="Pre-Review PI Response" Repeating="No">
+		<ItemRef ItemOID="prereview_pi_response_doc" Mandatory="No" redcap:Variable="prereview_pi_response_doc"/>
+		<ItemRef ItemOID="prereview_pi_response_date_sent" Mandatory="No" redcap:Variable="prereview_pi_response_date_sent"/>
+		<ItemRef ItemOID="prereview_pi_response_date_received" Mandatory="No" redcap:Variable="prereview_pi_response_date_received"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="prereview_pi_response.prereview_pi_response_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="prereview_pi_response_complete" Mandatory="No" redcap:Variable="prereview_pi_response_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="post_award_administration.src_percent_funded" Name="Post-Award Administration" Repeating="No">
+		<ItemRef ItemOID="src_percent_funded" Mandatory="No" redcap:Variable="src_percent_funded"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="post_award_administration.src_total_award_amount" Name="Post-Award Administration" Repeating="No">
+		<ItemRef ItemOID="src_total_award_amount" Mandatory="No" redcap:Variable="src_total_award_amount"/>
+		<ItemRef ItemOID="src_letter_date" Mandatory="No" redcap:Variable="src_letter_date"/>
+		<ItemRef ItemOID="src_letter_document" Mandatory="No" redcap:Variable="src_letter_document"/>
+		<ItemRef ItemOID="src_project_ending" Mandatory="No" redcap:Variable="src_project_ending"/>
+		<ItemRef ItemOID="src_full_project_period" Mandatory="No" redcap:Variable="src_full_project_period"/>
+		<ItemRef ItemOID="src_center_number" Mandatory="No" redcap:Variable="src_center_number"/>
+		<ItemRef ItemOID="src_center_number_ctsa" Mandatory="No" redcap:Variable="src_center_number_ctsa"/>
+		<ItemRef ItemOID="src_center_number_crc" Mandatory="No" redcap:Variable="src_center_number_crc"/>
+		<ItemRef ItemOID="src_center_number_dh" Mandatory="No" redcap:Variable="src_center_number_dh"/>
+		<ItemRef ItemOID="comments_src" Mandatory="No" redcap:Variable="comments_src"/>
+		<ItemRef ItemOID="crc_facilities" Mandatory="No" redcap:Variable="crc_facilities"/>
+		<ItemRef ItemOID="crc_personnel" Mandatory="No" redcap:Variable="crc_personnel"/>
+		<ItemRef ItemOID="crc_cores" Mandatory="No" redcap:Variable="crc_cores"/>
+		<ItemRef ItemOID="sleep_cores" Mandatory="No" redcap:Variable="sleep_cores"/>
+		<ItemRef ItemOID="vumc_core_facilities" Mandatory="No" redcap:Variable="vumc_core_facilities"/>
+		<ItemRef ItemOID="personnel" Mandatory="No" redcap:Variable="personnel"/>
+		<ItemRef ItemOID="equipment" Mandatory="No" redcap:Variable="equipment"/>
+		<ItemRef ItemOID="misc_services" Mandatory="No" redcap:Variable="misc_services"/>
+		<ItemRef ItemOID="hospital_ancillaries" Mandatory="No" redcap:Variable="hospital_ancillaries"/>
+		<ItemRef ItemOID="victr_status" Mandatory="No" redcap:Variable="victr_status"/>
+		<ItemRef ItemOID="src_project_completion" Mandatory="No" redcap:Variable="src_project_completion"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="post_award_administration.post_award_administration_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="post_award_administration_complete" Mandatory="No" redcap:Variable="post_award_administration_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="proj_id" Name="proj_id" DataType="text" Length="999" redcap:Variable="proj_id" redcap:FieldType="text">
+		<Question><TranslatedText>Project ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="title" Name="title" DataType="text" Length="999" redcap:Variable="title" redcap:FieldType="textarea" redcap:SectionHeader="Demographic Characteristics">
+		<Question><TranslatedText>Project Title</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi_firstname" Name="pi_firstname" DataType="text" Length="999" redcap:Variable="pi_firstname" redcap:FieldType="text">
+		<Question><TranslatedText>PI First Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi_lastname" Name="pi_lastname" DataType="text" Length="999" redcap:Variable="pi_lastname" redcap:FieldType="text">
+		<Question><TranslatedText>PI Last Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi_vunetid" Name="pi_vunetid" DataType="text" Length="999" redcap:Variable="pi_vunetid" redcap:FieldType="text">
+		<Question><TranslatedText>PI VUnetID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="project_type" Name="project_type" DataType="text" Length="1" redcap:Variable="project_type" redcap:FieldType="select">
+		<Question><TranslatedText>Project Type</TranslatedText></Question>
+		<CodeListRef CodeListOID="project_type.choices"/>
+	</ItemDef>
+	<ItemDef OID="irb_number" Name="irb_number" DataType="text" Length="999" redcap:Variable="irb_number" redcap:FieldType="text">
+		<Question><TranslatedText>IRB Number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="amendment_status" Name="amendment_status" DataType="text" Length="1" redcap:Variable="amendment_status" redcap:FieldType="radio" redcap:SectionHeader="Amendment Information">
+		<Question><TranslatedText>Amendment?</TranslatedText></Question>
+		<CodeListRef CodeListOID="amendment_status.choices"/>
+	</ItemDef>
+	<ItemDef OID="amendment_number" Name="amendment_number" DataType="text" Length="2" redcap:Variable="amendment_number" redcap:FieldType="select">
+		<Question><TranslatedText>Amendment Number</TranslatedText></Question>
+		<CodeListRef CodeListOID="amendment_number.choices"/>
+	</ItemDef>
+	<ItemDef OID="crc_type" Name="crc_type" DataType="text" Length="1" redcap:Variable="crc_type" redcap:FieldType="select" redcap:SectionHeader="CRC Legacy System Data">
+		<Question><TranslatedText>CRC Type</TranslatedText></Question>
+		<CodeListRef CodeListOID="crc_type.choices"/>
+	</ItemDef>
+	<ItemDef OID="crc_webcamp_import" Name="crc_webcamp_import" DataType="text" Length="1" redcap:Variable="crc_webcamp_import" redcap:FieldType="select">
+		<Question><TranslatedText>CRC WebCamp Project Import?</TranslatedText></Question>
+		<CodeListRef CodeListOID="crc_webcamp_import.choices"/>
+	</ItemDef>
+	<ItemDef OID="crc_original_review" Name="crc_original_review" DataType="text" Length="1" redcap:Variable="crc_original_review" redcap:FieldType="select">
+		<Question><TranslatedText>CRC Original Review?</TranslatedText></Question>
+		<CodeListRef CodeListOID="crc_original_review.choices"/>
+	</ItemDef>
+	<ItemDef OID="file_proposal" Name="file_proposal" DataType="text" Length="999" redcap:Variable="file_proposal" redcap:FieldType="file" redcap:SectionHeader="Project Files">
+		<Question><TranslatedText>Research Proposal</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_budget" Name="file_budget" DataType="text" Length="999" redcap:Variable="file_budget" redcap:FieldType="file">
+		<Question><TranslatedText>Budget</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_biosketch1" Name="file_biosketch1" DataType="text" Length="999" redcap:Variable="file_biosketch1" redcap:FieldType="file">
+		<Question><TranslatedText>Biosketch(1)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_biosketch2" Name="file_biosketch2" DataType="text" Length="999" redcap:Variable="file_biosketch2" redcap:FieldType="file">
+		<Question><TranslatedText>Biosketch(2)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_biosketch3" Name="file_biosketch3" DataType="text" Length="999" redcap:Variable="file_biosketch3" redcap:FieldType="file">
+		<Question><TranslatedText>Biosketch(3)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_crc" Name="file_crc" DataType="text" Length="999" redcap:Variable="file_crc" redcap:FieldType="file">
+		<Question><TranslatedText>CRC Resources</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_other1" Name="file_other1" DataType="text" Length="999" redcap:Variable="file_other1" redcap:FieldType="file">
+		<Question><TranslatedText>Other(1)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_other2" Name="file_other2" DataType="text" Length="999" redcap:Variable="file_other2" redcap:FieldType="file">
+		<Question><TranslatedText>Other(2)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_other3" Name="file_other3" DataType="text" Length="999" redcap:Variable="file_other3" redcap:FieldType="file">
+		<Question><TranslatedText>Other(3)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="project_complete" Name="project_complete" DataType="text" Length="1" redcap:Variable="project_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="project_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="date_receipt" Name="date_receipt" DataType="date" Length="999" redcap:Variable="date_receipt" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Pre-Pre-Review Information">
+		<Question><TranslatedText>Project Receipt Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_start_preprereview" Name="date_start_preprereview" DataType="date" Length="999" redcap:Variable="date_start_preprereview" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Pre-Pre-Review - Start Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_stop_preprereview" Name="date_stop_preprereview" DataType="date" Length="999" redcap:Variable="date_stop_preprereview" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Pre-Pre-Review - Stop Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="comments_preprereview" Name="comments_preprereview" DataType="text" Length="999" redcap:Variable="comments_preprereview" redcap:FieldType="textarea">
+		<Question><TranslatedText>Comments - Pre-Pre-Review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="owner_prepreview" Name="owner_prepreview" DataType="text" Length="1" redcap:Variable="owner_prepreview" redcap:FieldType="select">
+		<Question><TranslatedText>Owner (Liaison)</TranslatedText></Question>
+		<CodeListRef CodeListOID="owner_prepreview.choices"/>
+	</ItemDef>
+	<ItemDef OID="date_start_prereview" Name="date_start_prereview" DataType="date" Length="999" redcap:Variable="date_start_prereview" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Pre-Review Information">
+		<Question><TranslatedText>Pre-Review Notification Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_stop_prereview" Name="date_stop_prereview" DataType="date" Length="999" redcap:Variable="date_stop_prereview" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Pre-Review Completion Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="comments_prereview" Name="comments_prereview" DataType="text" Length="999" redcap:Variable="comments_prereview" redcap:FieldType="textarea">
+		<Question><TranslatedText>Comments - Pre-Review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_pi_notification" Name="date_pi_notification" DataType="date" Length="999" redcap:Variable="date_pi_notification" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="PI Notification Information">
+		<Question><TranslatedText>PI Notification Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_pi_response" Name="date_pi_response" DataType="date" Length="999" redcap:Variable="date_pi_response" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>PI Response Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="comments_pi_response" Name="comments_pi_response" DataType="text" Length="999" redcap:Variable="comments_pi_response" redcap:FieldType="textarea">
+		<Question><TranslatedText>Comments - PI Process</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="file_pi_comments" Name="file_pi_comments" DataType="text" Length="999" redcap:Variable="file_pi_comments" redcap:FieldType="file">
+		<Question><TranslatedText>PI response</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_agenda" Name="date_agenda" DataType="date" Length="999" redcap:Variable="date_agenda" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Agenda Information">
+		<Question><TranslatedText>Agenda Date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rev1_name" Name="rev1_name" DataType="text" Length="999" redcap:Variable="rev1_name" redcap:FieldType="text">
+		<Question><TranslatedText>Reviewer 1</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rev2_name" Name="rev2_name" DataType="text" Length="999" redcap:Variable="rev2_name" redcap:FieldType="text">
+		<Question><TranslatedText>Reviewer 2</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="rev_notification_date" Name="rev_notification_date" DataType="date" Length="999" redcap:Variable="rev_notification_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date - Sent to Reviewers</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_notification_date" Name="src_notification_date" DataType="date" Length="999" redcap:Variable="src_notification_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date- Sent to SRC</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="status_src_award" Name="status_src_award" DataType="text" Length="1" redcap:Variable="status_src_award" redcap:FieldType="select">
+		<Question><TranslatedText>SRC Award Status</TranslatedText></Question>
+		<CodeListRef CodeListOID="status_src_award.choices"/>
+	</ItemDef>
+	<ItemDef OID="src_priority_score" Name="src_priority_score" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="src_priority_score" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>SRC Priority Score</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="workflow_complete" Name="workflow_complete" DataType="text" Length="1" redcap:Variable="workflow_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="workflow_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_administrative" Name="needs_administrative" DataType="text" Length="1" redcap:Variable="needs_administrative" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Administrative?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_administrative.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_administrative" Name="prereview_administrative" DataType="text" Length="999" redcap:Variable="prereview_administrative" redcap:FieldType="textarea" redcap:SectionHeader="Enter PI Pre-Review Notes Or Attach File" redcap:BranchingLogic="[needs_administrative] = &quot;0&quot;">
+		<Question><TranslatedText>Notes</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_administrative_doc" Name="prereview_administrative_doc" DataType="text" Length="999" redcap:Variable="prereview_administrative_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_administrative] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_administrative_date_sent" Name="prereview_administrative_date_sent" DataType="date" Length="999" redcap:Variable="prereview_administrative_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_administrative_date_received" Name="prereview_administrative_date_received" DataType="date" Length="999" redcap:Variable="prereview_administrative_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_administrative_complete" Name="prereview_administrative_complete" DataType="text" Length="1" redcap:Variable="prereview_administrative_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_administrative_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_biostatistics" Name="needs_biostatistics" DataType="text" Length="1" redcap:Variable="needs_biostatistics" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Biostatistics?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_biostatistics.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_biostatistics" Name="prereview_biostatistics" DataType="text" Length="999" redcap:Variable="prereview_biostatistics" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File" redcap:BranchingLogic="[needs_biostatistics] = &quot;0&quot;">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_biostatistics_doc" Name="prereview_biostatistics_doc" DataType="text" Length="999" redcap:Variable="prereview_biostatistics_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_biostatistics] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_biostatistics_date_sent" Name="prereview_biostatistics_date_sent" DataType="date" Length="999" redcap:Variable="prereview_biostatistics_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_biostatistics_date_received" Name="prereview_biostatistics_date_received" DataType="date" Length="999" redcap:Variable="prereview_biostatistics_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_biostatistics_hours_awarded" Name="prereview_biostatistics_hours_awarded" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="prereview_biostatistics_hours_awarded" redcap:FieldType="text" redcap:TextValidationType="float" redcap:SectionHeader="Biostatistics Award">
+		<Question><TranslatedText>Consultation Hours Awarded</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range. (0 - 5000). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>5000</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range. (0 - 5000). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="prereview_biostatistics_complete" Name="prereview_biostatistics_complete" DataType="text" Length="1" redcap:Variable="prereview_biostatistics_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_biostatistics_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_scientific" Name="needs_scientific" DataType="text" Length="1" redcap:Variable="needs_scientific" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Scientific?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_scientific.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_scientific" Name="prereview_scientific" DataType="text" Length="999" redcap:Variable="prereview_scientific" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File" redcap:BranchingLogic="[needs_scientific] = &quot;0&quot;">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_scientific_doc" Name="prereview_scientific_doc" DataType="text" Length="999" redcap:Variable="prereview_scientific_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_scientific] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_scientific_date_sent" Name="prereview_scientific_date_sent" DataType="date" Length="999" redcap:Variable="prereview_scientific_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_scientific_date_received" Name="prereview_scientific_date_received" DataType="date" Length="999" redcap:Variable="prereview_scientific_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_scientific_complete" Name="prereview_scientific_complete" DataType="text" Length="1" redcap:Variable="prereview_scientific_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_scientific_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_participant" Name="needs_participant" DataType="text" Length="1" redcap:Variable="needs_participant" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Participant?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_participant.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_participant" Name="prereview_participant" DataType="text" Length="999" redcap:Variable="prereview_participant" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File" redcap:BranchingLogic="[needs_participant] = &quot;0&quot;">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_participant_doc" Name="prereview_participant_doc" DataType="text" Length="999" redcap:Variable="prereview_participant_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_participant] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_participant_date_sent" Name="prereview_participant_date_sent" DataType="date" Length="999" redcap:Variable="prereview_participant_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_participant_date_received" Name="prereview_participant_date_received" DataType="date" Length="999" redcap:Variable="prereview_participant_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_participant_complete" Name="prereview_participant_complete" DataType="text" Length="1" redcap:Variable="prereview_participant_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_participant_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_budget" Name="needs_budget" DataType="text" Length="1" redcap:Variable="needs_budget" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Budget?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_budget.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_budget" Name="prereview_budget" DataType="text" Length="999" redcap:Variable="prereview_budget" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_budget_doc" Name="prereview_budget_doc" DataType="text" Length="999" redcap:Variable="prereview_budget_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_budget] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_budget_date_sent" Name="prereview_budget_date_sent" DataType="date" Length="999" redcap:Variable="prereview_budget_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="[needs_budget] = &quot;0&quot;">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_budget_date_received" Name="prereview_budget_date_received" DataType="date" Length="999" redcap:Variable="prereview_budget_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_budget_complete" Name="prereview_budget_complete" DataType="text" Length="1" redcap:Variable="prereview_budget_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_budget_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_nursing" Name="needs_nursing" DataType="text" Length="1" redcap:Variable="needs_nursing" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Nursing?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_nursing.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_nursing" Name="prereview_nursing" DataType="text" Length="999" redcap:Variable="prereview_nursing" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nursing_doc" Name="prereview_nursing_doc" DataType="text" Length="999" redcap:Variable="prereview_nursing_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_nursing] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nursing_date_sent" Name="prereview_nursing_date_sent" DataType="date" Length="999" redcap:Variable="prereview_nursing_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="[needs_nursing] = &quot;0&quot;">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nursing_date_received" Name="prereview_nursing_date_received" DataType="date" Length="999" redcap:Variable="prereview_nursing_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nursing_complete" Name="prereview_nursing_complete" DataType="text" Length="1" redcap:Variable="prereview_nursing_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_nursing_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_cores" Name="needs_cores" DataType="text" Length="1" redcap:Variable="needs_cores" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Cores?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_cores.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_cores" Name="prereview_cores" DataType="text" Length="999" redcap:Variable="prereview_cores" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_cores_doc" Name="prereview_cores_doc" DataType="text" Length="999" redcap:Variable="prereview_cores_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_cores] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_cores_date_sent" Name="prereview_cores_date_sent" DataType="date" Length="999" redcap:Variable="prereview_cores_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="[needs_cores] = &quot;0&quot;">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_cores_date_received" Name="prereview_cores_date_received" DataType="date" Length="999" redcap:Variable="prereview_cores_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_cores_complete" Name="prereview_cores_complete" DataType="text" Length="1" redcap:Variable="prereview_cores_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_cores_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_sleep" Name="needs_sleep" DataType="text" Length="1" redcap:Variable="needs_sleep" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Sleep?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_sleep.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_sleep" Name="prereview_sleep" DataType="text" Length="999" redcap:Variable="prereview_sleep" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_sleep_doc" Name="prereview_sleep_doc" DataType="text" Length="999" redcap:Variable="prereview_sleep_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_sleep] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_sleep_date_sent" Name="prereview_sleep_date_sent" DataType="date" Length="999" redcap:Variable="prereview_sleep_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="[needs_sleep] = &quot;0&quot;">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_sleep_date_received" Name="prereview_sleep_date_received" DataType="date" Length="999" redcap:Variable="prereview_sleep_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_sleep_complete" Name="prereview_sleep_complete" DataType="text" Length="1" redcap:Variable="prereview_sleep_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_sleep_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_nutrition" Name="needs_nutrition" DataType="text" Length="1" redcap:Variable="needs_nutrition" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Nutrition?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_nutrition.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_nutrition" Name="prereview_nutrition" DataType="text" Length="999" redcap:Variable="prereview_nutrition" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nutrition_doc" Name="prereview_nutrition_doc" DataType="text" Length="999" redcap:Variable="prereview_nutrition_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_nutrition] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nutrition_date_sent" Name="prereview_nutrition_date_sent" DataType="date" Length="999" redcap:Variable="prereview_nutrition_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="[needs_nutrition] = &quot;0&quot;">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nutrition_date_received" Name="prereview_nutrition_date_received" DataType="date" Length="999" redcap:Variable="prereview_nutrition_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_nutrition_complete" Name="prereview_nutrition_complete" DataType="text" Length="1" redcap:Variable="prereview_nutrition_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_nutrition_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_community" Name="needs_community" DataType="text" Length="1" redcap:Variable="needs_community" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Community?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_community.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_community" Name="prereview_community" DataType="text" Length="999" redcap:Variable="prereview_community" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_community_doc" Name="prereview_community_doc" DataType="text" Length="999" redcap:Variable="prereview_community_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_community] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_community_date_sent" Name="prereview_community_date_sent" DataType="date" Length="999" redcap:Variable="prereview_community_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:BranchingLogic="[needs_community] = &quot;0&quot;">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_community_date_received" Name="prereview_community_date_received" DataType="date" Length="999" redcap:Variable="prereview_community_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_community_complete" Name="prereview_community_complete" DataType="text" Length="1" redcap:Variable="prereview_community_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_community_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_other" Name="needs_other" DataType="text" Length="1" redcap:Variable="needs_other" redcap:FieldType="select">
+		<Question><TranslatedText>Requires Other?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_other.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_other" Name="prereview_other" DataType="text" Length="999" redcap:Variable="prereview_other" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI Suggestions</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_other_doc" Name="prereview_other_doc" DataType="text" Length="999" redcap:Variable="prereview_other_doc" redcap:FieldType="file">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_other_date_sent" Name="prereview_other_date_sent" DataType="date" Length="999" redcap:Variable="prereview_other_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_other_date_received" Name="prereview_other_date_received" DataType="date" Length="999" redcap:Variable="prereview_other_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_ctc_complete" Name="prereview_ctc_complete" DataType="text" Length="1" redcap:Variable="prereview_ctc_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_ctc_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="needs_pi_response" Name="needs_pi_response" DataType="text" Length="1" redcap:Variable="needs_pi_response" redcap:FieldType="select">
+		<Question><TranslatedText>Requires PI Response?</TranslatedText></Question>
+		<CodeListRef CodeListOID="needs_pi_response.choices"/>
+	</ItemDef>
+	<ItemDef OID="prereview_pi_response" Name="prereview_pi_response" DataType="text" Length="999" redcap:Variable="prereview_pi_response" redcap:FieldType="textarea" redcap:SectionHeader="Enter Pre-Review Notes Or Attach File">
+		<Question><TranslatedText>PI response</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_pi_response_doc" Name="prereview_pi_response_doc" DataType="text" Length="999" redcap:Variable="prereview_pi_response_doc" redcap:FieldType="file" redcap:BranchingLogic="[needs_pi_response] = &quot;0&quot;">
+		<Question><TranslatedText>OR File
+(NOTE: If file will not open, then Save it to your computer and then Open it.)</TranslatedText><redcap:FormattedTranslatedText>OR File&lt;br&gt;&lt;font size=1&gt;(NOTE: If file will not open, then Save it to your computer and then Open it.)&lt;/font&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_pi_response_date_sent" Name="prereview_pi_response_date_sent" DataType="date" Length="999" redcap:Variable="prereview_pi_response_date_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date Sent for pre-review</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_pi_response_date_received" Name="prereview_pi_response_date_received" DataType="date" Length="999" redcap:Variable="prereview_pi_response_date_received" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>Date received</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="prereview_pi_response_complete" Name="prereview_pi_response_complete" DataType="text" Length="1" redcap:Variable="prereview_pi_response_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prereview_pi_response_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="src_percent_funded" Name="src_percent_funded" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="src_percent_funded" redcap:FieldType="text" redcap:TextValidationType="float" redcap:SectionHeader="Post-Award Administration">
+		<Question><TranslatedText>Percent of request funded (%)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_total_award_amount" Name="src_total_award_amount" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="src_total_award_amount" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>SRC Total Award Amount ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_letter_date" Name="src_letter_date" DataType="date" Length="999" redcap:Variable="src_letter_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>SRC letter sent</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_letter_document" Name="src_letter_document" DataType="text" Length="999" redcap:Variable="src_letter_document" redcap:FieldType="file">
+		<Question><TranslatedText>SRC letter</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_project_ending" Name="src_project_ending" DataType="date" Length="999" redcap:Variable="src_project_ending" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>SRC project ending date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_full_project_period" Name="src_full_project_period" DataType="date" Length="999" redcap:Variable="src_full_project_period" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>SRC full project period</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_center_number" Name="src_center_number" DataType="text" Length="999" redcap:Variable="src_center_number" redcap:FieldType="text">
+		<Question><TranslatedText>SRC Center Number - Institutional</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_center_number_ctsa" Name="src_center_number_ctsa" DataType="text" Length="999" redcap:Variable="src_center_number_ctsa" redcap:FieldType="text">
+		<Question><TranslatedText>SRC Center Number - CTSA</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_center_number_crc" Name="src_center_number_crc" DataType="text" Length="999" redcap:Variable="src_center_number_crc" redcap:FieldType="text">
+		<Question><TranslatedText>SRC Center Number - CRC</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="src_center_number_dh" Name="src_center_number_dh" DataType="text" Length="999" redcap:Variable="src_center_number_dh" redcap:FieldType="text">
+		<Question><TranslatedText>D &amp; H Number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="comments_src" Name="comments_src" DataType="text" Length="999" redcap:Variable="comments_src" redcap:FieldType="textarea">
+		<Question><TranslatedText>Comments - SRC Award</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="crc_facilities" Name="crc_facilities" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="crc_facilities" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>CRC Facilities ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="crc_personnel" Name="crc_personnel" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="crc_personnel" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>CRC Nursing ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="crc_cores" Name="crc_cores" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="crc_cores" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>CRC Cores ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sleep_cores" Name="sleep_cores" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="sleep_cores" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Sleep Core ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="vumc_core_facilities" Name="vumc_core_facilities" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="vumc_core_facilities" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>VUMC Core Facilities ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="personnel" Name="personnel" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="personnel" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Personnel ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="equipment" Name="equipment" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="equipment" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Equipment ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="misc_services" Name="misc_services" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="misc_services" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Misc. Services ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hospital_ancillaries" Name="hospital_ancillaries" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="hospital_ancillaries" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Hospital Ancillaries ($)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="victr_status" Name="victr_status" DataType="text" Length="1" redcap:Variable="victr_status" redcap:FieldType="radio">
+		<Question><TranslatedText>VICTR Status</TranslatedText></Question>
+		<CodeListRef CodeListOID="victr_status.choices"/>
+	</ItemDef>
+	<ItemDef OID="src_project_completion" Name="src_project_completion" DataType="date" Length="999" redcap:Variable="src_project_completion" redcap:FieldType="text" redcap:TextValidationType="date_ymd">
+		<Question><TranslatedText>SRC completion date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="post_award_administration_complete" Name="post_award_administration_complete" DataType="text" Length="1" redcap:Variable="post_award_administration_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="post_award_administration_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="project_type.choices" Name="project_type" DataType="text" redcap:Variable="project_type">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Expedited</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Full Committee</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Industry only</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="amendment_status.choices" Name="amendment_status" DataType="text" redcap:Variable="amendment_status">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="amendment_number.choices" Name="amendment_number" DataType="text" redcap:Variable="amendment_number">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>0</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>4</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>5</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>6</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>7</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>8</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>9</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>10</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>11</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>12</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="13"><Decode><TranslatedText>13</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="14"><Decode><TranslatedText>14</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="15"><Decode><TranslatedText>15</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="16"><Decode><TranslatedText>16</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="17"><Decode><TranslatedText>17</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="18"><Decode><TranslatedText>18</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="19"><Decode><TranslatedText>19</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="20"><Decode><TranslatedText>20</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="crc_type.choices" Name="crc_type" DataType="text" redcap:Variable="crc_type">
+		<CodeListItem CodedValue="A"><Decode><TranslatedText>A</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="B"><Decode><TranslatedText>B</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="C"><Decode><TranslatedText>C</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="D"><Decode><TranslatedText>D</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="crc_webcamp_import.choices" Name="crc_webcamp_import" DataType="text" redcap:Variable="crc_webcamp_import">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="crc_original_review.choices" Name="crc_original_review" DataType="text" redcap:Variable="crc_original_review">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="project_complete.choices" Name="project_complete" DataType="text" redcap:Variable="project_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="owner_prepreview.choices" Name="owner_prepreview" DataType="text" redcap:Variable="owner_prepreview">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Shraddha</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Jennifer</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Terri</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Cheryl</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Lynda</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="status_src_award.choices" Name="status_src_award" DataType="text" redcap:Variable="status_src_award">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Approved</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Pending</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Deferred (Studio)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Disapproved</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Tabled</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Withdrawn</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="workflow_complete.choices" Name="workflow_complete" DataType="text" redcap:Variable="workflow_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_administrative.choices" Name="needs_administrative" DataType="text" redcap:Variable="needs_administrative">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_administrative_complete.choices" Name="prereview_administrative_complete" DataType="text" redcap:Variable="prereview_administrative_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_biostatistics.choices" Name="needs_biostatistics" DataType="text" redcap:Variable="needs_biostatistics">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_biostatistics_complete.choices" Name="prereview_biostatistics_complete" DataType="text" redcap:Variable="prereview_biostatistics_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_scientific.choices" Name="needs_scientific" DataType="text" redcap:Variable="needs_scientific">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_scientific_complete.choices" Name="prereview_scientific_complete" DataType="text" redcap:Variable="prereview_scientific_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_participant.choices" Name="needs_participant" DataType="text" redcap:Variable="needs_participant">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_participant_complete.choices" Name="prereview_participant_complete" DataType="text" redcap:Variable="prereview_participant_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_budget.choices" Name="needs_budget" DataType="text" redcap:Variable="needs_budget">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_budget_complete.choices" Name="prereview_budget_complete" DataType="text" redcap:Variable="prereview_budget_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_nursing.choices" Name="needs_nursing" DataType="text" redcap:Variable="needs_nursing">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_nursing_complete.choices" Name="prereview_nursing_complete" DataType="text" redcap:Variable="prereview_nursing_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_cores.choices" Name="needs_cores" DataType="text" redcap:Variable="needs_cores">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_cores_complete.choices" Name="prereview_cores_complete" DataType="text" redcap:Variable="prereview_cores_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_sleep.choices" Name="needs_sleep" DataType="text" redcap:Variable="needs_sleep">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_sleep_complete.choices" Name="prereview_sleep_complete" DataType="text" redcap:Variable="prereview_sleep_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_nutrition.choices" Name="needs_nutrition" DataType="text" redcap:Variable="needs_nutrition">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_nutrition_complete.choices" Name="prereview_nutrition_complete" DataType="text" redcap:Variable="prereview_nutrition_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_community.choices" Name="needs_community" DataType="text" redcap:Variable="needs_community">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_community_complete.choices" Name="prereview_community_complete" DataType="text" redcap:Variable="prereview_community_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_other.choices" Name="needs_other" DataType="text" redcap:Variable="needs_other">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_ctc_complete.choices" Name="prereview_ctc_complete" DataType="text" redcap:Variable="prereview_ctc_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="needs_pi_response.choices" Name="needs_pi_response" DataType="text" redcap:Variable="needs_pi_response">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prereview_pi_response_complete.choices" Name="prereview_pi_response_complete" DataType="text" redcap:Variable="prereview_pi_response_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="victr_status.choices" Name="victr_status" DataType="text" redcap:Variable="victr_status">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Inactive</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Active</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="post_award_administration_complete.choices" Name="post_award_administration_complete" DataType="text" redcap:Variable="post_award_administration_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
