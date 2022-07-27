@@ -59,6 +59,11 @@ nav .main_nav .links li a {
   font-size: 15px;
   font-weight: 500;
 }
+nav .main_nav .links li a:hover {
+  color: #b22227;
+  transition: 700ms ease;
+}
+
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow {
   transform: rotate(180deg);

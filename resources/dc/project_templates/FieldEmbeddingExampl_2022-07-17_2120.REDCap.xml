@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Field Embedding Example Project" AsOfDateTime="2022-07-17T21:20:59" CreationDateTime="2022-07-17T21:20:59" SourceSystem="REDCap" SourceSystemVersion="12.0.19">
+<Study OID="Project.FieldEmbeddingExampleProject">
+<GlobalVariables>
+	<StudyName>Field Embedding Example Project</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Field Embedding Example Project".</StudyDescription>
+	<ProtocolName>Field Embedding Example Project</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:Purpose></redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.FieldEmbeddingExampleProject_2022-07-17_2120" Name="Field Embedding Example Project" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.field_embedding_demo" Name="Field Embedding Demo" Repeating="No" redcap:FormName="field_embedding_demo">
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.desc1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.grant2012" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.desc2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.num_servings" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.radio_choices" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.other1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.asdf" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.notes1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.pname" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.first_name" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.interviewer_descriptive" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.symptom_descriptive" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.state" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="field_embedding_demo.field_embedding_demo_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="field_embedding_demo.record_id" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.desc1" Name="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;The fields below illustrate random examples of &lt;span style=&quot;color: #e03e2d;&quot;&gt;Field Embedding&lt;/span&gt; as a means of customizing your forms and surveys.&lt;/p&gt;&lt;/div&gt;" Repeating="No">
+		<ItemRef ItemOID="desc1" Mandatory="No" redcap:Variable="desc1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.grant2012" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="grant2012" Mandatory="No" redcap:Variable="grant2012"/>
+		<ItemRef ItemOID="grant2013" Mandatory="No" redcap:Variable="grant2013"/>
+		<ItemRef ItemOID="grant2014" Mandatory="No" redcap:Variable="grant2014"/>
+		<ItemRef ItemOID="grant2015" Mandatory="No" redcap:Variable="grant2015"/>
+		<ItemRef ItemOID="grant2016" Mandatory="No" redcap:Variable="grant2016"/>
+		<ItemRef ItemOID="nfgrant2012" Mandatory="No" redcap:Variable="nfgrant2012"/>
+		<ItemRef ItemOID="nfgrant2013" Mandatory="No" redcap:Variable="nfgrant2013"/>
+		<ItemRef ItemOID="nfgrant2014" Mandatory="No" redcap:Variable="nfgrant2014"/>
+		<ItemRef ItemOID="nfgrant2015" Mandatory="No" redcap:Variable="nfgrant2015"/>
+		<ItemRef ItemOID="nfgrant2016" Mandatory="No" redcap:Variable="nfgrant2016"/>
+		<ItemRef ItemOID="grant2022" Mandatory="No" redcap:Variable="grant2022"/>
+		<ItemRef ItemOID="grant2023" Mandatory="No" redcap:Variable="grant2023"/>
+		<ItemRef ItemOID="grant2024" Mandatory="No" redcap:Variable="grant2024"/>
+		<ItemRef ItemOID="grant2025" Mandatory="No" redcap:Variable="grant2025"/>
+		<ItemRef ItemOID="grant2026" Mandatory="No" redcap:Variable="grant2026"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.desc2" Name="Food question" Repeating="No">
+		<ItemRef ItemOID="desc2" Mandatory="No" redcap:Variable="desc2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.num_servings" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="num_servings" Mandatory="No" redcap:Variable="num_servings"/>
+		<ItemRef ItemOID="not_know___1" Mandatory="No" redcap:Variable="not_know"/>
+		<ItemRef ItemOID="food_units" Mandatory="No" redcap:Variable="food_units"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.radio_choices" Name=" Combo radio buttons with text boxes" Repeating="No">
+		<ItemRef ItemOID="radio_choices" Mandatory="No" redcap:Variable="radio_choices"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.other1" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="other1" Mandatory="No" redcap:Variable="other1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.asdf" Name="Lots of comments" Repeating="No">
+		<ItemRef ItemOID="asdf" Mandatory="No" redcap:Variable="asdf"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.notes1" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="notes1" Mandatory="No" redcap:Variable="notes1"/>
+		<ItemRef ItemOID="notes2" Mandatory="No" redcap:Variable="notes2"/>
+		<ItemRef ItemOID="notes3" Mandatory="No" redcap:Variable="notes3"/>
+		<ItemRef ItemOID="notes4" Mandatory="No" redcap:Variable="notes4"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.pname" Name=" Patient Information" Repeating="No">
+		<ItemRef ItemOID="pname" Mandatory="No" redcap:Variable="pname"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.first_name" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="first_name" Mandatory="No" redcap:Variable="first_name"/>
+		<ItemRef ItemOID="last_name" Mandatory="No" redcap:Variable="last_name"/>
+		<ItemRef ItemOID="dob_descriptive" Mandatory="No" redcap:Variable="dob_descriptive"/>
+		<ItemRef ItemOID="id_descriptive" Mandatory="No" redcap:Variable="id_descriptive"/>
+		<ItemRef ItemOID="hosp_descriptive" Mandatory="No" redcap:Variable="hosp_descriptive"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.interviewer_descriptive" Name="Interviewer information" Repeating="No">
+		<ItemRef ItemOID="interviewer_descriptive" Mandatory="No" redcap:Variable="interviewer_descriptive"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.symptom_descriptive" Name="Symptoms, clinical course, past medical history and social history" Repeating="No">
+		<ItemRef ItemOID="symptom_descriptive" Mandatory="No" redcap:Variable="symptom_descriptive"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.state" Name="Field Embedding Demo" Repeating="No">
+		<ItemRef ItemOID="state" Mandatory="No" redcap:Variable="state"/>
+		<ItemRef ItemOID="healthdept" Mandatory="No" redcap:Variable="healthdept"/>
+		<ItemRef ItemOID="contact_id" Mandatory="No" redcap:Variable="contact_id"/>
+		<ItemRef ItemOID="local_id" Mandatory="No" redcap:Variable="local_id"/>
+		<ItemRef ItemOID="cdc_ncov2019_id" Mandatory="No" redcap:Variable="cdc_ncov2019_id"/>
+		<ItemRef ItemOID="nndss_id" Mandatory="No" redcap:Variable="nndss_id"/>
+		<ItemRef ItemOID="interviewer_ln" Mandatory="No" redcap:Variable="interviewer_ln"/>
+		<ItemRef ItemOID="interviewer_fn" Mandatory="No" redcap:Variable="interviewer_fn"/>
+		<ItemRef ItemOID="interviewer_org" Mandatory="No" redcap:Variable="interviewer_org"/>
+		<ItemRef ItemOID="interviewer_tele" Mandatory="No" redcap:Variable="interviewer_tele"/>
+		<ItemRef ItemOID="interviewer_email" Mandatory="No" redcap:Variable="interviewer_email"/>
+		<ItemRef ItemOID="sex" Mandatory="No" redcap:Variable="sex"/>
+		<ItemRef ItemOID="ethnicity" Mandatory="No" redcap:Variable="ethnicity"/>
+		<ItemRef ItemOID="dob" Mandatory="No" redcap:Variable="dob"/>
+		<ItemRef ItemOID="age" Mandatory="No" redcap:Variable="age"/>
+		<ItemRef ItemOID="ageunit" Mandatory="No" redcap:Variable="ageunit"/>
+		<ItemRef ItemOID="hosp_yn" Mandatory="No" redcap:Variable="hosp_yn"/>
+		<ItemRef ItemOID="adm1_dt" Mandatory="No" redcap:Variable="adm1_dt"/>
+		<ItemRef ItemOID="dis1_dt" Mandatory="No" redcap:Variable="dis1_dt"/>
+		<ItemRef ItemOID="fever_yn" Mandatory="No" redcap:Variable="fever_yn"/>
+		<ItemRef ItemOID="sfever_yn" Mandatory="No" redcap:Variable="sfever_yn"/>
+		<ItemRef ItemOID="chills_yn" Mandatory="No" redcap:Variable="chills_yn"/>
+		<ItemRef ItemOID="myalgia_yn" Mandatory="No" redcap:Variable="myalgia_yn"/>
+		<ItemRef ItemOID="fever_onset" Mandatory="No" redcap:Variable="fever_onset"/>
+		<ItemRef ItemOID="sfever_onset" Mandatory="No" redcap:Variable="sfever_onset"/>
+		<ItemRef ItemOID="chills_onset" Mandatory="No" redcap:Variable="chills_onset"/>
+		<ItemRef ItemOID="myalgia_onset" Mandatory="No" redcap:Variable="myalgia_onset"/>
+		<ItemRef ItemOID="othsym1_spec" Mandatory="No" redcap:Variable="othsym1_spec"/>
+		<ItemRef ItemOID="othsym2_spec" Mandatory="No" redcap:Variable="othsym2_spec"/>
+		<ItemRef ItemOID="othsym1_onset" Mandatory="No" redcap:Variable="othsym1_onset"/>
+		<ItemRef ItemOID="othsym2_onset" Mandatory="No" redcap:Variable="othsym2_onset"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="field_embedding_demo.field_embedding_demo_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="field_embedding_demo_complete" Mandatory="No" redcap:Variable="field_embedding_demo_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="desc1" Name="desc1" DataType="text" Length="999" redcap:Variable="desc1" redcap:FieldType="descriptive" redcap:SectionHeader="&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;The fields below illustrate random examples of &lt;span style=&quot;color: #e03e2d;&quot;&gt;Field Embedding&lt;/span&gt; as a means of customizing your forms and surveys.&lt;/p&gt;&lt;/div&gt;">
+		<Question><TranslatedText>   � 2012 2013 2014 2015 2016   Federal Grants {grant2012} {grant2013} {grant2014} {grant2015} {grant2024}   Non-federal Grants {grant2016} {nfgrant2012} {nfgrant2013} {nfgrant2014} {grant2025}   Research Agreements/Contracts {nfgrant2015} {nfgrant2016} {grant2022} {grant2023} {grant2026}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%; height: 80px;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 20px;&quot;&gt; &lt;td style=&quot;width: 32.02%; height: 20px; text-align: left;&quot;&gt;�&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;2012&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;2013&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;2014&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;2015&lt;/td&gt; &lt;td style=&quot;width: 80px; text-align: center;&quot;&gt;2016&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 20px;&quot;&gt; &lt;td style=&quot;width: 32.02%; height: 20px; text-align: left;&quot;&gt;Federal Grants&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2012}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2013}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2014}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2015}&lt;/td&gt; &lt;td style=&quot;width: 80px; text-align: center;&quot;&gt;{grant2024}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 20px;&quot;&gt; &lt;td style=&quot;width: 32.02%; height: 20px; text-align: left;&quot;&gt;Non-federal Grants&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2016}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{nfgrant2012}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{nfgrant2013}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{nfgrant2014}&lt;/td&gt; &lt;td style=&quot;width: 80px; text-align: center;&quot;&gt;{grant2025}&lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 20px;&quot;&gt; &lt;td style=&quot;width: 32.02%; height: 20px; text-align: left;&quot;&gt;Research Agreements/Contracts&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{nfgrant2015}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{nfgrant2016}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2022}&lt;/td&gt; &lt;td style=&quot;width: 80px; height: 20px; text-align: center;&quot;&gt;{grant2023}&lt;/td&gt; &lt;td style=&quot;width: 80px; text-align: center;&quot;&gt;{grant2026}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2012" Name="grant2012" DataType="integer" Length="999" redcap:Variable="grant2012" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Federal Grants 2012</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2013" Name="grant2013" DataType="integer" Length="999" redcap:Variable="grant2013" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Federal Grants 2013</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2014" Name="grant2014" DataType="integer" Length="999" redcap:Variable="grant2014" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Federal Grants 2014</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2015" Name="grant2015" DataType="integer" Length="999" redcap:Variable="grant2015" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Federal Grants 2015</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2016" Name="grant2016" DataType="integer" Length="999" redcap:Variable="grant2016" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Federal Grants 2016</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="nfgrant2012" Name="nfgrant2012" DataType="integer" Length="999" redcap:Variable="nfgrant2012" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Non-federal Grants 2012</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="nfgrant2013" Name="nfgrant2013" DataType="integer" Length="999" redcap:Variable="nfgrant2013" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Non-federal Grants 2013</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="nfgrant2014" Name="nfgrant2014" DataType="integer" Length="999" redcap:Variable="nfgrant2014" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Non-federal Grants 2014</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="nfgrant2015" Name="nfgrant2015" DataType="integer" Length="999" redcap:Variable="nfgrant2015" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Non-federal Grants 2015</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="nfgrant2016" Name="nfgrant2016" DataType="integer" Length="999" redcap:Variable="nfgrant2016" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Non-federal Grants 2016</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2022" Name="grant2022" DataType="integer" Length="999" redcap:Variable="grant2022" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Research Agreements/Contracts 2012</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2023" Name="grant2023" DataType="integer" Length="999" redcap:Variable="grant2023" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Research Agreements/Contracts 2013</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2024" Name="grant2024" DataType="integer" Length="999" redcap:Variable="grant2024" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Research Agreements/Contracts 2014</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2025" Name="grant2025" DataType="integer" Length="999" redcap:Variable="grant2025" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Research Agreements/Contracts 2015</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="grant2026" Name="grant2026" DataType="integer" Length="999" redcap:Variable="grant2026" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Research Agreements/Contracts 2016</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="desc2" Name="desc2" DataType="text" Length="999" redcap:Variable="desc2" redcap:FieldType="descriptive" redcap:SectionHeader="Food question">
+		<Question><TranslatedText>   How often did you eat spicy foods last year?  {num_servings} number of servings {not_know}  {food_units:icons}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 45.8502%; vertical-align: top;&quot;&gt;How often did you eat spicy foods last year?&lt;/td&gt; &lt;td style=&quot;width: 34.6791%; vertical-align: top;&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;{num_servings} number of servings&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;{not_know}&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td style=&quot;width: 19.4706%; vertical-align: top;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;{food_units:icons}&lt;/span&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="num_servings" Name="num_servings" DataType="integer" Length="999" redcap:Variable="num_servings" redcap:FieldType="text" redcap:TextValidationType="int">
+		<Question><TranslatedText>Number of servings</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="not_know___1" Name="not_know___1" DataType="boolean" Length="1" redcap:Variable="not_know" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Do not know / Prefer not to answer</TranslatedText></Question>
+		<CodeListRef CodeListOID="not_know___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="food_units" Name="food_units" DataType="text" Length="1" redcap:Variable="food_units" redcap:FieldType="radio">
+		<Question><TranslatedText>Food units</TranslatedText></Question>
+		<CodeListRef CodeListOID="food_units.choices"/>
+	</ItemDef>
+	<ItemDef OID="radio_choices" Name="radio_choices" DataType="text" Length="1" redcap:Variable="radio_choices" redcap:FieldType="radio" redcap:SectionHeader=" Combo radio buttons with text boxes">
+		<Question><TranslatedText>Radio choices with custom &quot;other&quot; option</TranslatedText></Question>
+		<CodeListRef CodeListOID="radio_choices.choices"/>
+	</ItemDef>
+	<ItemDef OID="other1" Name="other1" DataType="text" Length="999" redcap:Variable="other1" redcap:FieldType="text" redcap:BranchingLogic="[radio_choices] = &quot;3&quot;" redcap:FieldAnnotation="@PLACEHOLDER=&quot;Enter custom text&quot;">
+		<Question><TranslatedText></TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="asdf" Name="asdf" DataType="text" Length="999" redcap:Variable="asdf" redcap:FieldType="descriptive" redcap:SectionHeader="Lots of comments">
+		<Question><TranslatedText>   Main feedback about the event Feedback regarding the amenities Feedback regarding the venue Additional comments   {notes1} {notes2} {notes3} {notes4}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot; border=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;Main feedback about the event&lt;/td&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;Feedback regarding the amenities&lt;/td&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;Feedback regarding the venue&lt;/td&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;Additional comments&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;{notes1}&lt;/td&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;{notes2}&lt;/td&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;{notes3}&lt;/td&gt; &lt;td style=&quot;width: 25%; text-align: center;&quot;&gt;{notes4}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="notes1" Name="notes1" DataType="text" Length="999" redcap:Variable="notes1" redcap:FieldType="textarea">
+		<Question><TranslatedText>Main feedback about the event</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="notes2" Name="notes2" DataType="text" Length="999" redcap:Variable="notes2" redcap:FieldType="textarea">
+		<Question><TranslatedText>Feedback regarding the amenities</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="notes3" Name="notes3" DataType="text" Length="999" redcap:Variable="notes3" redcap:FieldType="textarea">
+		<Question><TranslatedText>Feedback regarding the venue</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="notes4" Name="notes4" DataType="text" Length="999" redcap:Variable="notes4" redcap:FieldType="textarea">
+		<Question><TranslatedText>Additional comments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pname" Name="pname" DataType="text" Length="999" redcap:Variable="pname" redcap:FieldType="descriptive" redcap:SectionHeader=" Patient Information">
+		<Question><TranslatedText>   Patient name: {first_name} {last_name}   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td style=&quot;width: 33.3333%;&quot;&gt;Patient name:&lt;/td&gt; &lt;td style=&quot;width: 33.3333%;&quot;&gt;{first_name}&lt;/td&gt; &lt;td style=&quot;width: 33.3333%;&quot;&gt;{last_name}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="first_name" Name="first_name" DataType="text" Length="999" redcap:Variable="first_name" redcap:FieldType="text" redcap:Identifier="y" redcap:FieldAnnotation="@PLACEHOLDER=&quot;First&quot;">
+		<Question><TranslatedText>Patient first name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="last_name" Name="last_name" DataType="text" Length="999" redcap:Variable="last_name" redcap:FieldType="text" redcap:Identifier="y" redcap:FieldAnnotation="@PLACEHOLDER=&quot;Last&quot;">
+		<Question><TranslatedText>Patient last name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dob_descriptive" Name="dob_descriptive" DataType="text" Length="999" redcap:Variable="dob_descriptive" redcap:FieldType="descriptive">
+		<Question><TranslatedText>   Date of birth:  {dob}   Sex: {sex}    Ethnicity: {ethnicity}     Age (in either years/months/days):  {age}   Age units: {ageunit}  �   </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot; cellpadding=&quot;5&quot;&gt; &lt;tbody&gt; &lt;tr style=&quot;height: 42px;&quot;&gt; &lt;th style=&quot;width: 31.0544%; height: 42px;&quot;&gt;Date of birth:&lt;/th&gt; &lt;td style=&quot;width: 17.6733%; height: 42px;&quot;&gt; &lt;div&gt;{dob}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 14.0046%; height: 42px;&quot;&gt; &lt;div&gt;Sex:&lt;/div&gt; &lt;div&gt;{sex}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 6.51389%; height: 42px;&quot;&gt; &lt;div&gt; &lt;div&gt;Ethnicity:&lt;/div&gt; &lt;div&gt;{ethnicity}&lt;/div&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr style=&quot;height: 42px;&quot;&gt; &lt;th style=&quot;width: 31.0544%; height: 42px;&quot;&gt;Age (in either years/months/days):&lt;/th&gt; &lt;td style=&quot;height: 42px; width: 17.6733%;&quot;&gt; &lt;div&gt;{age}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 14.0046%;&quot;&gt; &lt;div&gt;Age units: {ageunit}&lt;/div&gt; &lt;/td&gt; &lt;th style=&quot;width: 6.51389%; height: 42px;&quot;&gt;�&lt;/th&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="id_descriptive" Name="id_descriptive" DataType="text" Length="999" redcap:Variable="id_descriptive" redcap:FieldType="descriptive" redcap:FieldAnnotation=" ">
+		<Question><TranslatedText>   Reporting�jurisdiction:  {state}  Case�State/local�ID:  {local_id}    Reporting�health department:  {healthdept}  CDC�2019-nCoV�ID:  {cdc_ncov2019_id}    Contact�ID�a:  {contact_id}  NNDSS�loc.rec.ID/Case ID�b:  {nndss_id}    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot; cellpadding=&quot;2&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Reporting�jurisdiction:&lt;/td&gt; &lt;td&gt; &lt;div&gt;{state}&lt;/div&gt; &lt;/td&gt; &lt;td&gt;Case�State/local�ID:&lt;/td&gt; &lt;td&gt; &lt;div&gt;{local_id}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Reporting�health department:&lt;/td&gt; &lt;td&gt; &lt;div&gt;{healthdept}&lt;/div&gt; &lt;/td&gt; &lt;td&gt;CDC�2019-nCoV�ID:&lt;/td&gt; &lt;td&gt; &lt;div&gt;{cdc_ncov2019_id}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;Contact�ID�&lt;sup&gt;a&lt;/sup&gt;:&lt;/th&gt; &lt;td&gt; &lt;div&gt;{contact_id}&lt;/div&gt; &lt;/td&gt; &lt;th&gt;NNDSS�loc.rec.ID/Case ID�&lt;sup&gt;b&lt;/sup&gt;:&lt;/th&gt; &lt;td&gt; &lt;div&gt;{nndss_id}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="hosp_descriptive" Name="hosp_descriptive" DataType="text" Length="999" redcap:Variable="hosp_descriptive" redcap:FieldType="descriptive" redcap:FieldAnnotation=" ">
+		<Question><TranslatedText>   Was the patient hospitalized?  {hosp_yn}  Admission Date  {adm1_dt}  Discharge Date  {dis1_dt}    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;Was the patient hospitalized?&lt;/th&gt; &lt;td&gt; &lt;div&gt;{hosp_yn}&lt;/div&gt; &lt;/td&gt; &lt;th&gt;Admission Date&lt;/th&gt; &lt;td&gt; &lt;div&gt;{adm1_dt}&lt;/div&gt; &lt;/td&gt; &lt;th&gt;Discharge Date&lt;/th&gt; &lt;td&gt; &lt;div&gt;{dis1_dt}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interviewer_descriptive" Name="interviewer_descriptive" DataType="text" Length="999" redcap:Variable="interviewer_descriptive" redcap:FieldType="descriptive" redcap:SectionHeader="Interviewer information">
+		<Question><TranslatedText>   �Last Name:  {interviewer_ln}  First Name:  {interviewer_fn}    Affiliation/Organization:  {interviewer_org}  Telephone:  {interviewer_tele}    Email:  {interviewer_email}    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table style=&quot;border-collapse: collapse; width: 100%;&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;�Last Name:&lt;/th&gt; &lt;td align=&quot;left&quot;&gt; &lt;div&gt;{interviewer_ln}&lt;/div&gt; &lt;/td&gt; &lt;th&gt;First Name:&lt;/th&gt; &lt;td align=&quot;left&quot;&gt; &lt;div&gt;{interviewer_fn}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;Affiliation/Organization:&lt;/th&gt; &lt;td align=&quot;left&quot;&gt; &lt;div&gt;{interviewer_org}&lt;/div&gt; &lt;/td&gt; &lt;th&gt;Telephone:&lt;/th&gt; &lt;td align=&quot;left&quot;&gt; &lt;div&gt;{interviewer_tele}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th&gt;Email:&lt;/th&gt; &lt;td align=&quot;left&quot;&gt; &lt;div&gt;{interviewer_email}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="symptom_descriptive" Name="symptom_descriptive" DataType="text" Length="999" redcap:Variable="symptom_descriptive" redcap:FieldType="descriptive" redcap:SectionHeader="Symptoms, clinical course, past medical history and social history">
+		<Question><TranslatedText>    During the illness, did the patient experience any of the following symptoms?   Onset Date    Fever&gt;100.4F(38C)  {fever_yn}   {fever_onset}    Subjective fever (felt feverish)  {sfever_yn}   {sfever_onset}    Chills  {chills_yn}   {chills_onset}    Muscle aches (myalgia)  {myalgia_yn}   {myalgia_onset}    Other symptom 1  {othsym1_spec}   {othsym1_onset}    Other symptom 2  {othsym2_spec}   {othsym2_onset}    </TranslatedText><redcap:FormattedTranslatedText>&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th style=&quot;width: 639.219px;&quot; colspan=&quot;2&quot;&gt; &lt;p&gt;&lt;strong&gt;During the illness, did the patient experience any of the following symptoms?&lt;/strong&gt;&lt;/p&gt; &lt;/th&gt; &lt;th style=&quot;width: 126.219px;&quot;&gt; &lt;p&gt;&lt;strong&gt;Onset Date&lt;/strong&gt;&lt;/p&gt; &lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th style=&quot;width: 226.219px;&quot;&gt;Fever&gt;100.4F(38C)&lt;/th&gt; &lt;td style=&quot;width: 399.219px;&quot;&gt; &lt;div&gt;{fever_yn}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 126.219px;&quot;&gt; &lt;div&gt;{fever_onset}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th style=&quot;width: 226.219px;&quot;&gt;Subjective fever (felt feverish)&lt;/th&gt; &lt;td style=&quot;width: 399.219px;&quot;&gt; &lt;div&gt;{sfever_yn}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 126.219px;&quot;&gt; &lt;div&gt;{sfever_onset}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th style=&quot;width: 226.219px;&quot;&gt;Chills&lt;/th&gt; &lt;td style=&quot;width: 399.219px;&quot;&gt; &lt;div&gt;{chills_yn}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 126.219px;&quot;&gt; &lt;div&gt;{chills_onset}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th style=&quot;width: 226.219px;&quot;&gt;Muscle aches (myalgia)&lt;/th&gt; &lt;td style=&quot;width: 399.219px;&quot;&gt; &lt;div&gt;{myalgia_yn}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 126.219px;&quot;&gt; &lt;div&gt;{myalgia_onset}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th style=&quot;width: 226.219px;&quot;&gt;Other symptom 1&lt;/th&gt; &lt;td style=&quot;width: 399.219px;&quot;&gt; &lt;div&gt;{othsym1_spec}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 126.219px;&quot;&gt; &lt;div&gt;{othsym1_onset}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;th style=&quot;width: 226.219px;&quot;&gt;Other symptom 2&lt;/th&gt; &lt;td style=&quot;width: 399.219px;&quot;&gt; &lt;div&gt;{othsym2_spec}&lt;/div&gt; &lt;/td&gt; &lt;td style=&quot;width: 126.219px;&quot;&gt; &lt;div&gt;{othsym2_onset}&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;&lt;/div&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="state" Name="state" DataType="text" Length="999" redcap:Variable="state" redcap:FieldType="text">
+		<Question><TranslatedText>Reporting jurisdiction</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="healthdept" Name="healthdept" DataType="text" Length="999" redcap:Variable="healthdept" redcap:FieldType="text">
+		<Question><TranslatedText>Reporting health department</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="contact_id" Name="contact_id" DataType="text" Length="999" redcap:Variable="contact_id" redcap:FieldType="text">
+		<Question><TranslatedText>Contact ID
+
+Only complete if case-patient is a known contact of prior source case-patient. Assign Contact ID using CDC 2019-nCoV ID and sequential contact ID, e.g., Confirmed case CA102034567 has contacts CA102034567-01 and CA102034567-02</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="local_id" Name="local_id" DataType="text" Length="999" redcap:Variable="local_id" redcap:FieldType="text">
+		<Question><TranslatedText>Case state/local ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cdc_ncov2019_id" Name="cdc_ncov2019_id" DataType="text" Length="999" redcap:Variable="cdc_ncov2019_id" redcap:FieldType="text">
+		<Question><TranslatedText>CDC 2019-nCoV ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="nndss_id" Name="nndss_id" DataType="text" Length="999" redcap:Variable="nndss_id" redcap:FieldType="text">
+		<Question><TranslatedText>NNDSS loc. rec. ID/Case ID
+
+For NNDSS reporters, use GenV2 or NETSS patient identifier</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interviewer_ln" Name="interviewer_ln" DataType="text" Length="999" redcap:Variable="interviewer_ln" redcap:FieldType="text" redcap:CustomAlignment="LV">
+		<Question><TranslatedText>Interviewer last name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interviewer_fn" Name="interviewer_fn" DataType="text" Length="999" redcap:Variable="interviewer_fn" redcap:FieldType="text">
+		<Question><TranslatedText>Interviewer first name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interviewer_org" Name="interviewer_org" DataType="text" Length="999" redcap:Variable="interviewer_org" redcap:FieldType="text">
+		<Question><TranslatedText>Affiliation/Organization</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interviewer_tele" Name="interviewer_tele" DataType="text" Length="999" redcap:Variable="interviewer_tele" redcap:FieldType="text" redcap:TextValidationType="phone">
+		<Question><TranslatedText>Telephone</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="interviewer_email" Name="interviewer_email" DataType="text" Length="999" redcap:Variable="interviewer_email" redcap:FieldType="text" redcap:TextValidationType="email">
+		<Question><TranslatedText>Email</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sex" Name="sex" DataType="text" Length="1" redcap:Variable="sex" redcap:FieldType="radio" redcap:CustomAlignment="LV">
+		<Question><TranslatedText>Sex</TranslatedText></Question>
+		<CodeListRef CodeListOID="sex.choices"/>
+	</ItemDef>
+	<ItemDef OID="ethnicity" Name="ethnicity" DataType="text" Length="1" redcap:Variable="ethnicity" redcap:FieldType="radio" redcap:CustomAlignment="LV">
+		<Question><TranslatedText>Ethnicity</TranslatedText></Question>
+		<CodeListRef CodeListOID="ethnicity.choices"/>
+	</ItemDef>
+	<ItemDef OID="dob" Name="dob" DataType="date" Length="999" redcap:Variable="dob" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Date of birth</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age" Name="age" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="age" redcap:FieldType="text" redcap:TextValidationType="float">
+		<Question><TranslatedText>Age
+
+Please give age in either:
+-years (most common)
+-months
+-days
+
+You will pick the age unit in the next question.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ageunit" Name="ageunit" DataType="text" Length="1" redcap:Variable="ageunit" redcap:FieldType="radio">
+		<Question><TranslatedText>Age units
+
+The number you gave above was in what units?</TranslatedText></Question>
+		<CodeListRef CodeListOID="ageunit.choices"/>
+	</ItemDef>
+	<ItemDef OID="hosp_yn" Name="hosp_yn" DataType="text" Length="1" redcap:Variable="hosp_yn" redcap:FieldType="radio">
+		<Question><TranslatedText>Was the patient hospitalized?</TranslatedText></Question>
+		<CodeListRef CodeListOID="hosp_yn.choices"/>
+	</ItemDef>
+	<ItemDef OID="adm1_dt" Name="adm1_dt" DataType="date" Length="999" redcap:Variable="adm1_dt" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>If yes, admission date 1</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="dis1_dt" Name="dis1_dt" DataType="date" Length="999" redcap:Variable="dis1_dt" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>If yes, discharge date 1</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fever_yn" Name="fever_yn" DataType="text" Length="1" redcap:Variable="fever_yn" redcap:FieldType="radio" redcap:MatrixGroupName="symptoms">
+		<Question><TranslatedText>Fever &gt;100.4F (38C)</TranslatedText></Question>
+		<CodeListRef CodeListOID="fever_yn.choices"/>
+	</ItemDef>
+	<ItemDef OID="sfever_yn" Name="sfever_yn" DataType="text" Length="1" redcap:Variable="sfever_yn" redcap:FieldType="radio" redcap:MatrixGroupName="symptoms">
+		<Question><TranslatedText>Subjective fever (felt feverish)</TranslatedText></Question>
+		<CodeListRef CodeListOID="sfever_yn.choices"/>
+	</ItemDef>
+	<ItemDef OID="chills_yn" Name="chills_yn" DataType="text" Length="1" redcap:Variable="chills_yn" redcap:FieldType="radio" redcap:MatrixGroupName="symptoms">
+		<Question><TranslatedText>Chills</TranslatedText></Question>
+		<CodeListRef CodeListOID="chills_yn.choices"/>
+	</ItemDef>
+	<ItemDef OID="myalgia_yn" Name="myalgia_yn" DataType="text" Length="1" redcap:Variable="myalgia_yn" redcap:FieldType="radio" redcap:MatrixGroupName="symptoms">
+		<Question><TranslatedText>Muscle aches (myalgia)</TranslatedText></Question>
+		<CodeListRef CodeListOID="myalgia_yn.choices"/>
+	</ItemDef>
+	<ItemDef OID="fever_onset" Name="fever_onset" DataType="date" Length="999" redcap:Variable="fever_onset" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Fever onset date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sfever_onset" Name="sfever_onset" DataType="date" Length="999" redcap:Variable="sfever_onset" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Subjective fever (felt feverish) onset date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="chills_onset" Name="chills_onset" DataType="date" Length="999" redcap:Variable="chills_onset" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Chills onset date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="myalgia_onset" Name="myalgia_onset" DataType="date" Length="999" redcap:Variable="myalgia_onset" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Muscle aches (myalgia) onset date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="othsym1_spec" Name="othsym1_spec" DataType="text" Length="999" redcap:Variable="othsym1_spec" redcap:FieldType="text">
+		<Question><TranslatedText>Other symptoms - 1, specify:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="othsym2_spec" Name="othsym2_spec" DataType="text" Length="999" redcap:Variable="othsym2_spec" redcap:FieldType="text">
+		<Question><TranslatedText>Other symptoms - 2, specify:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="othsym1_onset" Name="othsym1_onset" DataType="date" Length="999" redcap:Variable="othsym1_onset" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Other symptoms 1 onset date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="othsym2_onset" Name="othsym2_onset" DataType="date" Length="999" redcap:Variable="othsym2_onset" redcap:FieldType="text" redcap:TextValidationType="date_mdy" redcap:FieldAnnotation="@HIDEBUTTON">
+		<Question><TranslatedText>Other symptoms 2 onset date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="field_embedding_demo_complete" Name="field_embedding_demo_complete" DataType="text" Length="1" redcap:Variable="field_embedding_demo_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="field_embedding_demo_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="not_know___1.choices" Name="not_know___1" DataType="boolean" redcap:Variable="not_know" redcap:CheckboxChoices="1, Do not know / Prefer not to answer">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="food_units.choices" Name="food_units" DataType="text" redcap:Variable="food_units">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Per day</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Per week</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Per month</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="radio_choices.choices" Name="radio_choices" DataType="text" redcap:Variable="radio_choices">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>My first choice</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>My second choice</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Other � � {other1}</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sex.choices" Name="sex" DataType="text" redcap:Variable="sex">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Male</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Female</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ethnicity.choices" Name="ethnicity" DataType="text" redcap:Variable="ethnicity">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Hispanic/Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Non-Hispanic-Latino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Not specified</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ageunit.choices" Name="ageunit" DataType="text" redcap:Variable="ageunit">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Years</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Months</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Days</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hosp_yn.choices" Name="hosp_yn" DataType="text" redcap:Variable="hosp_yn">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fever_yn.choices" Name="fever_yn" DataType="text" redcap:Variable="fever_yn">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sfever_yn.choices" Name="sfever_yn" DataType="text" redcap:Variable="sfever_yn">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="chills_yn.choices" Name="chills_yn" DataType="text" redcap:Variable="chills_yn">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="myalgia_yn.choices" Name="myalgia_yn" DataType="text" redcap:Variable="myalgia_yn">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="field_embedding_demo_complete.choices" Name="field_embedding_demo_complete" DataType="text" redcap:Variable="field_embedding_demo_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
