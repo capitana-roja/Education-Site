@@ -50,7 +50,7 @@ nav .main_nav {
 }
 .main_nav .logo a {
   font-size: 30px;
-  color: #b22227;
+  color: #003B5C;
   text-decoration: none;
   font-weight: 600;
 }
@@ -78,7 +78,7 @@ nav .main_nav .links li a {
   font-weight: 500;
 }
 nav .main_nav .links li a:hover {
-  color: #b22227;
+  color: #003B5C;
   transition: 700ms ease;
 }
 
@@ -160,7 +160,7 @@ nav .main_nav .links li:hover .js-sub-menu {
   top: 80px;
   height: 60px;
   width: 300px;
-  background: #b22227;
+  background: #003B5C;
   border-radius: 6px;
   opacity: 0;
   pointer-events: none;
@@ -170,14 +170,14 @@ nav .main_nav .links li:hover .js-sub-menu {
   top: 65px;
   opacity: 1;
   pointer-events: auto;
-  background: #b22227;
+  background: #003B5C;
 }
 .search_bar .input_box::before {
   content: "";
   position: absolute;
   height: 20px;
   width: 20px;
-  background: #b22227;
+  background: #003B5C;
   right: 10px;
   top: -6px;
   transform: rotate(45deg);
@@ -281,7 +281,7 @@ nav .main_nav .links li:hover .js-sub-menu {
     display: block;
     max-width: 270px;
     width: 100%;
-    background: #b22227;
+    background: #003B5C;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -416,7 +416,7 @@ body {
   padding: 6px 8px 6px 10px;
   text-decoration: none;
   font-size: 15px;
-  color: #b22227;
+  color: #003B5C;
   display: block;
   border: none;
   background: none;
@@ -430,9 +430,9 @@ body {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   font-size: 15px;
-  color: #b22227;
+  color: #003B5C;
   display: block;
-  border: #b22227;
+  border: #003B5C;
   border-left: solid;
   border-width: 5px;
   background: none;
@@ -446,9 +446,9 @@ body {
   padding: 6px 8px 6px 0px;
   text-decoration: none;
   font-size: 15px;
-  color: #b22227;
+  color: #003B5C;
   display: block;
-  border: #b22227;
+  border: #003B5C;
   border-left: solid;
   border-width: 5px;
   background: none;
@@ -460,13 +460,13 @@ body {
 
 .topic_nav a:hover,
 .dropdown-btn:hover {
-  color: #b22227;
+  color: #003B5C;
   background-color: rgb(220, 220, 220);
 }
 
 .active .dropdown-btn:active {
   background-color: rgb(220, 220, 220);
-  color: #b22227;
+  color: #003B5C;
 }
 
 .dropdown-container {
@@ -478,7 +478,7 @@ body {
 /* Homepage right sidebar */
 body {
   font-family: "Lato", sans-serif;
-  color: #b22227;
+  color: #003B5C;
 }
 
 .right_sidebar {
@@ -497,7 +497,7 @@ body {
   padding: 6px 8px 6px 16px;
   font-size: 15px;
   font-style: italic;
-  color: #b22227;
+  color: #003B5C;
   display: block;
   text-decoration: none;
 }
@@ -552,7 +552,7 @@ body {
   margin-top: 0px;
   margin-left: 1300px;
   padding-top: 0px;
-  background-color: #b22227;
+  background-color: #003B5C;
 }
 
 .topic_page_sidebar div {
@@ -587,7 +587,7 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
-  color: #b22227;
+  color: #003B5C;
   display: block;
   border: none;
   background: none;
@@ -601,9 +601,9 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
-  color: #b22227;
+  color: #003B5C;
   display: block;
-  border: #b22227;
+  border: #003B5C;
   border-left: solid;
   border-width: 5px;
   background: none;
@@ -615,13 +615,13 @@ body {
 
 .right_sidebar a:hover,
 .dropdown-btn2:hover {
-  color: #b22227;
+  color: #003B5C;
   background-color: rgb(220, 220, 220);
 }
 
 .active {
   background-color: #fff;
-  color: #b22227;
+  color: #003B5C;
 }
 
 .dropdown-container2 {
@@ -648,7 +648,7 @@ body {
   height: auto;
   border-style: inset;
   border-width: 10px;
-  border-color: #b22227;
+  border-color: #003B5C;
   background-color: rgb(178, 34, 39, 0.5);
   text-align: left;
 }
@@ -663,7 +663,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #b22227;
+  background-color: #003B5C;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -703,7 +703,7 @@ body {
   color:black;
 }
 .remember h2{
-  color:#b22227;
+  color:#003B5C;
   font-weight:normal;
 }
 .remember ol{
@@ -888,7 +888,7 @@ body {
   padding: 10px;
   height: 100px;
   border-style: hidden solid hidden hidden;
-  background-color: #b22227;
+  background-color: #003B5C;
   color: #eeeeee;
 }
 
@@ -899,7 +899,7 @@ body {
   height: 100px;
   border-style: hidden;
 
-  color: #b22227;
+  color: #003B5C;
 }
 
 .row:after {
