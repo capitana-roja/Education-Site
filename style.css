@@ -665,7 +665,7 @@ body {
   color: #000;
 }
 
-@media screen and (max-height: 350px) {
+@media screen and (max-height: 450px) {
   .right_sidebar {
     padding-top: 15px;
   }
