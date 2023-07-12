@@ -117,13 +117,13 @@
 				<hr>
 				<div>
 					<div class="row">
-						<a href="https://redcap.vanderbilt.edu/surveys/?s=43TD4MRF8A">
+						<a href="https://redcap.vanderbilt.edu/surveys/?s=43TD4MRF8A" target="_blank">
 						<div class="column1" style="text-align:center;" >
 							<h2>Survey wizard:</h2>
 							<h3>The Basics</h3>
 						</div>
 						</a>
-						<a href="https://redcap.vanderbilt.edu/surveys/?s=LKM4DPEHL4">
+						<a href="https://redcap.vanderbilt.edu/surveys/?s=LKM4DPEHL4" target="_blank">
 						<div class="column2" style = "text-align:center">
 							<h2>Survey wizard:</h2>
 							<h3>Automated Survey Invitations</h3>
