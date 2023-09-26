@@ -8,28 +8,25 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?>
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Survey Distribution Tools</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/proficient/participant_list.pdf" width="1000px" height="1200px"></iframe>
-				<iframe class="pdf_location" src="https://ctsi.wakehealth.edu/-/media/WakeForest/CTSI/Files/Services/Data/REDCap/Survey-Functionality/Obtain-the-general-link-to-a-survey.pdf?la=en" width="1000px" height="1200px"></iframe>				
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Survey Distribution Tools</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="../resources/proficient/participant_list.pdf" allowfullscreen></iframe>
+					<iframe class="embed-responsive-item" height='800' src="https://ctsi.wakehealth.edu/-/media/WakeForest/CTSI/Files/Services/Data/REDCap/Survey-Functionality/Obtain-the-general-link-to-a-survey.pdf?la=en" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
 		</div>
+		<script src="../script.js"></script>
 	</body>
 	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

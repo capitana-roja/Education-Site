@@ -8,23 +8,21 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?>
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Scheduling Module</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/proficient/Schedule_Module_Guide_REDCap.pdf"></iframe>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Scheduling Module</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="../resources/proficient/Schedule_Module_Guide_REDCap.pdf" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 		<script src="../script.js"></script>
