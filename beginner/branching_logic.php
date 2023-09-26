@@ -6,6 +6,7 @@
 		<meta name=”description” content=”This page educates REDCap users on branching logic”>
 		<title>Branching Logic</title>
 	</head>
+	
 	<body>
 		<!--Navigation bars-->
 		<div>
