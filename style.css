@@ -1,20 +1,20 @@
 /* Main Navigation Bar (top of page) */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-html, body {
+} */
+/* html, body {
   height: 100%;
 }
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-nav {
+} */
+/* nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -35,8 +35,8 @@ nav {
   font-size: 12px;
   padding: 10px;
   text-align: center;
-}
-
+} */
+/* 
 nav .main_nav {
   height: 100%;
   max-width: 1250px;
@@ -124,7 +124,7 @@ nav .main_nav .links li:hover .js-sub-menu {
 }
 .main_nav .links li .htmlCss-more-sub-menu {
   /* line-height: 40px; */
-}
+/* }
 .main_nav .links li .sub-menu .more-sub-menu {
   position: absolute;
   top: 0;
@@ -213,18 +213,18 @@ nav .main_nav .links li:hover .js-sub-menu {
 .right_sidebar {
   height: 870px;              
   width: 300px;               
-  position: absolute;
+  position: relative;
   z-index: 1;
   top: 0;
   right: 0;
   background-color: #fff;     
   overflow-x: hidden;
   padding-top: 70px;          
-}
+}  */
 
-@media all and (max-width: 425px) and (min-width: 300px) {
-  
-  .main_content {
+/* @media all and (max-width: 425px) and (min-width: 300px) {
+   */
+  /* .main_content {
     width: 93%;
     position: absolute;
     z-index: 1;
@@ -232,9 +232,9 @@ nav .main_nav .links li:hover .js-sub-menu {
     right: 0;
     overflow-x: hidden;
     padding-top: 70px;
-  }
+  } */
   
-  #rc_logo img {
+  /* #rc_logo img {
     width: 150px;
     height: 60px;
   }
@@ -249,14 +249,14 @@ nav .main_nav .links li:hover .js-sub-menu {
 
   .main_content p {
     font-size: 0.7rem; 
-  }
+  } */
 
-.homepage_video {
+/* .homepage_video {
   width: 300px;
   height: 200px;
-}
+} */
 
-.right_sidebar{
+/* .right_sidebar{
   margin-top: 700px;
   width: 350px;
   position: absolute;
@@ -394,7 +394,7 @@ nav .main_nav .links li:hover .js-sub-menu {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-  }
+  /* } 
 
   .links li .sub-menu .more:hover .more-sub-menu {
     display: none;
@@ -411,15 +411,15 @@ nav .main_nav .links li:hover .js-sub-menu {
   .right_sidebar h2{
     font-size: 1.0rem;
   }
-}
+} */
 
 /* Left sidebar */
-body {
+/* body {
   font-family: "Lato", sans-serif;
 }
 
-.topic_nav {
-  height: 100%;
+.topic_nav { */
+  /* height: 100%;
   width: 230px;
   position: fixed;
   top: 0;
@@ -427,9 +427,9 @@ body {
   background-color: #fff;
   overflow-x: hidden;
   padding-top: 150px;
-}
+} */
 /* Topic navigation bar */
-.topic_nav a {
+/* .topic_nav a {
   padding: 6px 8px 6px 10px;
   text-decoration: none;
   font-size: 15px;
@@ -457,9 +457,9 @@ body {
   text-align: left;
   cursor: pointer;
   outline: none;
-}
+} */
 /* downloadable content topic navbar */
-.dropdown-btn3 {
+/* .dropdown-btn3 {
   padding: 6px 8px 6px 0px;
   text-decoration: none;
   font-size: 15px;
@@ -473,9 +473,9 @@ body {
   text-align: left;
   cursor: pointer;
   outline: none;
-}
+} */
 
-.topic_nav a:hover,
+/* .topic_nav a:hover,
 .dropdown-btn:hover {
   color: #003B5C;
   background-color: rgb(220, 220, 220);
@@ -490,16 +490,16 @@ body {
   display: none;
   background-color: rgb(0, 59, 92, 0.1);
   padding-left: 10px;
-}
+} */
 
 /* Homepage right sidebar */
-body {
+/* body {
   font-family: "Lato", sans-serif;
   color: #003B5C;
-}
+} */
 
 
-.right_sidebar a {
+/* .right_sidebar a {
   padding: 6px 8px 6px 16px;
   font-size: 15px;
   font-style: italic;
@@ -511,19 +511,19 @@ body {
 .right_sidebar a:hover {
   color: #000;
   
-}
+} */
 
 
 /* Items in homepage's right sidebar  */
-#side_item {
+/* #side_item {
   background: #fff;
   font: 14px Helvetica, Arial, sans-serif;
   width: 298px;
   padding: 20px;
-}
+} */
 
 /* Topic pages table of contents */
-#toc_container {
+/* #toc_container {
   background: #f9f9f9 none repeat scroll 0 0;
   border: 1px solid #aaa;
   display: table;
@@ -540,10 +540,10 @@ body {
 #toc_container ul,
 #toc_container ul li {
   list-style: outside none none !important;
-}
+} */
 
 /* Topic page right sidebar */
-.topic_page_sidebar {
+/* .topic_page_sidebar {
   height: auto;
   position: fixed;
   top: 150px;
@@ -557,19 +557,19 @@ body {
 .topic_page_sidebar div {
   font-size: 24px;
   display: block;
-}
+} */
 
 /* Topic page content */
-.body_text {
+/* .body_text {
   float: left;
   margin-left: 250px;
   width: 1000px;
   font-size: 18px;
   overflow-x: hidden;
-}
+} */
 
 /*   */
-.sidenav3 {
+/* .sidenav3 {
   height: 550px;
   width: 230px;
   position: absolute;
@@ -627,10 +627,10 @@ body {
   display: none;
   background-color: rgb(220, 220, 220, 0.5);
   padding-left: 0px;
-}
+} */
 
 /* Purpose of topic page */
-.purpose {
+/* .purpose {
   width: 550px;
   height: auto;
   border-style: inset;
@@ -638,10 +638,10 @@ body {
   border-color: #003B5C;
   background-color: rgb(178, 34, 39, 0.5);
   text-align: left;
-}
+} */
 
 /* Button back to top */
-#Top {
+/* #Top {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -658,29 +658,29 @@ body {
 }
 #Top:hover {
   background-color: #555;
-}
+} */
 
 /* Topic page main body embedded pdf */
-.topic_pdf {
+/* .topic_pdf {
   padding-left:250px;
 }
 .embedded_pdf {
   padding-left:200px;	
-}
+} */
 /*embedded pdf was 100 and title.pdf was 150 when pdf was style set to 1000width/1200 height */
 
-.embedded_pdf2 {
+/* .embedded_pdf2 {
   padding-left:100px;	
-}
+} */
 
 /* iframe for PDFs on pages with PDF main content */
-.pdf_location {
+/* .pdf_location {
   width: 850px;
   height: 1130px;
-}
+} */
 
 /* Things to remember */
-.remember {
+/* .remember {
   color:black;
 }
 .remember h2{
@@ -689,23 +689,23 @@ body {
 }
 .remember ol{
   padding-left: 20px;
-}
+} */
 
 /* Content title w/ embedded pdf */
-.title_pdf {
+/* .title_pdf {
   font-size:0px;
   text-align:center;
   padding-left:200px;
-}
+} */
 
 /* Content title no embedded pdf */
-.title_no_pdf {
+/* .title_no_pdf {
   font-size:50px;
   text-align:center;
-}
+} */
 
 /* Comparison table */
-.comparison table {
+/* .comparison table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
@@ -732,10 +732,10 @@ body {
 
 .fa-remove {
   color: red;
-}
+} */
 
 /* Flipping tile (training page) */
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   width: 300px;
   height: 200px;
@@ -775,10 +775,10 @@ body {
   background-color: white;
   color: #4b9cd3;
   transform: rotateY(180deg);
-}
+} */
 
 /* Stacked boxes (training page) */
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -820,11 +820,11 @@ body {
   display: block;
   color: red;
   text-align: right;
-}
+} */
 
 <<<<<<< HEAD
 /* Known problems and solutions accordion */
-.accordion {
+/* .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -858,23 +858,23 @@ body {
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-=======
+  transition: max-height 0.2s ease-out; */
+/* =======
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 /*responsive*/
-@media (max-width: 920px) {
+/* @media (max-width: 920px) {
   .nav {
     padding: 15px 100px;
-  }
->>>>>>> c20e45867d5f0e11ce7b0bcb7d307a9aaa7b2948
-}
+  } */
+/* >>>>>>> c20e45867d5f0e11ce7b0bcb7d307a9aaa7b2948
+} */
 
 /* Footers */
-#footer {
+/* #footer {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -886,4 +886,5 @@ body {
   bottom: -100px;
   width: 100%;
   height: 2.5rem;       
-}
+} */
+
