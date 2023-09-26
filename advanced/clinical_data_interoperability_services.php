@@ -8,39 +8,33 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?>
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Clinical Data Interoperability Services</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/advanced/REDCap_CDIS.pdf" width="1000px" height="1200px"></iframe>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Clinical Data Interoperability Services</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="../resources/advanced/REDCap_CDIS.pdf" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
+			<div class="container">
+				<h2>Things to Remember</h2>
 				<hr>
-				<ol>
-					<li>You should ALWAYS ONLY pull data from the EMR that is required for your project/study/protocol. Institutional regulations apply to your use of Epic through REDCap just the same as if you were to access Epic directly.
-					<li>Currently, data can only move from Epic to REDCap and not the other direction.
-					<li>New fields and data sources are likely to be added to the CDIS set with every REDCap upgrade so be sure to check upgrade notes for CDIS, SMART on FHIR, CDP, CDM, nad LOINC information.
-				</ol>
+				<ul class="list-group list-group-numbered list-group-flush">
+					<li class="list-group-item">You should ALWAYS ONLY pull data from the EMR that is required for your project/study/protocol. Institutional regulations apply to your use of Epic through REDCap just the same as if you were to access Epic directly.</li>
+					<li class="list-group-item">Currently, data can only move from Epic to REDCap and not the other direction.</li>
+					<li class="list-group-item">New fields and data sources are likely to be added to the CDIS set with every REDCap upgrade so be sure to check upgrade notes for CDIS, SMART on FHIR, CDP, CDM, nad LOINC information.</li>
+				</ul>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
 		</div>
+		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

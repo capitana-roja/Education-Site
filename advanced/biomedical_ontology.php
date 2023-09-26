@@ -8,37 +8,33 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?>
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Biomedical Ontology</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/advanced/REDCap_BioOnt.pdf" width="1000px" height="1200px"></iframe>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Biomedical Ontology</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="../resources/advanced/REDCap_BioOnt.pdf" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
+			<div class="container">
+				<h2>Things to Remember</h2>
 				<hr>
-				<ol>
-					<li>BioOntology fields will not work in: SMS or IVR scenarios, the Mobile App (offline), most Action Tag setups.
-					<li>The field setting connects you to a database managed by Standford University. If the field lookup functionality seems non-responsive or unavailable, the service may be temporarily down. Try again at a slightly later time and if still not responding, contact an Administrator.
-					<li>If your project uses a large amount of BioOntology fields (20+), you may experience slower responsiveness from REDCap.
-				</ol>
+				<ul class="list-group list-group-numbered list-group-flush">
+					<li class="list-group-item">BioOntology fields will not work in: SMS or IVR scenarios, the Mobile App (offline), most Action Tag setups.</li>
+					<li class="list-group-item">The field setting connects you to a database managed by Standford University. If the field lookup functionality seems non-responsive or unavailable, the service may be temporarily down. Try again at a slightly later time and if still not responding, contact an Administrator. </li>
+					<li class="list-group-item">If your project uses a large amount of BioOntology fields (20+), you may experience slower responsiveness from REDCap.</li>
+				</ul>
 			</div>
+		</div>
 		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>

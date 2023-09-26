@@ -8,39 +8,33 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-				<?php echo file_get_contents("../top_button.html"); ?>
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Using External Modules</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/advanced/REDCap_EMs.pdf" width="1000px" height="1200px"></iframe>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Using External Modules</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="../resources/advanced/REDCap_EMs.pdf" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
+			<div class="container">
+				<h2>Things to Remember</h2>
 				<hr>
-				<ol>
-					<li>External modules are third-party contributed add-ons so finding a solution to your design in standard REDCap is always recommended.
-					<li>Access to some modules may be handled in the User Rights section, so if you cannot use/see a module once enabled, check your User Rights and contact an administrator to help you enable access.
-					<li>Use <a href="https://redcap.link/suppreq">LiftCap</a> to request a new module be reviewed by REDCap Administrators.
-				</ol>
+				<ul class="list-group list-group-numbered list-group-flush">
+					<li class="list-group-item">External modules are third-party contributed add-ons so finding a solution to your design in standard REDCap is always recommended.</li>
+					<li class="list-group-item">Access to some modules may be handled in the User Rights section, so if you cannot use/see a module once enabled, check your User Rights and contact an administrator to help you enable access.</li>
+					<li class="list-group-item">Use <a href="https://redcap.link/suppreq">LiftCap</a> to request a new module be reviewed by REDCap Administrators.</li>
+				</ul>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
 		</div>
+		<script src="../script.js"></script>
 	</body>
-	<footer></footer>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
