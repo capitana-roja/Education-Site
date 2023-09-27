@@ -21,7 +21,7 @@
 			<!--PDF content-->
 			<div class="container">
 				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
-					<iframe class="embed-responsive-item" height='800' src="https://www.ctsi.ufl.edu/wordpress/files/2017/06/Branching-Logic-in-REDCap-%E2%80%93-How.pdf" allowfullscreen></iframe>
+					<iframe class="embed-responsive-item" height='800' src="../resources/beginner/Branching-Logic-in-REDCap-–-How.pdf" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
