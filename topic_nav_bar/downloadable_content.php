@@ -8,31 +8,33 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
-			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?> 
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?> 
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_no_pdf">Downloadable Content</h1>
-		<!--Content-->
-		<div class="body_text">
-			<div style="color:black;">
-				<h2 style="color:#b22227;font-weight:normal;">API Scripts</h2>
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
+			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+		
+			<!--Content-->
+			<!--PDF content-->
+			<div class="row">
+				<div class="col">
+					<h1 class="title_no_pdf">Downloadable Content</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h2 style="color:#b22227;font-weight:normal;">API Scripts</h2>
 				<hr>
 				<h2 style="color:#b22227;font-weight:normal;">Instrument Library</h2>
 				<hr>
 				<h2 style="color:#b22227;font-weight:normal;">Project Templates</h2>
 				<hr>
+				</div>
 			</div>
-			<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 		</div>
-		<!--Javascript-->
 		<script src="../script.js"></script>
 	</body>
+	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
+	
 </html>
