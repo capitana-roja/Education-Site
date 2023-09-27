@@ -8,27 +8,24 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
-			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?> 
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?> 
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Standard Operating Procedure (SOP)</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="https://cdn.atriumhealth.org/-/media/wakeforest/ctsi/files/services/data/redcap/redcap-appropriate-use-guidelines.pdf?rev=667d39413cf24aef9f087f99a6ec6e51" width="1000px" height="1200px"></iframe>
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
+			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Standard Operating Procedure (SOP)</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item pdf_location" height='800' src="https://cdn.atriumhealth.org/-/media/wakeforest/ctsi/files/services/data/redcap/redcap-appropriate-use-guidelines.pdf?rev=667d39413cf24aef9f087f99a6ec6e51" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
 		</div>
+		<script src="../script.js"></script>
 	</body>
 	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
