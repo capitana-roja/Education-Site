@@ -22,13 +22,13 @@
 			<div class="container">
 				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
 					<iframe class="embed-responsive-item" height='800' src="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=3112" allowfullscreen></iframe></div>
-			</div>
+				</div>
 			<div class="container">
 				<h2>Setting up and using the API in REDCap</h2>
 
 				<hr>
 				<p>The REDCap API (Application Programming Interface) is a functionality built into REDCap that allows for data and data triggers to be pushed into or pulled out of REDCap to/from other software platforms. Those other platforms might be statistical packages like R, SAS, SPSS, Stata, etc. or data vizualization applications like PowerBI or Tableau. The API is not unique to REDCap. Most application platforms have an API of some sort and it is common to use the APIs of two or more applications you are trying to connect to actually build a data pathway between them. The API can also (and is commonly) be used to simply bring data in and out of REDCap securely from a .CSV or directory. Read through the sections below to grasp how the API can be used in proactice and be sure to test in your own project when you feel ready. Remember, the API is a very powerful tool, although not overly complicated, and misuse of it can result in protocol breaches, compliance failures, and leaked data. Users are highly encouraged to understand the API thoroughly before using.</p>
-				
+			
 				<ol class="list-group list-group-numbered">
 					<li class="list-group-item d-flex justify-content-between align-items-start">
 						<div class="ms-2 me-auto">
@@ -49,8 +49,10 @@
 					<li class="list-group-item d-flex justify-content-between align-items-start">
 						<div class="ms-2 me-auto">
 							<div class="fw-bold">Key Items</div>
-							<p>You can always find a complete list of all current API Methods here: <a href="https://rces.atriumhealth.org/redcap/api/help/">https://rces.atriumhealth.org/redcap/api/help/</a>  or <a href="https://redcap.wakehealth.edu/redcap/api/help/">https://redcap.wakehealth.edu/redcap/api/help/</a> (You will need to be logged into the respective instance of REDCap to view these pages)</p>
-							<p>Postman <a href="https://www.postman.com">(https://www.postman.com)</a> - an application to help you trial and test API calls (download and install on your machine).</p>
+							You can always find a complete list of all current API Methods here: 
+							<a href="https://rces.atriumhealth.org/redcap/api/help/">https://rces.atriumhealth.org/redcap/api/help/</a>  or 
+							<a href="https://redcap.wakehealth.edu/redcap/api/help/">https://redcap.wakehealth.edu/redcap/api/help/</a> (You will need to be logged into the respective instance of REDCap to view these pages).
+							<a href="https://www.postman.com">Postman</a> - an application to help you trial and test API calls (download and install on your machine).
 						</div>
 					</li>
 				</ol>
