@@ -2,15 +2,34 @@
 let main_nav = document.querySelector(".main_nav");
 let searchBar = document.querySelector(".search_bar .bx-search");
 
+// button back to top
+var topbutton = document.getElementById("Top");
+window.onscroll = function() {
+	scrollFunction()
+};
 
-searchBar.addEventListener("click", () => {
-	main_nav.classList.toggle("showInput");
-	if (main_nav.classList.contains("showInput")) {
-		searchBar.classList.replace("bx-search", "bx-x");
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		topbutton.style.display = "block";
+		
 	} else {
-		searchBar.classList.replace("bx-x", "bx-search");
+		topbutton.style.display = "none";
 	}
-});
+}
+
+function topFunction() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+
+// searchBar.addEventListener("click", () => {
+// 	main_nav.classList.toggle("showInput");
+// 	if (main_nav.classList.contains("showInput")) {
+// 		searchBar.classList.replace("bx-search", "bx-x");
+// 	} else {
+// 		searchBar.classList.replace("bx-x", "bx-search");
+// 	}
+// });
 
 // main navbar menu open close
 let navLinks = document.querySelector(".nav_links");
@@ -54,24 +73,7 @@ for (i = 0; i < dropdown.length; i++) {
 	});
 }
 
-// button back to top
-var topbutton = document.getElementById("Top");
-window.onscroll = function() {
-	scrollFunction()
-};
 
-function scrollFunction() {
-	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		topbutton.style.display = "block";
-	} else {
-		topbutton.style.display = "none";
-	}
-}
-
-function topFunction() {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-}
 
 // accordion (known problems and solutions)
 var acc = document.getElementsByClassName("accordion");
