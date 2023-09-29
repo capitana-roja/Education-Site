@@ -59,6 +59,6 @@
 			</div>
 		</div>
 		<script src="../script.js"></script>
-	</body>
-	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
+		<footer><?php echo file_get_contents("../footer.html"); ?></footer>
+	</body>	
 </html>

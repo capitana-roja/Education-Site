@@ -134,9 +134,9 @@
 				</div>
 				<!--Javascript-->
 				<script src="../script.js"></script>
-				<div class="row pt-3 pb-3">
-					<footer><?php echo file_get_contents("../footer.html"); ?></footer>
-				</div>
+				
+				<footer><?php echo file_get_contents("../footer.html"); ?></footer>
+				
 			</div>
 		</div>
 		

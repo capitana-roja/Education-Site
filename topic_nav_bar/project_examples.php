@@ -22,6 +22,6 @@
 			
 		</div>
 		<script src="../script.js"></script>
+		<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 	</body>
-	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
