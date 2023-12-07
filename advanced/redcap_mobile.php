@@ -8,39 +8,33 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?>
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">REDCap Mobile App</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf">
-				<!--PDF content-->
-				<iframe class="pdf_location" src="../resources/advanced/REDCap_MobileApp.pdf" width="1000px" height="1200px"></iframe>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">REDcap Mobile</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="../resources/advanced/REDCap_MobileApp.pdf" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Last section of content-->
-			<div class="remember">
-				<a id="thingstoremember">
-					<h2>Things to Remember</h2>
-				</a>
+			<div class="container">
+				<h2>Things to Remember</h2>
 				<hr>
-				<ol>
-					<li>You must use the REDCap Mobile App on IAS/ITS approved devices (phones, iPads, tablets, etc.) When you use the Mobile App, you are storing your collected data on that device itself to later upload to your REDCap project when you have an internet connection available.
-					<li>In most cases, you will not need the Mobile App, but instead can load REDCap in a web browser on the device you intend to use.
-					<li>Using the Mobile App requires API access in your project for any user that intends to use it. Be sure to check your User Rights page to make sure your team is setup with the rights they require.
-				</ol>
+				<ul class="list-group list-group-numbered list-group-flush">
+					<li class="list-group-item">You must use the REDCap Mobile App on IAS/ITS approved devices (phones, iPads, tablets, etc.) When you use the Mobile App, you are storing your collected data on that device itself to later upload to your REDCap project when you have an internet connection available.</li>
+					<li class="list-group-item">In most cases, you will not need the Mobile App, but instead can load REDCap in a web browser on the device you intend to use.</li>
+					<li class="list-group-item">Using the Mobile App requires API access in your project for any user that intends to use it. Be sure to check your User Rights page to make sure your team is setup with the rights they require.</li>
+				</ul>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
 		</div>
+		<script src="../script.js"></script>
+		<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 	</body>
-	<footer></footer>
 </html>

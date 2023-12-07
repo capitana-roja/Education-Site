@@ -8,27 +8,24 @@
 	</head>
 	<body>
 		<!--Navigation bars-->
-		<div>
-			<?php echo file_get_contents("../main_navigation_bar_sub.html"); ?> 
+		<?php echo file_get_contents("../main_navigation_bar.html"); ?> 
+		<div class="container-fluid">
 			<?php echo file_get_contents("../topic_navigation_bar_sub.html"); ?>
-		</div>
-		<!--Button back to top-->
-		<?php echo file_get_contents("../top_button.html"); ?> 
-		<br>
-		<br>
-		<br>
-		<br>
-		<!--Title-->
-		<h1 class="title_pdf">Double Data Entry</h1>
-		<!--Content-->
-		<div class="topic_pdf">
-			<div class="embedded_pdf2">
-				<!--PDF content-->
-				<iframe src="https://cri.uchicago.edu/wp-content/uploads/2019/08/REDCap-Double-Data-Entry.pdf" width="1000px" height="800px"></iframe>
+		
+			<!--Button back to top-->
+			<?php echo file_get_contents("../top_button.html"); ?>
+			
+			<!--Title-->
+			<h1 class="title_pdf">Double Data Entry</h1>
+			<!--Content-->
+			<!--PDF content-->
+			<div class="container">
+				<div class="card embed-responsive embed-responsive-1x1 justify-content-center">
+					<iframe class="embed-responsive-item" height='800' src="https://cri.uchicago.edu/wp-content/uploads/2019/08/REDCap-Double-Data-Entry.pdf" allowfullscreen></iframe>
+				</div>
 			</div>
-			<!--Javascript-->
-			<script src="../script.js"></script>
 		</div>
+		<script src="../script.js"></script>
+		<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 	</body>
-	<footer><?php echo file_get_contents("../footer.html"); ?></footer>
 </html>
